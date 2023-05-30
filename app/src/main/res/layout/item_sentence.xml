@@ -11,7 +11,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:textSize="23sp"
-        android:textColor="@color/purple_700"
+        android:textColor="@color/teal_200"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toStartOf="@id/imBtnSound"
@@ -31,12 +31,14 @@
         android:id="@+id/imBtnSound"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:clickable="false"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <View
         android:layout_width="0dp"
         android:layout_height="1dp"
+        android:alpha="0.1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvChinese"
         app:layout_constraintEnd_toEndOf="parent"

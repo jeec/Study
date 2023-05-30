@@ -1,29 +1,25 @@
 package com.jerry.study
 
-import android.content.Intent
 import android.media.MediaPlayer
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.view.Menu
-import android.view.MenuItem
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageButton
 import android.widget.TextView
-import android.widget.Toast
-import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.alibaba.fastjson2.JSON
 import com.alibaba.fastjson2.JSONArray
 
-class MainActivity : AppCompatActivity() {
+class NoteActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-        supportActionBar?.title = "开口说英语"
+        setContentView(R.layout.activity_note)
+        supportActionBar?.title = "笔记本"
 
-        val inputStream = assets.open("oral.json")
+        val inputStream = assets.open("oral_note.json")
         val data = JSON.parseArray(inputStream)
         Log.i(">>>", data.size.toString())
         val rv = findViewById<RecyclerView>(R.id.rv)
@@ -61,21 +57,5 @@ class MainActivity : AppCompatActivity() {
         val tvEnglish = itemView.findViewById<TextView?>(R.id.tvEnglish)
         val tvChinese = itemView.findViewById<TextView>(R.id.tvChinese)
         val icon = itemView.findViewById<ImageButton>(R.id.imBtnSound)
-    }
-
-    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.menu, menu)
-        return super.onCreateOptionsMenu(menu)
-    }
-
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        when(item.itemId){
-            R.id.note ->
-                startActivity(Intent(this@MainActivity, NoteActivity::class.java))
-            else ->
-                supportActionBar?.title = "开口说英语" + "("+ item.title +")"
-
-        }
-        return super.onOptionsItemSelected(item)
     }
 }
