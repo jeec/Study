@@ -1,14 +1,15 @@
 package com.jerry.study.room;
 
+import androidx.annotation.NonNull;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
 @Entity(tableName = "note")
 public class Note {
-    @PrimaryKey(autoGenerate = true)
-    public Integer uid;
-    public String chinese;
+    @PrimaryKey
+    @NonNull
     public String english;
+    public String chinese;
     public String audio;
 
 }

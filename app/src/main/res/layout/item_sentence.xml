@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:paddingHorizontal="8dp"
-    android:paddingVertical="14dp"
+    android:paddingVertical="5dp"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <TextView
@@ -27,19 +27,21 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:text="中文翻译"/>
 
-    <ImageButton
+    <Button
         android:id="@+id/imBtnSound"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        app:layout_constraintTop_toBottomOf="@id/tvChinese"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="+"
+        style="?attr/materialButtonOutlinedStyle"/>
 
     <View
         android:layout_width="0dp"
         android:layout_height="1dp"
         android:alpha="0.1"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tvChinese"
+        app:layout_constraintTop_toBottomOf="@id/imBtnSound"
         app:layout_constraintEnd_toEndOf="parent"
         android:background="@android:color/background_dark"/>
 

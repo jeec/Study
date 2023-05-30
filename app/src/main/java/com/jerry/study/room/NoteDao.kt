@@ -1,18 +1,15 @@
 package com.jerry.study.room
 
-import androidx.room.Dao
-import androidx.room.Delete
-import androidx.room.Insert
-import androidx.room.Query
+import androidx.room.*
 
 @Dao
 interface NoteDao {
     @Query("SELECT * FROM note")
     fun getAll(): List<Note>
 
-    @Insert
-    fun insert(note: Note)
+    @Insert(onConflict = OnConflictStrategy.IGNORE)
+    fun insert(note: Note?)
 
     @Delete(entity = Note::class)
-    fun delete(user: Note)
+    fun delete(user: Note?)
 }

@@ -6,8 +6,10 @@ import android.os.Bundle
 import android.util.Log
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import android.widget.ImageButton
 import android.widget.TextView
+import android.widget.Toast
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -21,6 +23,8 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
 class NoteActivity : AppCompatActivity() {
+    private var adapter: NoteActivity.MyAdapter? = null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_note)
@@ -33,7 +37,8 @@ class NoteActivity : AppCompatActivity() {
             val data = withContext(Dispatchers.IO){
                 DBInstance.getAll()
             }
-            rv.adapter = MyAdapter(data)
+            adapter = MyAdapter(data)
+            rv.adapter = adapter
         }
     }
 
@@ -52,6 +57,15 @@ class NoteActivity : AppCompatActivity() {
             val itemData = data.getJSONObject(position)
             holder.tvEnglish?.text = itemData.getString("english")
             holder.tvChinese.text = itemData.getString("chinese")
+            holder.icon.text = "-"
+            holder.icon.setOnClickListener {
+                Toast.makeText(this@NoteActivity, "已从复习本移除", Toast.LENGTH_SHORT).show()
+                lifecycleScope.launch(Dispatchers.IO) {
+                    DBInstance.delete(itemData)
+                }
+                data.removeAt(position)
+                adapter?.notifyDataSetChanged()
+            }
             holder.itemView.setOnClickListener {
                 val audio = itemData.getString("audio")
                 mediaPlayer.reset()
@@ -66,7 +80,7 @@ class NoteActivity : AppCompatActivity() {
     inner class MyViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val tvEnglish = itemView.findViewById<TextView?>(R.id.tvEnglish)
         val tvChinese = itemView.findViewById<TextView>(R.id.tvChinese)
-        val icon = itemView.findViewById<ImageButton>(R.id.imBtnSound)
+        val icon = itemView.findViewById<Button>(R.id.imBtnSound)
     }
 
     fun getDataFromFile(){

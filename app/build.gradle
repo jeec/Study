@@ -67,4 +67,10 @@ dependencies {
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.1"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1"
     implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.4.0-alpha03'
+
+    ////////////////////////////////////
+    def activity_version = "1.6.1"
+    // Kotlin
+    implementation "androidx.activity:activity-ktx:$activity_version"
+    ////////////////////////////////////
 }

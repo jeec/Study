@@ -13,16 +13,16 @@ object DBInstance {
         AppDatabase::class.java, "db-note"
     ).build()
 
-    suspend fun insert(jNote: JSONObject) {
+    suspend fun insert(jNote: JSONObject?) {
         val noteDao = db.noteDao()
-        val bean = jNote.to(Note::class.java)
+        val bean = jNote?.to(Note::class.java)
         L.i(bean)
         noteDao.insert(bean)
     }
 
-    suspend fun delete(jNote: JSONObject) {
+    suspend fun delete(jNote: JSONObject?) {
         val noteDao = db.noteDao()
-        val bean = jNote.toJavaObject(Note::class.java)
+        val bean = jNote?.toJavaObject(Note::class.java)
         noteDao.delete(bean)
     }
 
