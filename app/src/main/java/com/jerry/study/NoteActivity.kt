@@ -8,10 +8,17 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageButton
 import android.widget.TextView
+import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.alibaba.fastjson2.JSON
 import com.alibaba.fastjson2.JSONArray
+import com.alibaba.fastjson2.JSONObject
+import com.jerry.study.room.DBInstance
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.coroutineScope
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 
 class NoteActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -19,12 +26,15 @@ class NoteActivity : AppCompatActivity() {
         setContentView(R.layout.activity_note)
         supportActionBar?.title = "笔记本"
 
-        val inputStream = assets.open("oral_note.json")
-        val data = JSON.parseArray(inputStream)
-        Log.i(">>>", data.size.toString())
         val rv = findViewById<RecyclerView>(R.id.rv)
         rv.layoutManager = LinearLayoutManager(this)
-        rv.adapter = MyAdapter(data)
+
+        lifecycleScope.launch {
+            val data = withContext(Dispatchers.IO){
+                DBInstance.getAll()
+            }
+            rv.adapter = MyAdapter(data)
+        }
     }
 
     inner class MyAdapter(private val data: JSONArray): RecyclerView.Adapter<MyViewHolder>() {
@@ -57,5 +67,12 @@ class NoteActivity : AppCompatActivity() {
         val tvEnglish = itemView.findViewById<TextView?>(R.id.tvEnglish)
         val tvChinese = itemView.findViewById<TextView>(R.id.tvChinese)
         val icon = itemView.findViewById<ImageButton>(R.id.imBtnSound)
+    }
+
+    fun getDataFromFile(){
+        val inputStream = openFileInput("note.json")
+        val jsonArray = JSON.parseArray(inputStream)
+        Log.i(">>>", jsonArray.toString())
+        inputStream.close()
     }
 }

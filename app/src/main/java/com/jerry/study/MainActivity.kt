@@ -12,10 +12,15 @@ import android.widget.ImageButton
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.alibaba.fastjson2.JSON
 import com.alibaba.fastjson2.JSONArray
+import com.alibaba.fastjson2.JSONObject
+import com.jerry.study.room.DBInstance
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -54,6 +59,13 @@ class MainActivity : AppCompatActivity() {
                 mediaPlayer.prepare()
                 mediaPlayer.start()
             }
+
+            holder.icon.setOnClickListener {
+                Toast.makeText(this@MainActivity, "已添加到复习本", Toast.LENGTH_LONG).show()
+                lifecycleScope.launch(Dispatchers.IO) {
+                    DBInstance.insert(itemData)
+                }
+            }
         }
     }
 
@@ -77,5 +89,12 @@ class MainActivity : AppCompatActivity() {
 
         }
         return super.onOptionsItemSelected(item)
+    }
+
+    fun addItemToNote(item: JSONObject){
+        val outputStream = openFileOutput("note.json", MODE_APPEND)
+        JSON.writeTo(outputStream, item)
+
+
     }
 }
