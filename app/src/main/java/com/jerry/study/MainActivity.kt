@@ -4,29 +4,27 @@ import android.content.Intent
 import android.graphics.Color
 import android.media.MediaPlayer
 import android.os.Bundle
-import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
-import android.widget.ImageButton
 import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
-import androidx.lifecycle.Observer
+import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
+import androidx.lifecycle.repeatOnLifecycle
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.alibaba.fastjson2.JSON
+import androidx.recyclerview.widget.RecyclerView.OnScrollListener
 import com.alibaba.fastjson2.JSONArray
 import com.alibaba.fastjson2.JSONObject
 import com.jerry.study.room.DBInstance
 import com.jerry.study.room.Note
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import kotlinx.coroutines.withContext
 
 class MainActivity : AppCompatActivity() {
     private val vm: MainViewModel by viewModels()
@@ -37,25 +35,68 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         supportActionBar?.title = "开口说英语"
 
-        observeEvent()
-
         val rv = findViewById<RecyclerView>(R.id.rv)
         rv.layoutManager = LinearLayoutManager(this)
         adapter = MyAdapter()
         rv.adapter = adapter
-        vm.loadNotes(assets,"oral.json")
+        lifecycleScope.launch {
+            lifecycle.repeatOnLifecycle(Lifecycle.State.RESUMED){
+                vm.getTempData().clear()
+                val levelFileName = vm.spGetString("level", "oral_level_1.json")?:"oral_level_1.json"
+                vm.loadNotes(assets, levelFileName)
+            }
+        }
+
+        rv.addOnScrollListener(object : OnScrollListener() {
+            override fun onScrollStateChanged(recyclerView: RecyclerView, newState: Int) {
+                super.onScrollStateChanged(recyclerView, newState)
+                if(recyclerView.layoutManager != null) {
+                    getPositionAndOffset(rv)
+                }
+            }
+        })
+        observeEvent(rv)
     }
 
-    private fun observeEvent() {
+    private fun getPositionAndOffset(rv: RecyclerView) {
+        val layoutManager = rv.layoutManager
+        //获取可视的第一个view
+        val topView: View? = layoutManager?.getChildAt(0)
+        if (topView != null) {
+            //获取与该view的顶部的偏移量
+            val lastOffset = topView.top
+            //得到该View的数组位置
+            val lastPosition = layoutManager.getPosition(topView)
+            vm.spSaveString("lastOffset", lastOffset.toString())
+            vm.spSaveString("lastPosition", lastPosition.toString())
+        }
+    }
+
+    private fun scrollToPosition(rv: RecyclerView) {
+        val lastPosition = vm.spGetString("lastPosition", "0")?.toInt()?:0
+        val lastOffset = vm.spGetString("lastOffset", "0")?.toInt()?:0
+        vm.spSaveString("lastPosition", lastPosition.toString())
+        if (rv.layoutManager != null && lastPosition >= 0) {
+            (rv.layoutManager as LinearLayoutManager).scrollToPositionWithOffset(
+                lastPosition,
+                lastOffset
+            )
+        }
+    }
+
+    private fun observeEvent(rv: RecyclerView) {
         vm.getNotes().observe(this) {
             adapter?.setData(it)
+            if (it.third) {
+                rv.scrollToPosition(0)
+            }
         }
     }
 
     inner class MyAdapter(): RecyclerView.Adapter<MyViewHolder>() {
         private val mediaPlayer = MediaPlayer()
-        private var pairData: Pair<JSONArray, JSONArray>? = null
-        public fun setData(pairParam: Pair<JSONArray, JSONArray>?) {
+        private var pairData: Triple<JSONArray, JSONArray, Boolean>? = null
+        public fun setData(pairParam: Triple<JSONArray, JSONArray, Boolean>?) {
             pairData = pairParam
             notifyDataSetChanged()
         }
@@ -146,9 +187,27 @@ class MainActivity : AppCompatActivity() {
         when(item.itemId){
             R.id.note ->
                 startActivity(Intent(this@MainActivity, NoteActivity::class.java))
-            else ->
-                supportActionBar?.title = "开口说英语" + "("+ item.title +")"
+            R.id.level_1 ->{
+                loadJsonByDifferentLevel("oral_level_1.json", item.title)
+            }
+            R.id.level_2 ->{
+                loadJsonByDifferentLevel("oral_level_2.json", item.title)
+            }
+            R.id.level_3 ->{
+                loadJsonByDifferentLevel("oral_level_3.json", item.title)
+            }
+            R.id.level_4 ->{
+                loadJsonByDifferentLevel("oral_level_4.json", item.title)
+            }
         }
         return super.onOptionsItemSelected(item)
     }
+
+    private fun loadJsonByDifferentLevel(fileName: String, title: CharSequence?): Unit {
+        vm.spSaveString("level", fileName)
+        vm.loadNotes(assets, fileName,true)
+        vm.getTempData().clear()
+        supportActionBar?.title = "开口说英语($title)"
+    }
+
 }

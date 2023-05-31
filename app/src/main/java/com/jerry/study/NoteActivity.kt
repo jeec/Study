@@ -4,6 +4,7 @@ import android.media.MediaPlayer
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.MenuItem
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
@@ -28,7 +29,10 @@ class NoteActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_note)
-        supportActionBar?.title = "笔记本"
+        supportActionBar?.apply {
+            title = "复习本"
+            setDisplayHomeAsUpEnabled(true)
+        }
 
         val rv = findViewById<RecyclerView>(R.id.rv)
         rv.layoutManager = LinearLayoutManager(this)
@@ -83,10 +87,12 @@ class NoteActivity : AppCompatActivity() {
         val icon = itemView.findViewById<Button>(R.id.imBtnSound)
     }
 
-    fun getDataFromFile(){
-        val inputStream = openFileInput("note.json")
-        val jsonArray = JSON.parseArray(inputStream)
-        Log.i(">>>", jsonArray.toString())
-        inputStream.close()
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when(item.itemId){
+            android.R.id.home ->
+                finish()
+        }
+        return super.onOptionsItemSelected(item)
     }
 }
