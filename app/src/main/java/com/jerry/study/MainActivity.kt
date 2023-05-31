@@ -4,6 +4,8 @@ import android.content.Intent
 import android.graphics.Color
 import android.media.MediaPlayer
 import android.os.Bundle
+import android.speech.tts.TextToSpeech
+import android.speech.tts.TextToSpeech.OnInitListener
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
@@ -24,16 +26,42 @@ import com.alibaba.fastjson2.JSONObject
 import com.jerry.study.room.DBInstance
 import com.jerry.study.room.Note
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
+import java.util.*
 
 class MainActivity : AppCompatActivity() {
+    private var levelFileName: String = ""
+    private val levelFileNamePrefix: String
+        get() = levelFileName.split(".")[0]
+    private val chineseLevelName: String
+        get() {
+            return when(levelFileName){
+                "oral_level_1.json" -> {
+                    "入门级"
+                }
+                "oral_level_2.json" -> {
+                    "初级"
+                }
+                "oral_level_3.json" -> {
+                    "中级"
+                }
+                "oral_level_4.json" -> {
+                    "中高级"
+                }
+                else -> ""
+            }
+        }
     private val vm: MainViewModel by viewModels()
     private var adapter: MyAdapter? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        supportActionBar?.title = "开口说英语"
+
+        levelFileName = vm.spGetString("level", "oral_level_1.json")?:"oral_level_1.json"
+
+        supportActionBar?.title = "开口说英语($chineseLevelName)"
 
         val rv = findViewById<RecyclerView>(R.id.rv)
         rv.layoutManager = LinearLayoutManager(this)
@@ -42,7 +70,6 @@ class MainActivity : AppCompatActivity() {
         lifecycleScope.launch {
             lifecycle.repeatOnLifecycle(Lifecycle.State.RESUMED){
                 vm.getTempData().clear()
-                val levelFileName = vm.spGetString("level", "oral_level_1.json")?:"oral_level_1.json"
                 vm.loadNotes(assets, levelFileName)
             }
         }
@@ -59,6 +86,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun getPositionAndOffset(rv: RecyclerView) {
+        L.i(levelFileNamePrefix)
         val layoutManager = rv.layoutManager
         //获取可视的第一个view
         val topView: View? = layoutManager?.getChildAt(0)
@@ -67,15 +95,14 @@ class MainActivity : AppCompatActivity() {
             val lastOffset = topView.top
             //得到该View的数组位置
             val lastPosition = layoutManager.getPosition(topView)
-            vm.spSaveString("lastOffset", lastOffset.toString())
-            vm.spSaveString("lastPosition", lastPosition.toString())
+            vm.spSaveString("lastOffset$levelFileNamePrefix", lastOffset.toString())
+            vm.spSaveString("lastPosition$levelFileNamePrefix", lastPosition.toString())
         }
     }
 
     private fun scrollToPosition(rv: RecyclerView) {
-        val lastPosition = vm.spGetString("lastPosition", "0")?.toInt()?:0
-        val lastOffset = vm.spGetString("lastOffset", "0")?.toInt()?:0
-        vm.spSaveString("lastPosition", lastPosition.toString())
+        val lastPosition = vm.spGetString("lastPosition$levelFileNamePrefix", "0")?.toInt()?:0
+        val lastOffset = vm.spGetString("lastOffset$levelFileNamePrefix", "0")?.toInt()?:0
         if (rv.layoutManager != null && lastPosition >= 0) {
             (rv.layoutManager as LinearLayoutManager).scrollToPositionWithOffset(
                 lastPosition,
@@ -87,9 +114,11 @@ class MainActivity : AppCompatActivity() {
     private fun observeEvent(rv: RecyclerView) {
         vm.getNotes().observe(this) {
             adapter?.setData(it)
-            if (it.third) {
-                rv.scrollToPosition(0)
-            }
+//            if (it.third) {
+//                rv.scrollToPosition(0)
+//            }
+            scrollToPosition(rv)
+
         }
     }
 
@@ -204,6 +233,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun loadJsonByDifferentLevel(fileName: String, title: CharSequence?): Unit {
+        levelFileName = fileName
         vm.spSaveString("level", fileName)
         vm.loadNotes(assets, fileName,true)
         vm.getTempData().clear()
