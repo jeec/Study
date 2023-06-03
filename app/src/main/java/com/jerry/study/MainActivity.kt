@@ -58,6 +58,7 @@ class MainActivity : AppCompatActivity() {
 
         val rv = findViewById<RecyclerView>(R.id.rv)
         rv.layoutManager = LinearLayoutManager(this)
+
         adapter = MyAdapter()
         rv.adapter = adapter
         lifecycleScope.launch {
@@ -156,9 +157,9 @@ class MainActivity : AppCompatActivity() {
 
             holder.itemView.setOnClickListener {
                 itemData?.let {
-                    val audio = it.getString("audio")
+                    val audio = it.getString("level") + ".mp3"
                     mediaPlayer.reset()
-                    val afd = assets.openFd(audio)
+                    val afd = assets.openFd("I_am_ok.mp3")
                     mediaPlayer.setDataSource(afd.fileDescriptor, afd.startOffset, afd.length)
                     mediaPlayer.prepare()
                     mediaPlayer.start()
