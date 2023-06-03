@@ -112,7 +112,6 @@ class MainActivity : AppCompatActivity() {
 //                rv.scrollToPosition(0)
 //            }
             scrollToPosition(rv)
-
         }
     }
 
