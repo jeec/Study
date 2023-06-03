@@ -3,25 +3,26 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:paddingHorizontal="8dp"
-    android:paddingVertical="5dp"
+    android:paddingVertical="2dp"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <TextView
         android:id="@+id/tvEnglish"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:textSize="23sp"
+        android:textSize="18sp"
         android:textColor="@color/teal_200"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintEnd_toStartOf="@id/imBtnSound"
+        app:layout_constraintEnd_toEndOf="parent"
         android:text="You make money by this!"/>
 
     <TextView
         android:id="@+id/tvChinese"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:textSize="17sp"
+        android:layout_marginTop="4dp"
+        android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvEnglish"
         app:layout_constraintEnd_toEndOf="parent"

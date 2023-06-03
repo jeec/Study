@@ -73,4 +73,7 @@ dependencies {
     // Kotlin
     implementation "androidx.activity:activity-ktx:$activity_version"
     ////////////////////////////////////
+
+    // Speech SDK
+    implementation 'com.microsoft.cognitiveservices.speech:client-sdk:1.28.0'
 }

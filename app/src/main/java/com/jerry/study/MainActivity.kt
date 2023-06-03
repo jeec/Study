@@ -4,8 +4,6 @@ import android.content.Intent
 import android.graphics.Color
 import android.media.MediaPlayer
 import android.os.Bundle
-import android.speech.tts.TextToSpeech
-import android.speech.tts.TextToSpeech.OnInitListener
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
@@ -25,8 +23,9 @@ import com.alibaba.fastjson2.JSONArray
 import com.alibaba.fastjson2.JSONObject
 import com.jerry.study.room.DBInstance
 import com.jerry.study.room.Note
+import com.microsoft.cognitiveservices.speech.SpeechSynthesisResult
+import com.microsoft.cognitiveservices.speech.SpeechSynthesizer
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import java.util.*
 
@@ -38,16 +37,10 @@ class MainActivity : AppCompatActivity() {
         get() {
             return when(levelFileName){
                 "oral_level_1.json" -> {
-                    "入门级"
+                    "一级"
                 }
                 "oral_level_2.json" -> {
-                    "初级"
-                }
-                "oral_level_3.json" -> {
-                    "中级"
-                }
-                "oral_level_4.json" -> {
-                    "中高级"
+                    "二级"
                 }
                 else -> ""
             }
@@ -221,12 +214,6 @@ class MainActivity : AppCompatActivity() {
             }
             R.id.level_2 ->{
                 loadJsonByDifferentLevel("oral_level_2.json", item.title)
-            }
-            R.id.level_3 ->{
-                loadJsonByDifferentLevel("oral_level_3.json", item.title)
-            }
-            R.id.level_4 ->{
-                loadJsonByDifferentLevel("oral_level_4.json", item.title)
             }
         }
         return super.onOptionsItemSelected(item)
