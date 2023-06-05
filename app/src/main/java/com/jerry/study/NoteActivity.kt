@@ -71,7 +71,7 @@ class NoteActivity : AppCompatActivity() {
                 adapter?.notifyDataSetChanged()
             }
             holder.itemView.setOnClickListener {
-                val audio = itemData.getString("audio")
+                val audio = itemData.getString("level") + ".mp3"
                 mediaPlayer.reset()
                 val afd = assets.openFd(audio)
                 mediaPlayer.setDataSource(afd.fileDescriptor, afd.startOffset, afd.length)

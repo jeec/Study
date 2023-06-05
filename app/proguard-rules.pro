@@ -19,3 +19,7 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+#-keep class com.jerry.study.room.Note
+#实体类不混淆
+-keep class com.jerry.study.room.Note{*;}

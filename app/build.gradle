@@ -4,13 +4,24 @@ plugins {
     id 'kotlin-kapt'
 }
 
-
-
-
 //获取当前时间
 def currentTime = getCurrentTime().toString()
 
 android {
+    signingConfigs {
+        debug {
+            storeFile file('/Users/jiyongchun/Downloads/jyc_key_file')
+            storePassword 'debugs'
+            keyAlias 'key0'
+            keyPassword 'debugs'
+        }
+        release {
+            storeFile file('/Users/jiyongchun/Downloads/jyc_key_file')
+            storePassword 'debugs'
+            keyAlias 'key0'
+            keyPassword 'debugs'
+        }
+    }
     namespace 'com.jerry.study'
     compileSdk 33
 
@@ -22,11 +33,14 @@ android {
         versionName "1.0"
         buildConfigField("long", "BUILD_TIME", "$currentTime")
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        signingConfig signingConfigs.debug
     }
 
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
+            zipAlignEnabled true  //压缩优化
+            shrinkResources true  //移出无用资源
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }

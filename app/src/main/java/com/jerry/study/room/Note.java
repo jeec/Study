@@ -10,6 +10,6 @@ public class Note {
     @NonNull
     public String english;
     public String chinese;
-    public String audio;
+    public String level;
 
 }

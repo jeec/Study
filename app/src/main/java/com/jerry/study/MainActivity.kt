@@ -197,7 +197,7 @@ class MainActivity : AppCompatActivity() {
                 itemData?.let {
                     val audio = it.getString("level") + ".mp3"
                     mediaPlayer.reset()
-                    val afd = assets.openFd("I_am_ok.mp3")
+                    val afd = assets.openFd(audio)
                     mediaPlayer.setDataSource(afd.fileDescriptor, afd.startOffset, afd.length)
                     mediaPlayer.prepare()
                     mediaPlayer.start()
