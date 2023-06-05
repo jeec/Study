@@ -4,6 +4,12 @@ plugins {
     id 'kotlin-kapt'
 }
 
+
+
+
+//获取当前时间
+def currentTime = getCurrentTime().toString()
+
 android {
     namespace 'com.jerry.study'
     compileSdk 33
@@ -14,7 +20,7 @@ android {
         targetSdk 33
         versionCode 1
         versionName "1.0"
-
+        buildConfigField("long", "BUILD_TIME", "$currentTime")
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -33,6 +39,9 @@ android {
     }
 }
 
+static def getCurrentTime() {
+    return new Date().getTime()
+}
 
 dependencies {
 

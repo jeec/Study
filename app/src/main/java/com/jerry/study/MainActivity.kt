@@ -4,6 +4,7 @@ import android.content.Intent
 import android.graphics.Color
 import android.media.MediaPlayer
 import android.os.Bundle
+import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
@@ -26,10 +27,18 @@ import com.jerry.study.room.Note
 import com.microsoft.cognitiveservices.speech.SpeechSynthesisResult
 import com.microsoft.cognitiveservices.speech.SpeechSynthesizer
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
+import java.net.HttpURLConnection
+import java.net.URL
+import java.text.SimpleDateFormat
 import java.util.*
 
 class MainActivity : AppCompatActivity() {
+    companion object {
+        private const val PERIOD = 1  //MINUTES
+    }
     private var levelFileName: String = ""
     private val levelFileNamePrefix: String
         get() = levelFileName.split(".")[0]
@@ -51,6 +60,23 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        lifecycleScope.launch(Dispatchers.Main) {
+            val bGoOn = vm.spGetString("within", "")
+            if(bGoOn.isNullOrEmpty()) {
+                if(getNetTime() - BuildConfig.BUILD_TIME < PERIOD * 60 * 1000) {
+                    //在指定的时间内安装并打开了应用
+                    vm.spSaveString("within", "cong, you can use it!")
+                } else {
+                    Toast.makeText(this@MainActivity, "未授权设备，3秒后将关闭", Toast.LENGTH_LONG).show()
+                    lifecycleScope.launch {
+                        delay(3000)
+                        finish()
+                    }
+                }
+            }
+        }
+
 
         levelFileName = vm.spGetString("level", "oral_level_1.json")?:"oral_level_1.json"
 
@@ -78,6 +104,19 @@ class MainActivity : AppCompatActivity() {
         })
         observeEvent(rv)
     }
+
+    //获取网络时间
+    private suspend fun getNetTime(): Long {
+        return withContext(Dispatchers.IO) {
+            val url = URL("https://www.baidu.com")
+            val conn = url.openConnection() as HttpURLConnection
+            conn.connectTimeout = 5 * 1000
+            conn.connect()
+            val date = conn.date
+            date
+        }
+    }
+
 
     private fun getPositionAndOffset(rv: RecyclerView) {
         L.i(levelFileNamePrefix)
