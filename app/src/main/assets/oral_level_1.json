@@ -1,107 +1,4997 @@
 [
     {
-        "english": "1111111I am ok!",
-        "chinese": "我很好",
-        "audio": "I_am_ok.mp3"
+        "english": "Hello, how are you?",
+        "chinese": "你好，你好吗？",
+        "level": "l1_0"
     },
     {
-        "english": "0I am ok!",
-        "chinese": "我很好",
-        "audio": "I_am_ok.mp3"
+        "english": "My name is John.",
+        "chinese": "我的名字是约翰。",
+        "level": "l1_1"
     },
     {
-        "english": "1I am ok!",
-        "chinese": "我很好",
-        "audio": "I_am_ok.mp3"
+        "english": "I am from China.",
+        "chinese": "我来自中国。",
+        "level": "l1_2"
     },
     {
-        "english": "2I am ok!",
-        "chinese": "我很好",
-        "audio": "I_am_ok.mp3"
+        "english": "Where is the bathroom?",
+        "chinese": "厕所在哪里？",
+        "level": "l1_3"
     },
     {
-        "english": "3I am ok!",
-        "chinese": "我很好",
-        "audio": "I_am_ok.mp3"
+        "english": "What time is it?",
+        "chinese": "现在几点？",
+        "level": "l1_4"
     },
     {
-        "english": "4I am ok!",
-        "chinese": "我很好",
-        "audio": "I_am_ok.mp3"
+        "english": "Can you help me?",
+        "chinese": "你能帮助我吗？",
+        "level": "l1_5"
     },
     {
-        "english": "5I am ok!",
-        "chinese": "我很好",
-        "audio": "I_am_ok.mp3"
+        "english": "How much does it cost?",
+        "chinese": "这个多少钱？",
+        "level": "l1_6"
     },
     {
-        "english": "6I am ok!",
-        "chinese": "我很好",
-        "audio": "I_am_ok.mp3"
+        "english": "I don't understand.",
+        "chinese": "我不明白。",
+        "level": "l1_7"
     },
     {
-        "english": "7I am ok!",
-        "chinese": "我很好",
-        "audio": "I_am_ok.mp3"
+        "english": "Thank you very much.",
+        "chinese": "非常感谢你。",
+        "level": "l1_8"
     },
     {
-        "english": "8I am ok!",
-        "chinese": "我很好",
-        "audio": "I_am_ok.mp3"
+        "english": "Excuse me, can you repeat that?",
+        "chinese": "打扰一下，你能再重复一遍吗？",
+        "level": "l1_9"
     },
     {
-        "english": "9I am ok!",
-        "chinese": "我很好",
-        "audio": "I_am_ok.mp3"
+        "english": "Where is the nearest hospital?",
+        "chinese": "最近的医院在哪里？",
+        "level": "l1_10"
     },
     {
-        "english": "10I am ok!",
-        "chinese": "我很好",
-        "audio": "I_am_ok.mp3"
+        "english": "I would like a cup of coffee.",
+        "chinese": "我想要一杯咖啡。",
+        "level": "l1_11"
     },
     {
-        "english": "11I am ok!",
-        "chinese": "我很好",
-        "audio": "I_am_ok.mp3"
+        "english": "What is your favorite color?",
+        "chinese": "你最喜欢的颜色是什么？",
+        "level": "l1_12"
     },
     {
-        "english": "12I am ok!",
-        "chinese": "我很好",
-        "audio": "I_am_ok.mp3"
+        "english": "I need to buy some groceries.",
+        "chinese": "我需要买些杂货。",
+        "level": "l1_13"
     },
     {
-        "english": "13I am ok!",
-        "chinese": "我很好",
-        "audio": "I_am_ok.mp3"
+        "english": "Can you speak slower, please?",
+        "chinese": "请你说得慢一点好吗？",
+        "level": "l1_14"
     },
     {
-        "english": "14I am ok!",
-        "chinese": "我很好",
-        "audio": "I_am_ok.mp3"
+        "english": "Do you have any recommendations for restaurants?",
+        "chinese": "你有没有餐厅推荐？",
+        "level": "l1_15"
     },
     {
-        "english": "15I am ok!",
-        "chinese": "我很好",
-        "audio": "I_am_ok.mp3"
+        "english": "How do I get to the train station?",
+        "chinese": "去火车站怎么走？",
+        "level": "l1_16"
     },
     {
-        "english": "16I am ok!",
-        "chinese": "我很好",
-        "audio": "I_am_ok.mp3"
+        "english": "I am sorry.",
+        "chinese": "对不起。",
+        "level": "l1_17"
     },
     {
-        "english": "17I am ok!",
-        "chinese": "我很好",
-        "audio": "I_am_ok.mp3"
+        "english": "What is your phone number?",
+        "chinese": "你的电话号码是多少？",
+        "level": "l1_18"
     },
     {
-        "english": "18I am ok!",
-        "chinese": "我很好",
-        "audio": "I_am_ok.mp3"
+        "english": "May I have the menu, please?",
+        "chinese": "可以给我菜单吗？",
+        "level": "l1_20"
     },
     {
-        "english": "19I am ok!",
-        "chinese": "我很好",
-        "audio": "I_am_ok.mp3"
+        "english": "I like to read books.",
+        "chinese": "我喜欢读书。",
+        "level": "l1_21"
+    },
+    {
+        "english": "Where can I find a taxi?",
+        "chinese": "我在哪里可以找到出租车？",
+        "level": "l1_22"
+    },
+    {
+        "english": "What is the weather like today?",
+        "chinese": "今天天气怎么样？",
+        "level": "l1_23"
+    },
+    {
+        "english": "How long does it take to get to the airport?",
+        "chinese": "去机场需要多长时间？",
+        "level": "l1_24"
+    },
+    {
+        "english": "Can you recommend a good movie?",
+        "chinese": "你能推荐一部好电影吗？",
+        "level": "l1_25"
+    },
+    {
+        "english": "I need to make a reservation.",
+        "chinese": "我需要预订。",
+        "level": "l1_26"
+    },
+    {
+        "english": "Where can I buy a ticket?",
+        "chinese": "我在哪里可以买到票？",
+        "level": "l1_27"
+    },
+    {
+        "english": "What is your favorite food?",
+        "chinese": "你最喜欢的食物是什么？",
+        "level": "l1_28"
+    },
+    {
+        "english": "I am going to the park.",
+        "chinese": "我要去公园。",
+        "level": "l1_29"
+    },
+    {
+        "english": "How far is the nearest post office?",
+        "chinese": "最近的邮局有多远？",
+        "level": "l1_30"
+    },
+    {
+        "english": "Can you teach me English?",
+        "chinese": "你能教我英语吗？",
+        "level": "l1_31"
+    },
+    {
+        "english": "I don't have any money.",
+        "chinese": "我没有钱。",
+        "level": "l1_32"
+    },
+    {
+        "english": "What time does the movie start?",
+        "chinese": "电影什么时候开始？",
+        "level": "l1_33"
+    },
+    {
+        "english": "Can you show me on the map?",
+        "chinese": "你能在地图上给我看吗？",
+        "level": "l1_34"
+    },
+    {
+        "english": "I am lost.",
+        "chinese": "我迷路了。",
+        "level": "l1_35"
+    },
+    {
+        "english": "Do you have a pen I can borrow?",
+        "chinese": "你有一支我可以借用的钢笔吗？",
+        "level": "l1_36"
+    },
+    {
+        "english": "Can you recommend a good book to read?",
+        "chinese": "你能推荐一本好书给我读吗？",
+        "level": "l1_37"
+    },
+    {
+        "english": "Where can I find a good restaurant?",
+        "chinese": "我在哪里可以找到一家好餐厅？",
+        "level": "l1_38"
+    },
+    {
+        "english": "I am studying English.",
+        "chinese": "我正在学习英语。",
+        "level": "l1_39"
+    },
+    {
+        "english": "What is your favorite hobby?",
+        "chinese": "你最喜欢的爱好是什么？",
+        "level": "l1_40"
+    },
+    {
+        "english": "Can you please repeat that?",
+        "chinese": "你可以再说一遍吗？",
+        "level": "l1_41"
+    },
+    {
+        "english": "I need to buy a train ticket.",
+        "chinese": "我需要买一张火车票。",
+        "level": "l1_42"
+    },
+    {
+        "english": "Where is the nearest ATM?",
+        "chinese": "最近的自动取款机在哪里？",
+        "level": "l1_43"
+    },
+    {
+        "english": "I have a question.",
+        "chinese": "我有一个问题。",
+        "level": "l1_44"
+    },
+    {
+        "english": "What is the capital city of your country?",
+        "chinese": "你的国家的首都是什么？",
+        "level": "l1_45"
+    },
+    {
+        "english": "Can you help me with my homework?",
+        "chinese": "你能帮我做作业吗？",
+        "level": "l1_46"
+    },
+    {
+        "english": "How do you spell your name?",
+        "chinese": "你的名字怎么拼写？",
+        "level": "l1_47"
+    },
+    {
+        "english": "I like to listen to music.",
+        "chinese": "我喜欢听音乐。",
+        "level": "l1_48"
+    },
+    {
+        "english": "Where can I find a pharmacy?",
+        "chinese": "我在哪里可以找到一家药店？",
+        "level": "l1_49"
+    },
+    {
+        "english": "Can you show me how to use this?",
+        "chinese": "你可以教我怎么使用这个吗？",
+        "level": "l1_50"
+    },
+    {
+        "english": "I am learning to play the guitar.",
+        "chinese": "我正在学习弹吉他。",
+        "level": "l1_51"
+    },
+    {
+        "english": "What is the nearest bus stop?",
+        "chinese": "最近的公交车站在哪里？",
+        "level": "l1_52"
+    },
+    {
+        "english": "I am sorry, I don't understand.",
+        "chinese": "对不起，我不明白。",
+        "level": "l1_53"
+    },
+    {
+        "english": "Where is the nearest hotel?",
+        "chinese": "最近的酒店在哪里？",
+        "level": "l1_54"
+    },
+    {
+        "english": "I need a doctor.",
+        "chinese": "我需要看医生。",
+        "level": "l1_55"
+    },
+    {
+        "english": "What time does the store close?",
+        "chinese": "商店什么时候关门？",
+        "level": "l1_56"
+    },
+    {
+        "english": "Can you recommend a good place to visit?",
+        "chinese": "你能推荐一个好地方参观吗？",
+        "level": "l1_57"
+    },
+    {
+        "english": "I am going shopping.",
+        "chinese": "我要去购物。",
+        "level": "l1_58"
+    },
+    {
+        "english": "How do you say \"hello\" in your language?",
+        "chinese": "你的语言中怎么说“你好”？",
+        "level": "l1_59"
+    },
+    {
+        "english": "What is your favorite movie?",
+        "chinese": "你最喜欢的电影是什么？",
+        "level": "l1_60"
+    },
+    {
+        "english": "Can you recommend a good restaurant nearby?",
+        "chinese": "你能推荐附近一家好的餐厅吗？",
+        "level": "l1_61"
+    },
+    {
+        "english": "I'm going to the library.",
+        "chinese": "我要去图书馆。",
+        "level": "l1_62"
+    },
+    {
+        "english": "Where can I find a bookstore?",
+        "chinese": "我在哪里可以找到一家书店？",
+        "level": "l1_63"
+    },
+    {
+        "english": "What do you do for a living?",
+        "chinese": "你以什么为生？",
+        "level": "l1_64"
+    },
+    {
+        "english": "Can you speak a little slower, please?",
+        "chinese": "请你说得慢一点好吗？",
+        "level": "l1_65"
+    },
+    {
+        "english": "Do you have any siblings?",
+        "chinese": "你有兄弟姐妹吗？",
+        "level": "l1_66"
+    },
+    {
+        "english": "I'm sorry, I don't speak English very well.",
+        "chinese": "对不起，我英语说得不太好。",
+        "level": "l1_67"
+    },
+    {
+        "english": "What is your favorite sport?",
+        "chinese": "你最喜欢的运动是什么？",
+        "level": "l1_68"
+    },
+    {
+        "english": "I need to buy a new phone.",
+        "chinese": "我需要买一部新手机。",
+        "level": "l1_69"
+    },
+    {
+        "english": "How do I get to the nearest subway station?",
+        "chinese": "去最近的地铁站怎么走？",
+        "level": "l1_70"
+    },
+    {
+        "english": "Can you recommend a good hotel for me to stay?",
+        "chinese": "你能推荐一家好的酒店供我入住吗？",
+        "level": "l1_71"
+    },
+    {
+        "english": "What time does the concert start?",
+        "chinese": "音乐会几点开始？",
+        "level": "l1_72"
+    },
+    {
+        "english": "I enjoy cooking.",
+        "chinese": "我喜欢做饭。",
+        "level": "l1_73"
+    },
+    {
+        "english": "Where can I find a good place to take photos?",
+        "chinese": "我在哪里可以找到一个好的拍照地点？",
+        "level": "l1_74"
+    },
+    {
+        "english": "Can you show me how to use this app?",
+        "chinese": "你能教我怎么使用这个应用吗？",
+        "level": "l1_75"
+    },
+    {
+        "english": "I'm looking for a job.",
+        "chinese": "我在找工作。",
+        "level": "l1_76"
+    },
+    {
+        "english": "What is your favorite book?",
+        "chinese": "你最喜欢的书是什么？",
+        "level": "l1_77"
+    },
+    {
+        "english": "I need to buy a gift for my friend.",
+        "chinese": "我需要给朋友买份礼物。",
+        "level": "l1_78"
+    },
+    {
+        "english": "How long have you been studying English?",
+        "chinese": "你学英语学了多久了？",
+        "level": "l1_79"
+    },
+    {
+        "english": "Can you recommend a good place to visit for a day trip?",
+        "chinese": "你能推荐一个适合一日游的好地方吗？",
+        "level": "l1_80"
+    },
+    {
+        "english": "I'm going to visit my family this weekend.",
+        "chinese": "这个周末我要去拜访我的家人。",
+        "level": "l1_81"
+    },
+    {
+        "english": "What is your favorite type of music?",
+        "chinese": "你最喜欢的音乐类型是什么？",
+        "level": "l1_82"
+    },
+    {
+        "english": "Can you help me find my way back to the hotel?",
+        "chinese": "你能帮我找回去酒店的路吗？",
+        "level": "l1_83"
+    },
+    {
+        "english": "I'm sorry, I didn't catch your name.",
+        "chinese": "对不起，我没听清楚你的名字。",
+        "level": "l1_84"
+    },
+    {
+        "english": "How do you say \"thank you\" in your language?",
+        "chinese": "你的语言中怎么说“谢谢”？",
+        "level": "l1_85"
+    },
+    {
+        "english": "I'm going to the gym to work out.",
+        "chinese": "我要去健身房锻炼。",
+        "level": "l1_86"
+    },
+    {
+        "english": "Where can I find a good place to go hiking?",
+        "chinese": "我在哪里可以找到一个好的远足地点？",
+        "level": "l1_87"
+    },
+    {
+        "english": "Can you recommend a good language learning app?",
+        "chinese": "你能推荐一个好的语言学习应用吗？",
+        "level": "l1_88"
+    },
+    {
+        "english": "I'm studying English to improve my career opportunities.",
+        "chinese": "我正在学习英语以提高我的职业机会。",
+        "level": "l1_89"
+    },
+    {
+        "english": "What is your favorite season?",
+        "chinese": "你最喜欢的季节是什么？",
+        "level": "l1_90"
+    },
+    {
+        "english": "I'm going to a concert tonight.",
+        "chinese": "我今晚要去听音乐会。",
+        "level": "l1_91"
+    },
+    {
+        "english": "How do I say \"hello\" in a formal setting?",
+        "chinese": "在正式场合下，我该怎么说“你好”？",
+        "level": "l1_92"
+    },
+    {
+        "english": "Can you recommend a good place to buy souvenirs?",
+        "chinese": "你能推荐一个好的买纪念品的地方吗？",
+        "level": "l1_93"
+    },
+    {
+        "english": "I'm sorry, I didn't mean to offend you.",
+        "chinese": "对不起，我不是故意冒犯你的。",
+        "level": "l1_94"
+    },
+    {
+        "english": "How do I order food in a restaurant?",
+        "chinese": "在餐厅里我该怎么点菜？",
+        "level": "l1_95"
+    },
+    {
+        "english": "Can you teach me some basic phrases in your language?",
+        "chinese": "你能教我一些你的语言的基本短语吗？",
+        "level": "l1_96"
+    },
+    {
+        "english": "I'm going to a job interview tomorrow.",
+        "chinese": "我明天要去参加一次面试。",
+        "level": "l1_97"
+    },
+    {
+        "english": "How do I get a taxi at this time of night?",
+        "chinese": "在这个时间里我该如何叫到一辆出租车？",
+        "level": "l1_98"
+    },
+    {
+        "english": "I'm planning a trip to your country.",
+        "chinese": "Can you give me some travel tips? 我正在计划去你的国家旅行。你能给我一些建议吗？",
+        "level": "l1_99"
+    },
+    {
+        "english": "Can you recommend a good place to go shopping for clothes?",
+        "chinese": "你能推荐一个好的购物衣服的地方吗？",
+        "level": "l1_100"
+    },
+    {
+        "english": "I'm going to a wedding this weekend.",
+        "chinese": "我这个周末要去参加一个婚礼。",
+        "level": "l1_101"
+    },
+    {
+        "english": "What is your favorite holiday?",
+        "chinese": "你最喜欢的节日是什么？",
+        "level": "l1_102"
+    },
+    {
+        "english": "Can you help me find a good language exchange partner?",
+        "chinese": "你能帮我找到一个好的语言交流伙伴吗？",
+        "level": "l1_103"
+    },
+    {
+        "english": "I'm studying English to communicate with people from different countries.",
+        "chinese": "我正在学习英语以与来自不同国家的人交流。",
+        "level": "l1_104"
+    },
+    {
+        "english": "How do I ask for directions to the nearest bank?",
+        "chinese": "我怎样问到最近的银行的路？",
+        "level": "l1_105"
+    },
+    {
+        "english": "Can you recommend a good place to take a walk in nature?",
+        "chinese": "你能推荐一个好的自然散步的地方吗？",
+        "level": "l1_106"
+    },
+    {
+        "english": "I'm sorry, I didn't mean to interrupt you.",
+        "chinese": "对不起，我不是故意打断你的。",
+        "level": "l1_107"
+    },
+    {
+        "english": "How do I say \"I love you\" in your language?",
+        "chinese": "在你的语言中，我该如何说“我爱你”？",
+        "level": "l1_108"
+    },
+    {
+        "english": "I'm going to a party tonight.",
+        "chinese": "我今晚要去参加一个派对。",
+        "level": "l1_109"
+    },
+    {
+        "english": "What is your favorite type of cuisine?",
+        "chinese": "你最喜欢的菜系是什么？",
+        "level": "l1_110"
+    },
+    {
+        "english": "I'm planning to visit some historical sites in the area.",
+        "chinese": "我计划去参观一些这个地区的历史遗迹。",
+        "level": "l1_111"
+    },
+    {
+        "english": "How do I apologize in a polite way?",
+        "chinese": "我如何礼貌地道歉？",
+        "level": "l1_112"
+    },
+    {
+        "english": "Can you recommend a good place to learn dancing?",
+        "chinese": "你能推荐一个好的学习跳舞的地方吗？",
+        "level": "l1_113"
+    },
+    {
+        "english": "I'm sorry, I don't have any change.",
+        "chinese": "对不起，我没有零钱。",
+        "level": "l1_114"
+    },
+    {
+        "english": "How do I book a hotel room online?",
+        "chinese": "我如何在线预订酒店房间？",
+        "level": "l1_115"
+    },
+    {
+        "english": "Can you teach me some common idioms in English?",
+        "chinese": "你能教我一些英语中常见的习语吗？",
+        "level": "l1_116"
+    },
+    {
+        "english": "I'm going to take a vacation next month.",
+        "chinese": "我下个月要度假。",
+        "level": "l1_117"
+    },
+    {
+        "english": "How do I express my opinion politely?",
+        "chinese": "我如何礼貌地表达我的观点？",
+        "level": "l1_118"
+    },
+    {
+        "english": "I'm learning English to pursue higher education opportunities.",
+        "chinese": "我正在学习英语以追求更高的教育机会。",
+        "level": "l1_119"
+    },
+    {
+        "english": "Can you recommend a good place to visit for a family outing?",
+        "chinese": "你能推荐一个适合家庭出游的好地方吗？",
+        "level": "l1_120"
+    },
+    {
+        "english": "I'm going to a job fair to look for employment opportunities.",
+        "chinese": "我要去一场招聘会寻找就业机会。",
+        "level": "l1_121"
+    },
+    {
+        "english": "What is your favorite type of cuisine?",
+        "chinese": "你最喜欢的菜系是什么？",
+        "level": "l1_122"
+    },
+    {
+        "english": "Can you help me find a good language school?",
+        "chinese": "你能帮我找到一所好的语言学校吗？",
+        "level": "l1_123"
+    },
+    {
+        "english": "I'm studying English to expand my social circle.",
+        "chinese": "我正在学习英语以扩大我的社交圈子。",
+        "level": "l1_124"
+    },
+    {
+        "english": "How do I ask for recommendations at a restaurant?",
+        "chinese": "我怎样在餐厅里询问推荐菜品？",
+        "level": "l1_125"
+    },
+    {
+        "english": "Can you recommend a good place to go for a picnic?",
+        "chinese": "你能推荐一个好的野餐地点吗？",
+        "level": "l1_126"
+    },
+    {
+        "english": "I'm sorry, I didn't mean to bother you.",
+        "chinese": "对不起，我不是故意打扰你的。",
+        "level": "l1_127"
+    },
+    {
+        "english": "How do I say \"thank you\" in a formal setting?",
+        "chinese": "在正式场合下，我该如何说“谢谢”？",
+        "level": "l1_128"
+    },
+    {
+        "english": "I'm going to a concert with my friends this weekend.",
+        "chinese": "这个周末我要和朋友们去听音乐会。",
+        "level": "l1_129"
+    },
+    {
+        "english": "What is your favorite type of music?",
+        "chinese": "你最喜欢的音乐类型是什么？",
+        "level": "l1_130"
+    },
+    {
+        "english": "I'm planning to visit a museum to learn about art and history.",
+        "chinese": "我计划去参观一家博物馆了解艺术和历史。",
+        "level": "l1_131"
+    },
+    {
+        "english": "How do I ask for permission politely?",
+        "chinese": "我如何礼貌地请求许可？",
+        "level": "l1_132"
+    },
+    {
+        "english": "Can you recommend a good place to learn photography?",
+        "chinese": "你能推荐一个好的学习摄影的地方吗？",
+        "level": "l1_133"
+    },
+    {
+        "english": "I'm sorry, I don't have any cash on me.",
+        "chinese": "对不起，我身上没有现金。",
+        "level": "l1_134"
+    },
+    {
+        "english": "How do I make a reservation at a restaurant?",
+        "chinese": "我如何在餐厅预订座位？",
+        "level": "l1_135"
+    },
+    {
+        "english": "Can you teach me some common proverbs in English?",
+        "chinese": "你能教我一些英语中常见的谚语吗？",
+        "level": "l1_136"
+    },
+    {
+        "english": "I'm going to a conference to gain knowledge and network with professionals.",
+        "chinese": "我要去参加一场会议以获取知识并与专业人士建立联系。",
+        "level": "l1_137"
+    },
+    {
+        "english": "How do I express agreement or disagreement politely?",
+        "chinese": "我如何礼貌地表示赞同或不同意？",
+        "level": "l1_138"
+    },
+    {
+        "english": "I'm learning English to pursue my passion for international communication.",
+        "chinese": "我正在学习英语以追求我对国际交流的热情。",
+        "level": "l1_139"
+    },
+    {
+        "english": "Can you recommend a good place to go for a weekend getaway?",
+        "chinese": "你能推荐一个适合周末短途旅行的好地方吗？",
+        "level": "l1_140"
+    },
+    {
+        "english": "I'm going to attend a language exchange meetup to practice speaking.",
+        "chinese": "我要去参加一个语言交流聚会来练习口语。",
+        "level": "l1_141"
+    },
+    {
+        "english": "What is your favorite genre of movies?",
+        "chinese": "你最喜欢的电影类型是什么？",
+        "level": "l1_142"
+    },
+    {
+        "english": "Can you help me find a good language tutor?",
+        "chinese": "你能帮我找到一个好的语言辅导老师吗？",
+        "level": "l1_143"
+    },
+    {
+        "english": "I'm studying English to broaden my career opportunities.",
+        "chinese": "我正在学习英语以拓宽我的职业机会。",
+        "level": "l1_144"
+    },
+    {
+        "english": "How do I ask for the bill in a restaurant?",
+        "chinese": "我怎样在餐厅里要账单？",
+        "level": "l1_145"
+    },
+    {
+        "english": "Can you recommend a good place to go for a bike ride?",
+        "chinese": "你能推荐一个好的骑自行车的地方吗？",
+        "level": "l1_146"
+    },
+    {
+        "english": "I'm sorry, I didn't mean to disturb you.",
+        "chinese": "对不起，我不是故意打扰你的。",
+        "level": "l1_147"
+    },
+    {
+        "english": "How do I say \"sorry\" in a polite way?",
+        "chinese": "我如何礼貌地说“对不起”？",
+        "level": "l1_148"
+    },
+    {
+        "english": "I'm going to a theater performance tonight.",
+        "chinese": "我今晚要去看一场戏剧表演。",
+        "level": "l1_149"
+    },
+    {
+        "english": "What is your favorite genre of music?",
+        "chinese": "你最喜欢的音乐风格是什么？",
+        "level": "l1_150"
+    },
+    {
+        "english": "I'm planning to visit a national park to enjoy nature.",
+        "chinese": "我计划去参观一座国家公园，享受大自然。",
+        "level": "l1_151"
+    },
+    {
+        "english": "How do I ask for directions in a polite manner?",
+        "chinese": "我如何礼貌地问路？",
+        "level": "l1_152"
+    },
+    {
+        "english": "Can you recommend a good place to learn painting?",
+        "chinese": "你能推荐一个好的学习绘画的地方吗？",
+        "level": "l1_153"
+    },
+    {
+        "english": "I'm sorry, I don't have exact change.",
+        "chinese": "对不起，我没有零钱。",
+        "level": "l1_154"
+    },
+    {
+        "english": "How do I cancel a hotel reservation?",
+        "chinese": "我如何取消酒店预订？",
+        "level": "l1_155"
+    },
+    {
+        "english": "Can you teach me some common expressions used in everyday conversations?",
+        "chinese": "你能教我一些在日常对话中常用的表达吗？",
+        "level": "l1_156"
+    },
+    {
+        "english": "I'm going to a workshop to enhance my professional skills.",
+        "chinese": "我要去参加一个研讨会来提升我的职业技能。",
+        "level": "l1_157"
+    },
+    {
+        "english": "How do I politely ask for assistance?",
+        "chinese": "我如何礼貌地请求帮助？",
+        "level": "l1_158"
+    },
+    {
+        "english": "I'm learning English to connect with people from different cultures.",
+        "chinese": "我正在学习英语以与来自不同文化的人建立联系。",
+        "level": "l1_159"
+    },
+    {
+        "english": "Can you recommend a good place to go for a scenic hike?",
+        "chinese": "你能推荐一个适合观赏风景的好地方去徒步旅行吗？",
+        "level": "l1_160"
+    },
+    {
+        "english": "I'm going to a job interview next week.",
+        "chinese": "下周我要去参加一次工作面试。",
+        "level": "l1_161"
+    },
+    {
+        "english": "What is your favorite type of cuisine?",
+        "chinese": "你最喜欢的菜系是什么？",
+        "level": "l1_162"
+    },
+    {
+        "english": "Can you help me find a good language exchange group?",
+        "chinese": "你能帮我找到一个好的语言交流群组吗？",
+        "level": "l1_163"
+    },
+    {
+        "english": "I'm studying English to enhance my communication skills.",
+        "chinese": "我正在学习英语以提升我的沟通能力。",
+        "level": "l1_164"
+    },
+    {
+        "english": "How do I order food at a restaurant?",
+        "chinese": "我怎样在餐厅点菜？",
+        "level": "l1_165"
+    },
+    {
+        "english": "Can you recommend a good place to go for a picnic by the beach?",
+        "chinese": "你能推荐一个好的沙滩野餐地点吗？",
+        "level": "l1_166"
+    },
+    {
+        "english": "I'm sorry, I didn't mean to inconvenience you.",
+        "chinese": "对不起，我不是故意给您添麻烦的。",
+        "level": "l1_167"
+    },
+    {
+        "english": "How do I say \"excuse me\" in a polite way?",
+        "chinese": "我如何礼貌地说“对不起”？",
+        "level": "l1_168"
+    },
+    {
+        "english": "I'm going to a live music concert this weekend.",
+        "chinese": "这个周末我要去参加一场现场音乐会。",
+        "level": "l1_169"
+    },
+    {
+        "english": "What is your favorite type of movie?",
+        "chinese": "你最喜欢的电影类型是什么？",
+        "level": "l1_170"
+    },
+    {
+        "english": "I'm planning to visit an art gallery to admire the artwork.",
+        "chinese": "我计划去参观一家艺术画廊欣赏艺术品。",
+        "level": "l1_171"
+    },
+    {
+        "english": "How do I ask for help in a polite manner?",
+        "chinese": "我如何礼貌地寻求帮助？",
+        "level": "l1_172"
+    },
+    {
+        "english": "Can you recommend a good place to learn yoga?",
+        "chinese": "你能推荐一个好的学习瑜伽的地方吗？",
+        "level": "l1_173"
+    },
+    {
+        "english": "I'm sorry, I don't have any small change.",
+        "chinese": "对不起，我没有零钱。",
+        "level": "l1_174"
+    },
+    {
+        "english": "How do I modify or cancel a flight reservation?",
+        "chinese": "我如何修改或取消机票预订？",
+        "level": "l1_175"
+    },
+    {
+        "english": "Can you teach me some common phrasal verbs in English?",
+        "chinese": "你能教我一些英语中常用的短语动词吗？",
+        "level": "l1_176"
+    },
+    {
+        "english": "I'm going to a conference to expand my professional network.",
+        "chinese": "我要去参加一场会议扩展我的职业人脉。",
+        "level": "l1_177"
+    },
+    {
+        "english": "How do I express disagreement politely?",
+        "chinese": "我如何礼貌地表示不同意？",
+        "level": "l1_178"
+    },
+    {
+        "english": "I'm learning English to pursue my personal growth and development.",
+        "chinese": "我正在学习英语以追求个人成长和发展。",
+        "level": "l1_179"
+    },
+    {
+        "english": "Can you recommend a good place to go for a family-friendly vacation?",
+        "chinese": "你能推荐一个适合家庭度假的好地方吗？",
+        "level": "l1_180"
+    },
+    {
+        "english": "I'm going to a networking event to connect with professionals in my industry.",
+        "chinese": "我要去参加一个网络活动，与我所在行业的专业人士建立联系。",
+        "level": "l1_181"
+    },
+    {
+        "english": "What is your favorite type of dessert?",
+        "chinese": "你最喜欢的甜点是什么？",
+        "level": "l1_182"
+    },
+    {
+        "english": "Can you help me find a good language learning app?",
+        "chinese": "你能帮我找到一个好的语言学习应用程序吗？",
+        "level": "l1_183"
+    },
+    {
+        "english": "I'm studying English to improve my job prospects.",
+        "chinese": "我正在学习英语以提高我的就业前景。",
+        "level": "l1_184"
+    },
+    {
+        "english": "How do I ask for recommendations at a bookstore?",
+        "chinese": "我如何在书店里询问推荐书籍？",
+        "level": "l1_185"
+    },
+    {
+        "english": "Can you recommend a good place to go for a scenic drive?",
+        "chinese": "你能推荐一个好的风景驾车路线吗？",
+        "level": "l1_186"
+    },
+    {
+        "english": "I'm sorry, I didn't mean to offend you.",
+        "chinese": "对不起，我不是故意冒犯你的。",
+        "level": "l1_187"
+    },
+    {
+        "english": "How do I say \"please\" in a polite way?",
+        "chinese": "我如何礼貌地说“请”？",
+        "level": "l1_188"
+    },
+    {
+        "english": "I'm going to a sports event this evening.",
+        "chinese": "我今晚要去参加一场体育赛事。",
+        "level": "l1_189"
+    },
+    {
+        "english": "What is your favorite genre of literature?",
+        "chinese": "你最喜欢的文学类型是什么？",
+        "level": "l1_190"
+    },
+    {
+        "english": "I'm planning to visit a botanical garden to appreciate the beauty of plants.",
+        "chinese": "我计划去参观一座植物园欣赏植物之美。",
+        "level": "l1_191"
+    },
+    {
+        "english": "How do I ask for directions in a clear way?",
+        "chinese": "我如何清楚地问路？",
+        "level": "l1_192"
+    },
+    {
+        "english": "Can you recommend a good place to learn music?",
+        "chinese": "你能推荐一个好的学习音乐的地方吗？",
+        "level": "l1_193"
+    },
+    {
+        "english": "I'm sorry, I don't have any coins.",
+        "chinese": "对不起，我没有硬币。",
+        "level": "l1_194"
+    },
+    {
+        "english": "How do I make changes to a flight reservation?",
+        "chinese": "我如何修改机票预订？",
+        "level": "l1_195"
+    },
+    {
+        "english": "Can you teach me some common expressions for giving compliments in English?",
+        "chinese": "你能教我一些英语中常用的赞美表达吗？",
+        "level": "l1_196"
+    },
+    {
+        "english": "I'm going to a workshop to acquire new skills.",
+        "chinese": "我要去参加一个研讨会以获取新技能。",
+        "level": "l1_197"
+    },
+    {
+        "english": "How do I express gratitude in a polite manner?",
+        "chinese": "我如何礼貌地表达感激之情？",
+        "level": "l1_198"
+    },
+    {
+        "english": "I'm learning English to broaden my horizons and explore new cultures.",
+        "chinese": "我正在学习英语以拓宽我的视野，探索新的文化。",
+        "level": "l1_199"
+    },
+    {
+        "english": "Can you recommend a good place to go for a weekend camping trip?",
+        "chinese": "你能推荐一个适合周末露营的好地方吗？",
+        "level": "l1_200"
+    },
+    {
+        "english": "I'm going to a business meeting to discuss potential partnerships.",
+        "chinese": "我要去参加一次商务会议，讨论潜在的合作伙伴关系。",
+        "level": "l1_201"
+    },
+    {
+        "english": "What is your favorite type of cuisine?",
+        "chinese": "你最喜欢的菜系是什么？",
+        "level": "l1_202"
+    },
+    {
+        "english": "Can you help me find a good online language course?",
+        "chinese": "你能帮我找到一门好的在线语言课程吗？",
+        "level": "l1_203"
+    },
+    {
+        "english": "I'm studying English to improve my communication skills for professional settings.",
+        "chinese": "我正在学习英语以提高我在职场上的沟通能力。",
+        "level": "l1_204"
+    },
+    {
+        "english": "How do I order a drink at a bar?",
+        "chinese": "我如何在酒吧点一杯饮料？",
+        "level": "l1_205"
+    },
+    {
+        "english": "Can you recommend a good place to go for a scenic bike ride?",
+        "chinese": "你能推荐一个好的景区骑自行车的地方吗？",
+        "level": "l1_206"
+    },
+    {
+        "english": "I'm sorry, I didn't mean to interrupt you.",
+        "chinese": "对不起，我不是故意打断你的。",
+        "level": "l1_207"
+    },
+    {
+        "english": "How do I say \"excuse me\" in a respectful way?",
+        "chinese": "我如何以尊重的方式说“对不起”？",
+        "level": "l1_208"
+    },
+    {
+        "english": "I'm going to a theater to watch a play tonight.",
+        "chinese": "我今晚要去剧院观看一出戏剧。",
+        "level": "l1_209"
+    },
+    {
+        "english": "What is your favorite musical genre?",
+        "chinese": "你最喜欢的音乐风格是什么？",
+        "level": "l1_210"
+    },
+    {
+        "english": "I'm planning to visit a historical site to learn about the past.",
+        "chinese": "我计划去参观一处历史遗迹了解过去。",
+        "level": "l1_211"
+    },
+    {
+        "english": "How do I ask for help politely?",
+        "chinese": "我如何礼貌地寻求帮助？",
+        "level": "l1_212"
+    },
+    {
+        "english": "Can you recommend a good place to learn dance?",
+        "chinese": "你能推荐一个好的学习舞蹈的地方吗？",
+        "level": "l1_213"
+    },
+    {
+        "english": "I'm sorry, I don't have any change with me.",
+        "chinese": "对不起，我身上没有零钱。",
+        "level": "l1_214"
+    },
+    {
+        "english": "How do I cancel a hotel reservation?",
+        "chinese": "我如何取消酒店预订？",
+        "level": "l1_215"
+    },
+    {
+        "english": "Can you teach me some common idioms in English?",
+        "chinese": "你能教我一些英语中常见的习语吗？",
+        "level": "l1_216"
+    },
+    {
+        "english": "I'm going to a workshop to develop my leadership skills.",
+        "chinese": "我要去参加一个研讨会以发展我的领导能力。",
+        "level": "l1_217"
+    },
+    {
+        "english": "How do I express disagreement in a respectful manner?",
+        "chinese": "我如何以尊重的方式表示不同意？",
+        "level": "l1_218"
+    },
+    {
+        "english": "I'm learning English to open up new opportunities in my life.",
+        "chinese": "我正在学习英语以在我的生活中开创新机遇。",
+        "level": "l1_219"
+    },
+    {
+        "english": "Can you recommend a good place to go for a cultural immersion experience?",
+        "chinese": "你能推荐一个适合文化融入体验的好地方吗？",
+        "level": "l1_220"
+    },
+    {
+        "english": "I'm going to attend a workshop to improve my presentation skills.",
+        "chinese": "我要去参加一个研讨会，提高我的演讲技巧。",
+        "level": "l1_221"
+    },
+    {
+        "english": "What is your favorite type of cuisine?",
+        "chinese": "你最喜欢的菜系是什么？",
+        "level": "l1_222"
+    },
+    {
+        "english": "Can you help me find a good language exchange partner?",
+        "chinese": "你能帮我找到一个好的语言交流伙伴吗？",
+        "level": "l1_223"
+    },
+    {
+        "english": "I'm studying English to broaden my knowledge and understanding of the world.",
+        "chinese": "我正在学习英语以拓宽我对世界的知识和理解。",
+        "level": "l1_224"
+    },
+    {
+        "english": "How do I ask for recommendations at a restaurant?",
+        "chinese": "我如何在餐厅里询问推荐菜品？",
+        "level": "l1_225"
+    },
+    {
+        "english": "Can you recommend a good place to go for a scenic walk?",
+        "chinese": "你能推荐一个好的风景散步的地方吗？",
+        "level": "l1_226"
+    },
+    {
+        "english": "I'm sorry, I didn't mean to bother you.",
+        "chinese": "对不起，我不是故意打扰你的。",
+        "level": "l1_227"
+    },
+    {
+        "english": "How do I say \"please\" in a polite manner?",
+        "chinese": "我如何以礼貌的方式说“请”？",
+        "level": "l1_228"
+    },
+    {
+        "english": "I'm going to a concert this weekend.",
+        "chinese": "这个周末我要去参加一场音乐会。",
+        "level": "l1_229"
+    },
+    {
+        "english": "What is your favorite type of art?",
+        "chinese": "你最喜欢的艺术类型是什么？",
+        "level": "l1_230"
+    },
+    {
+        "english": "I'm planning to visit a famous landmark to experience its grandeur.",
+        "chinese": "我计划去参观一处著名的地标，体验它的壮丽。",
+        "level": "l1_231"
+    },
+    {
+        "english": "How do I ask for directions clearly?",
+        "chinese": "我如何清楚地问路？",
+        "level": "l1_232"
+    },
+    {
+        "english": "Can you recommend a good place to learn photography?",
+        "chinese": "你能推荐一个好的学习摄影的地方吗？",
+        "level": "l1_233"
+    },
+    {
+        "english": "I'm sorry, I don't have any small bills.",
+        "chinese": "对不起，我没有小面额的钞票。",
+        "level": "l1_234"
+    },
+    {
+        "english": "How do I modify or cancel a car rental reservation?",
+        "chinese": "我如何修改或取消租车预订？",
+        "level": "l1_235"
+    },
+    {
+        "english": "Can you teach me some common expressions for making introductions in English?",
+        "chinese": "你能教我一些英语中常用的自我介绍表达吗？",
+        "level": "l1_236"
+    },
+    {
+        "english": "I'm going to a workshop to improve my time management skills.",
+        "chinese": "我要去参加一个研讨会，提升我的时间管理能力。",
+        "level": "l1_237"
+    },
+    {
+        "english": "How do I express my opinion respectfully?",
+        "chinese": "我如何尊重地表达我的观点？",
+        "level": "l1_238"
+    },
+    {
+        "english": "I'm learning English to expand my personal and professional opportunities.",
+        "chinese": "我正在学习英语以扩大个人和职业机会。",
+        "level": "l1_239"
+    },
+    {
+        "english": "Can you recommend a good place to go for a relaxing spa retreat?",
+        "chinese": "你能推荐一个适合放松的好地方去水疗度假吗？",
+        "level": "l1_240"
+    },
+    {
+        "english": "I'm going to a professional development seminar to enhance my skills.",
+        "chinese": "我要去参加一场职业发展研讨会，提升我的技能。",
+        "level": "l1_241"
+    },
+    {
+        "english": "What is your favorite type of cuisine?",
+        "chinese": "你最喜欢的菜系是什么？",
+        "level": "l1_242"
+    },
+    {
+        "english": "Can you help me find a good language tutor?",
+        "chinese": "你能帮我找到一个好的语言导师吗？",
+        "level": "l1_243"
+    },
+    {
+        "english": "I'm studying English to expand my career opportunities.",
+        "chinese": "我正在学习英语以扩大我的职业机会。",
+        "level": "l1_244"
+    },
+    {
+        "english": "How do I order food at a café?",
+        "chinese": "我如何在咖啡馆点餐？",
+        "level": "l1_245"
+    },
+    {
+        "english": "Can you recommend a good place to go for a scenic bike ride?",
+        "chinese": "你能推荐一个好的风景自行车骑行地点吗？",
+        "level": "l1_246"
+    },
+    {
+        "english": "I'm sorry, I didn't mean to disturb you.",
+        "chinese": "对不起，我不是故意打扰你的。",
+        "level": "l1_247"
+    },
+    {
+        "english": "How do I say \"excuse me\" in a formal way?",
+        "chinese": "我如何以正式的方式说“对不起”？",
+        "level": "l1_248"
+    },
+    {
+        "english": "I'm going to a music festival next month.",
+        "chinese": "下个月我要去参加一个音乐节。",
+        "level": "l1_249"
+    },
+    {
+        "english": "What is your favorite genre of literature?",
+        "chinese": "你最喜欢的文学类型是什么？",
+        "level": "l1_250"
+    },
+    {
+        "english": "I'm planning to visit a museum to admire the artwork.",
+        "chinese": "我计划去参观一家博物馆欣赏艺术品。",
+        "level": "l1_251"
+    },
+    {
+        "english": "How do I ask for directions politely?",
+        "chinese": "我如何礼貌地问路？",
+        "level": "l1_252"
+    },
+    {
+        "english": "Can you recommend a good place to learn martial arts?",
+        "chinese": "你能推荐一个好的学习武术的地方吗？",
+        "level": "l1_253"
+    },
+    {
+        "english": "I'm sorry, I don't have any loose change.",
+        "chinese": "对不起，我没有零钱。",
+        "level": "l1_254"
+    },
+    {
+        "english": "How do I make changes to a hotel reservation?",
+        "chinese": "我如何修改酒店预订？",
+        "level": "l1_255"
+    },
+    {
+        "english": "Can you teach me some common expressions for giving compliments in English?",
+        "chinese": "你能教我一些英语中常用的赞美表达吗？",
+        "level": "l1_256"
+    },
+    {
+        "english": "I'm going to a workshop to improve my negotiation skills.",
+        "chinese": "我要去参加一个研讨会，提高我的谈判技巧。",
+        "level": "l1_257"
+    },
+    {
+        "english": "How do I express my disagreement politely?",
+        "chinese": "我如何礼貌地表示不同意？",
+        "level": "l1_258"
+    },
+    {
+        "english": "I'm learning English to broaden my horizons and connect with people from different cultures.",
+        "chinese": "我正在学习英语以拓宽我的视野，并与来自不同文化的人建立联系。",
+        "level": "l1_259"
+    },
+    {
+        "english": "Can you recommend a good place to go for a beach vacation?",
+        "chinese": "你能推荐一个适合海滩度假的好地方吗？",
+        "level": "l1_260"
+    },
+    {
+        "english": "I'm going to a job interview to showcase my skills and qualifications.",
+        "chinese": "我要去参加一次面试，展示我的技能和资历。",
+        "level": "l1_261"
+    },
+    {
+        "english": "What is your favorite type of cuisine?",
+        "chinese": "你最喜欢的菜系是什么？",
+        "level": "l1_262"
+    },
+    {
+        "english": "Can you help me find a good language exchange program?",
+        "chinese": "你能帮我找到一个好的语言交流计划吗？",
+        "level": "l1_263"
+    },
+    {
+        "english": "I'm studying English to communicate effectively in international business settings.",
+        "chinese": "我正在学习英语以在国际商务环境中有效沟通。",
+        "level": "l1_264"
+    },
+    {
+        "english": "How do I order a meal at a restaurant?",
+        "chinese": "我如何在餐厅点餐？",
+        "level": "l1_265"
+    },
+    {
+        "english": "Can you recommend a good place to go for a hiking adventure?",
+        "chinese": "你能推荐一个好的徒步探险的地方吗？",
+        "level": "l1_266"
+    },
+    {
+        "english": "I'm sorry, I didn't mean to inconvenience you.",
+        "chinese": "对不起，我不是故意给你带来麻烦的。",
+        "level": "l1_267"
+    },
+    {
+        "english": "How do I say \"thank you\" in a formal way?",
+        "chinese": "我如何以正式的方式说“谢谢”？",
+        "level": "l1_268"
+    },
+    {
+        "english": "I'm going to a live concert next week.",
+        "chinese": "下周我要去参加一场现场音乐会。",
+        "level": "l1_269"
+    },
+    {
+        "english": "What is your favorite film genre?",
+        "chinese": "你最喜欢的电影类型是什么？",
+        "level": "l1_270"
+    },
+    {
+        "english": "I'm planning to visit an art gallery to appreciate the paintings.",
+        "chinese": "我计划去参观一家艺术画廊欣赏绘画作品。",
+        "level": "l1_271"
+    },
+    {
+        "english": "How do I ask for directions politely?",
+        "chinese": "我如何礼貌地问路？",
+        "level": "l1_272"
+    },
+    {
+        "english": "Can you recommend a good place to learn yoga?",
+        "chinese": "你能推荐一个好的学习瑜伽的地方吗？",
+        "level": "l1_273"
+    },
+    {
+        "english": "I'm sorry, I don't have any small coins.",
+        "chinese": "对不起，我没有小硬币。",
+        "level": "l1_274"
+    },
+    {
+        "english": "How do I modify or cancel a flight reservation?",
+        "chinese": "我如何修改或取消机票预订？",
+        "level": "l1_275"
+    },
+    {
+        "english": "Can you teach me some common expressions for making small talk in English?",
+        "chinese": "你能教我一些英语中常用的闲聊表达吗？",
+        "level": "l1_276"
+    },
+    {
+        "english": "I'm going to a workshop to improve my public speaking skills.",
+        "chinese": "我要去参加一个研讨会，提高我的公众演讲技巧。",
+        "level": "l1_277"
+    },
+    {
+        "english": "How do I express my opinion respectfully?",
+        "chinese": "我如何以尊重的方式表达我的观点？",
+        "level": "l1_278"
+    },
+    {
+        "english": "I'm learning English to enhance my personal growth and self-confidence.",
+        "chinese": "我正在学习英语以提升个人成长和自信心。",
+        "level": "l1_279"
+    },
+    {
+        "english": "Can you recommend a good place to go for a family vacation?",
+        "chinese": "你能推荐一个适合家庭度假的好地方吗？",
+        "level": "l1_280"
+    },
+    {
+        "english": "I'm going to a conference to learn about the latest advancements in my field.",
+        "chinese": "我要去参加一场会议，了解我所在领域的最新进展。",
+        "level": "l1_281"
+    },
+    {
+        "english": "What is your favorite type of cuisine?",
+        "chinese": "你最喜欢的菜系是什么？",
+        "level": "l1_282"
+    },
+    {
+        "english": "Can you help me find a good language learning app?",
+        "chinese": "你能帮我找到一个好的语言学习应用吗？",
+        "level": "l1_283"
+    },
+    {
+        "english": "I'm studying English to improve my academic performance.",
+        "chinese": "我正在学习英语以提高我的学业表现。",
+        "level": "l1_284"
+    },
+    {
+        "english": "How do I order coffee at a café?",
+        "chinese": "我如何在咖啡馆点咖啡？",
+        "level": "l1_285"
+    },
+    {
+        "english": "Can you recommend a good place to go for a nature hike?",
+        "chinese": "你能推荐一个好的自然徒步的地方吗？",
+        "level": "l1_286"
+    },
+    {
+        "english": "I'm sorry, I didn't mean to inconvenience you.",
+        "chinese": "对不起，我不是故意给你添麻烦的。",
+        "level": "l1_287"
+    },
+    {
+        "english": "How do I say \"excuse me\" in a polite way?",
+        "chinese": "我如何以礼貌的方式说“打扰一下”？",
+        "level": "l1_288"
+    },
+    {
+        "english": "I'm going to a sports event this weekend.",
+        "chinese": "这个周末我要去参加一个体育赛事。",
+        "level": "l1_289"
+    },
+    {
+        "english": "What is your favorite genre of music?",
+        "chinese": "你最喜欢的音乐类型是什么？",
+        "level": "l1_290"
+    },
+    {
+        "english": "I'm planning to visit a national park to explore its natural beauty.",
+        "chinese": "我计划去参观一个国家公园，探索它的自然之美。",
+        "level": "l1_291"
+    },
+    {
+        "english": "How do I ask for help in a polite manner?",
+        "chinese": "我如何以礼貌的方式寻求帮助？",
+        "level": "l1_292"
+    },
+    {
+        "english": "Can you recommend a good place to learn painting?",
+        "chinese": "你能推荐一个好的学习绘画的地方吗？",
+        "level": "l1_293"
+    },
+    {
+        "english": "I'm sorry, I don't have any change with me.",
+        "chinese": "对不起，我身上没有零钱。",
+        "level": "l1_294"
+    },
+    {
+        "english": "How do I make changes to a train ticket reservation?",
+        "chinese": "我如何修改火车票预订？",
+        "level": "l1_295"
+    },
+    {
+        "english": "Can you teach me some common expressions for expressing gratitude in English?",
+        "chinese": "你能教我一些英语中常用的表达感激的方式吗？",
+        "level": "l1_296"
+    },
+    {
+        "english": "I'm going to a workshop to develop my teamwork skills.",
+        "chinese": "我要去参加一个研讨会，发展我的团队合作能力。",
+        "level": "l1_297"
+    },
+    {
+        "english": "How do I express my disagreement in a respectful way?",
+        "chinese": "我如何以尊重的方式表示不同意？",
+        "level": "l1_298"
+    },
+    {
+        "english": "I'm learning English to broaden my perspectives and connect with people from different cultures.",
+        "chinese": "我正在学习英语以拓宽我的视野，并与来自不同文化的人建立联系。",
+        "level": "l1_299"
+    },
+    {
+        "english": "Can you recommend a good place to go for a weekend getaway?",
+        "chinese": "你能推荐一个适合周末短途旅行的好地方吗？",
+        "level": "l1_300"
+    },
+    {
+        "english": "I'm going to a workshop to enhance my leadership skills.",
+        "chinese": "我要去参加一个研讨会，提升我的领导能力。",
+        "level": "l1_301"
+    },
+    {
+        "english": "What is your favorite type of cuisine?",
+        "chinese": "你最喜欢的菜系是什么？",
+        "level": "l1_302"
+    },
+    {
+        "english": "Can you help me find a good online language course?",
+        "chinese": "你能帮我找到一个好的在线语言课程吗？",
+        "level": "l1_303"
+    },
+    {
+        "english": "I'm studying English to communicate effectively with international colleagues.",
+        "chinese": "我正在学习英语以有效地与国际同事交流。",
+        "level": "l1_304"
+    },
+    {
+        "english": "How do I order food for delivery?",
+        "chinese": "我如何通过外卖点餐？",
+        "level": "l1_305"
+    },
+    {
+        "english": "Can you recommend a good place to go for a weekend road trip?",
+        "chinese": "你能推荐一个适合周末自驾游的好地方吗？",
+        "level": "l1_306"
+    },
+    {
+        "english": "I'm sorry, I didn't mean to interrupt you.",
+        "chinese": "对不起，我不是故意打断你的。",
+        "level": "l1_307"
+    },
+    {
+        "english": "How do I say \"excuse me\" to get someone's attention?",
+        "chinese": "我如何说“对不起”来引起别人的注意？",
+        "level": "l1_308"
+    },
+    {
+        "english": "I'm going to a theater performance next month.",
+        "chinese": "下个月我要去参加一场戏剧表演。",
+        "level": "l1_309"
+    },
+    {
+        "english": "What is your favorite type of book?",
+        "chinese": "你最喜欢的书籍类型是什么？",
+        "level": "l1_310"
+    },
+    {
+        "english": "I'm planning to visit a historical site to learn about the past.",
+        "chinese": "我计划去参观一个历史遗址，了解过去。",
+        "level": "l1_311"
+    },
+    {
+        "english": "How do I ask for directions using a map?",
+        "chinese": "我如何使用地图问路？",
+        "level": "l1_312"
+    },
+    {
+        "english": "Can you recommend a good place to learn dance?",
+        "chinese": "你能推荐一个好的学习舞蹈的地方吗？",
+        "level": "l1_313"
+    },
+    {
+        "english": "I'm sorry, I don't have any small denomination bills.",
+        "chinese": "对不起，我没有小面额的钞票。",
+        "level": "l1_314"
+    },
+    {
+        "english": "How do I make changes to a hotel reservation?",
+        "chinese": "我如何修改酒店预订？",
+        "level": "l1_315"
+    },
+    {
+        "english": "Can you teach me some common expressions for expressing sympathy in English?",
+        "chinese": "你能教我一些英语中常用的表达同情的方式吗？",
+        "level": "l1_316"
+    },
+    {
+        "english": "I'm going to a workshop to develop my problem-solving skills.",
+        "chinese": "我要去参加一个研讨会，发展我的问题解决能力。",
+        "level": "l1_317"
+    },
+    {
+        "english": "How do I express my opinion in a constructive way?",
+        "chinese": "我如何以建设性的方式表达我的观点？",
+        "level": "l1_318"
+    },
+    {
+        "english": "I'm learning English to broaden my cultural understanding and appreciate diversity.",
+        "chinese": "我正在学习英语以拓宽我的文化理解和欣赏多样性。",
+        "level": "l1_319"
+    },
+    {
+        "english": "Can you recommend a good place to go for a shopping spree?",
+        "chinese": "你能推荐一个适合购物狂欢的好地方吗？",
+        "level": "l1_320"
+    },
+    {
+        "english": "I'm going to a workshop to improve my presentation skills.",
+        "chinese": "我要去参加一个研讨会，提高我的演讲技巧。",
+        "level": "l1_321"
+    },
+    {
+        "english": "What is your favorite type of cuisine?",
+        "chinese": "你最喜欢的菜系是什么？",
+        "level": "l1_322"
+    },
+    {
+        "english": "Can you help me find a good language exchange partner?",
+        "chinese": "你能帮我找到一个好的语言交流伙伴吗？",
+        "level": "l1_323"
+    },
+    {
+        "english": "I'm studying English to excel in my academic studies.",
+        "chinese": "我正在学习英语以在学业中出类拔萃。",
+        "level": "l1_324"
+    },
+    {
+        "english": "How do I order a drink at a bar?",
+        "chinese": "我如何在酒吧点饮料？",
+        "level": "l1_325"
+    },
+    {
+        "english": "Can you recommend a good place to go for a photography expedition?",
+        "chinese": "你能推荐一个好的摄影探险的地方吗？",
+        "level": "l1_326"
+    },
+    {
+        "english": "I'm sorry, I didn't mean to offend you.",
+        "chinese": "对不起，我不是故意冒犯你的。",
+        "level": "l1_327"
+    },
+    {
+        "english": "How do I say \"pardon me\" in a polite way?",
+        "chinese": "我如何以礼貌的方式说“请原谅”？",
+        "level": "l1_328"
+    },
+    {
+        "english": "I'm going to a music concert this summer.",
+        "chinese": "这个夏天我要去参加一个音乐演唱会。",
+        "level": "l1_329"
+    },
+    {
+        "english": "What is your favorite genre of movies?",
+        "chinese": "你最喜欢的电影类型是什么？",
+        "level": "l1_330"
+    },
+    {
+        "english": "I'm planning to visit a botanical garden to admire the flowers.",
+        "chinese": "我计划去参观一个植物园欣赏花朵。",
+        "level": "l1_331"
+    },
+    {
+        "english": "How do I ask for directions using landmarks?",
+        "chinese": "我如何使用地标问路？",
+        "level": "l1_332"
+    },
+    {
+        "english": "Can you recommend a good place to learn cooking?",
+        "chinese": "你能推荐一个好的学习烹饪的地方吗？",
+        "level": "l1_333"
+    },
+    {
+        "english": "I'm sorry, I don't have any small change with me.",
+        "chinese": "对不起，我身上没有零钱。",
+        "level": "l1_334"
+    },
+    {
+        "english": "How do I make changes to a car rental reservation?",
+        "chinese": "我如何修改汽车租赁预订？",
+        "level": "l1_335"
+    },
+    {
+        "english": "Can you teach me some common expressions for expressing apologies in English?",
+        "chinese": "你能教我一些英语中常用的表示道歉的表达吗？",
+        "level": "l1_336"
+    },
+    {
+        "english": "I'm going to a workshop to develop my time management skills.",
+        "chinese": "我要去参加一个研讨会，发展我的时间管理能力。",
+        "level": "l1_337"
+    },
+    {
+        "english": "How do I express my preferences in a polite manner?",
+        "chinese": "我如何以礼貌的方式表达我的偏好？",
+        "level": "l1_338"
+    },
+    {
+        "english": "I'm learning English to foster cross-cultural understanding and global communication.",
+        "chinese": "我正在学习英语以促进跨文化理解和全球沟通。",
+        "level": "l1_339"
+    },
+    {
+        "english": "Can you recommend a good place to go for a cultural experience?",
+        "chinese": "你能推荐一个适合体验文化的好地方吗？",
+        "level": "l1_340"
+    },
+    {
+        "english": "I'm going to a workshop to enhance my problem-solving abilities.",
+        "chinese": "我要去参加一个研讨会，提升我的问题解决能力。",
+        "level": "l1_341"
+    },
+    {
+        "english": "What is your favorite type of cuisine?",
+        "chinese": "你最喜欢的菜系是什么？",
+        "level": "l1_342"
+    },
+    {
+        "english": "Can you help me find a good language tutor?",
+        "chinese": "你能帮我找到一个好的语言导师吗？",
+        "level": "l1_343"
+    },
+    {
+        "english": "I'm studying English to broaden my career opportunities.",
+        "chinese": "我正在学习英语以拓宽我的职业机会。",
+        "level": "l1_344"
+    },
+    {
+        "english": "How do I order a taxi or ride-sharing service?",
+        "chinese": "我如何叫出租车或共乘服务？",
+        "level": "l1_345"
+    },
+    {
+        "english": "Can you recommend a good place to go for wildlife spotting?",
+        "chinese": "你能推荐一个好的观赏野生动物的地方吗？",
+        "level": "l1_346"
+    },
+    {
+        "english": "I'm sorry, I didn't mean to bother you.",
+        "chinese": "对不起，我不是故意打扰你的。",
+        "level": "l1_347"
+    },
+    {
+        "english": "How do I say \"please\" in a polite way?",
+        "chinese": "我如何以礼貌的方式说“请”？",
+        "level": "l1_348"
+    },
+    {
+        "english": "I'm going to a music festival next month.",
+        "chinese": "下个月我要去参加一个音乐节。",
+        "level": "l1_349"
+    },
+    {
+        "english": "What is your favorite genre of literature?",
+        "chinese": "你最喜欢的文学体裁是什么？",
+        "level": "l1_350"
+    },
+    {
+        "english": "I'm planning to visit a science museum to explore scientific discoveries.",
+        "chinese": "我计划去参观一个科学博物馆探索科学发现。",
+        "level": "l1_351"
+    },
+    {
+        "english": "How do I ask for help when I'm lost?",
+        "chinese": "我迷路时如何寻求帮助？",
+        "level": "l1_352"
+    },
+    {
+        "english": "Can you recommend a good place to learn martial arts?",
+        "chinese": "你能推荐一个好的学习武术的地方吗？",
+        "level": "l1_353"
+    },
+    {
+        "english": "I'm sorry, I don't have any exact change.",
+        "chinese": "对不起，我没有零钱。",
+        "level": "l1_354"
+    },
+    {
+        "english": "How do I make changes to a bus ticket reservation?",
+        "chinese": "我如何修改巴士票预订？",
+        "level": "l1_355"
+    },
+    {
+        "english": "Can you teach me some common expressions for expressing condolences in English?",
+        "chinese": "你能教我一些英语中常用的表达慰问的方式吗？",
+        "level": "l1_356"
+    },
+    {
+        "english": "I'm going to a workshop to enhance my creativity.",
+        "chinese": "我要去参加一个研讨会，提升我的创造力。",
+        "level": "l1_357"
+    },
+    {
+        "english": "How do I express my agreement in a respectful way?",
+        "chinese": "我如何以尊重的方式表达我的同意？",
+        "level": "l1_358"
+    },
+    {
+        "english": "I'm learning English to enrich my cultural knowledge and connect with people from around the world.",
+        "chinese": "我正在学习英语以丰富我的文化知识，并与世界各地的人建立联系。",
+        "level": "l1_359"
+    },
+    {
+        "english": "Can you recommend a good place to go for outdoor activities?",
+        "chinese": "你能推荐一个适合户外活动的好地方吗？",
+        "level": "l1_360"
+    },
+    {
+        "english": "I'm going to a workshop to improve my negotiation skills.",
+        "chinese": "我要去参加一个研讨会，提高我的谈判技巧。",
+        "level": "l1_361"
+    },
+    {
+        "english": "What is your favorite type of cuisine?",
+        "chinese": "你最喜欢的菜系是什么？",
+        "level": "l1_362"
+    },
+    {
+        "english": "Can you help me find a good language exchange group?",
+        "chinese": "你能帮我找到一个好的语言交流群组吗？",
+        "level": "l1_363"
+    },
+    {
+        "english": "I'm studying English to enhance my communication skills in the workplace.",
+        "chinese": "我正在学习英语以提升我在工作场所的沟通能力。",
+        "level": "l1_364"
+    },
+    {
+        "english": "How do I order food at a food court?",
+        "chinese": "我如何在美食广场点餐？",
+        "level": "l1_365"
+    },
+    {
+        "english": "Can you recommend a good place to go for a beach vacation?",
+        "chinese": "你能推荐一个适合海滩度假的好地方吗？",
+        "level": "l1_366"
+    },
+    {
+        "english": "I'm sorry, I didn't mean to disturb you.",
+        "chinese": "对不起，我不是故意打扰你的。",
+        "level": "l1_367"
+    },
+    {
+        "english": "How do I say \"thank you\" in a polite way?",
+        "chinese": "我如何以礼貌的方式说“谢谢”？",
+        "level": "l1_368"
+    },
+    {
+        "english": "I'm going to a theater to watch a play this weekend.",
+        "chinese": "这个周末我要去剧院看一场戏剧。",
+        "level": "l1_369"
+    },
+    {
+        "english": "What is your favorite type of artwork?",
+        "chinese": "你最喜欢的艺术作品类型是什么？",
+        "level": "l1_370"
+    },
+    {
+        "english": "I'm planning to visit a local market to experience the local culture.",
+        "chinese": "我计划去参观一个当地市场，体验当地文化。",
+        "level": "l1_371"
+    },
+    {
+        "english": "How do I ask for directions when I'm in a foreign country?",
+        "chinese": "我在外国时如何问路？",
+        "level": "l1_372"
+    },
+    {
+        "english": "Can you recommend a good place to learn pottery?",
+        "chinese": "你能推荐一个好的学习陶艺的地方吗？",
+        "level": "l1_373"
+    },
+    {
+        "english": "I'm sorry, I don't have any coins.",
+        "chinese": "对不起，我没有硬币。",
+        "level": "l1_374"
+    },
+    {
+        "english": "How do I make changes to a flight reservation?",
+        "chinese": "我如何修改航班预订？",
+        "level": "l1_375"
+    },
+    {
+        "english": "Can you teach me some common expressions for expressing surprise in English?",
+        "chinese": "你能教我一些英语中常用的表达惊讶的方式吗？",
+        "level": "l1_376"
+    },
+    {
+        "english": "I'm going to a workshop to improve my critical thinking skills.",
+        "chinese": "我要去参加一个研讨会，提高我的批判性思维能力。",
+        "level": "l1_377"
+    },
+    {
+        "english": "How do I express my emotions in a respectful way?",
+        "chinese": "我如何以尊重的方式表达我的情感？",
+        "level": "l1_378"
+    },
+    {
+        "english": "I'm learning English to enhance my personal growth and self-expression.",
+        "chinese": "我正在学习英语以提升我的个人成长和自我表达能力。",
+        "level": "l1_379"
+    },
+    {
+        "english": "Can you recommend a good place to go for hiking?",
+        "chinese": "你能推荐一个适合徒步的好地方吗？",
+        "level": "l1_380"
+    },
+    {
+        "english": "I'm going to a workshop to develop my teamwork skills.",
+        "chinese": "我要去参加一个研讨会，发展我的团队合作能力。",
+        "level": "l1_381"
+    },
+    {
+        "english": "What is your favorite type of cuisine?",
+        "chinese": "你最喜欢的菜系是什么？",
+        "level": "l1_382"
+    },
+    {
+        "english": "Can you help me find a good language learning app?",
+        "chinese": "你能帮我找到一个好的语言学习应用吗？",
+        "level": "l1_383"
+    },
+    {
+        "english": "I'm studying English to pursue higher education opportunities abroad.",
+        "chinese": "我正在学习英语以追求海外的高等教育机会。",
+        "level": "l1_384"
+    },
+    {
+        "english": "How do I order food at a buffet restaurant?",
+        "chinese": "我如何在自助餐厅点餐？",
+        "level": "l1_385"
+    },
+    {
+        "english": "Can you recommend a good place to go for a camping trip?",
+        "chinese": "你能推荐一个适合露营的好地方吗？",
+        "level": "l1_386"
+    },
+    {
+        "english": "I'm sorry, I didn't mean to inconvenience you.",
+        "chinese": "对不起，我不是故意给你添麻烦的。",
+        "level": "l1_387"
+    },
+    {
+        "english": "How do I say \"excuse me\" when I need to get through a crowded place?",
+        "chinese": "我在拥挤的地方如何说“对不起”以示让路？",
+        "level": "l1_388"
+    },
+    {
+        "english": "I'm going to a museum exhibition next week.",
+        "chinese": "下周我要去参观一个博物馆展览。",
+        "level": "l1_389"
+    },
+    {
+        "english": "What is your favorite genre of music?",
+        "chinese": "你最喜欢的音乐类型是什么？",
+        "level": "l1_390"
+    },
+    {
+        "english": "I'm planning to visit an art gallery to appreciate different art forms.",
+        "chinese": "我计划去参观一个艺术画廊，欣赏不同的艺术形式。",
+        "level": "l1_391"
+    },
+    {
+        "english": "How do I ask for help when I don't understand something?",
+        "chinese": "我不明白时如何寻求帮助？",
+        "level": "l1_392"
+    },
+    {
+        "english": "Can you recommend a good place to learn yoga?",
+        "chinese": "你能推荐一个好的学习瑜伽的地方吗？",
+        "level": "l1_393"
+    },
+    {
+        "english": "I'm sorry, I don't have any change with me.",
+        "chinese": "对不起，我身上没有零钱。",
+        "level": "l1_394"
+    },
+    {
+        "english": "How do I make changes to a train ticket reservation?",
+        "chinese": "我如何修改火车票预订？",
+        "level": "l1_395"
+    },
+    {
+        "english": "Can you teach me some common expressions for expressing gratitude in English?",
+        "chinese": "你能教我一些英语中常用的表达感激之情的方式吗？",
+        "level": "l1_396"
+    },
+    {
+        "english": "I'm going to a workshop to develop my public speaking skills.",
+        "chinese": "我要去参加一个研讨会，发展我的公众演讲技巧。",
+        "level": "l1_397"
+    },
+    {
+        "english": "How do I express my disagreement in a respectful way?",
+        "chinese": "我如何以尊重的方式表达我的不同意？",
+        "level": "l1_398"
+    },
+    {
+        "english": "I'm learning English to broaden my horizons and connect with people from different cultures.",
+        "chinese": "我正在学习英语以拓宽我的视野，并与来自不同文化的人们建立联系。",
+        "level": "l1_399"
+    },
+    {
+        "english": "Can you recommend a good place to go for a sightseeing tour?",
+        "chinese": "你能推荐一个适合观光旅游的好地方吗？",
+        "level": "l1_400"
+    },
+    {
+        "english": "I'm going to a workshop to enhance my leadership skills.",
+        "chinese": "我要去参加一个研讨会，提升我的领导能力。",
+        "level": "l1_401"
+    },
+    {
+        "english": "What is your favorite type of cuisine?",
+        "chinese": "你最喜欢的菜系是什么？",
+        "level": "l1_402"
+    },
+    {
+        "english": "Can you help me find a good online language course?",
+        "chinese": "你能帮我找到一个好的在线语言课程吗？",
+        "level": "l1_403"
+    },
+    {
+        "english": "I'm studying English to improve my job prospects.",
+        "chinese": "我正在学习英语以改善我的就业前景。",
+        "level": "l1_404"
+    },
+    {
+        "english": "How do I order a meal at a fast-food restaurant?",
+        "chinese": "我如何在快餐店点餐？",
+        "level": "l1_405"
+    },
+    {
+        "english": "Can you recommend a good place to go for a skiing vacation?",
+        "chinese": "你能推荐一个适合滑雪度假的好地方吗？",
+        "level": "l1_406"
+    },
+    {
+        "english": "I'm sorry, I didn't mean to interrupt you.",
+        "chinese": "对不起，我不是故意打断你的。",
+        "level": "l1_407"
+    },
+    {
+        "english": "How do I say \"I'm sorry\" when I make a mistake?",
+        "chinese": "我犯错时如何说“对不起”？",
+        "level": "l1_408"
+    },
+    {
+        "english": "I'm going to a music concert next month.",
+        "chinese": "下个月我要去参加一个音乐会。",
+        "level": "l1_409"
+    },
+    {
+        "english": "What is your favorite genre of books?",
+        "chinese": "你最喜欢的书籍类型是什么？",
+        "level": "l1_410"
+    },
+    {
+        "english": "I'm planning to visit a historical landmark to learn about the past.",
+        "chinese": "我计划去参观一个历史名胜，了解过去的事情。",
+        "level": "l1_411"
+    },
+    {
+        "english": "How do I ask for directions when I'm in a new city?",
+        "chinese": "我在一个新城市时如何问路？",
+        "level": "l1_412"
+    },
+    {
+        "english": "Can you recommend a good place to learn dance?",
+        "chinese": "你能推荐一个好的学习舞蹈的地方吗？",
+        "level": "l1_413"
+    },
+    {
+        "english": "I'm sorry, I don't have any cash on me.",
+        "chinese": "对不起，我身上没有现金。",
+        "level": "l1_414"
+    },
+    {
+        "english": "How do I make changes to a hotel reservation?",
+        "chinese": "我如何修改酒店预订？",
+        "level": "l1_415"
+    },
+    {
+        "english": "Can you teach me some common expressions for expressing happiness in English?",
+        "chinese": "你能教我一些英语中常用的表达快乐的方式吗？",
+        "level": "l1_416"
+    },
+    {
+        "english": "I'm going to a workshop to develop my problem-solving skills.",
+        "chinese": "我要去参加一个研讨会，发展我的问题解决能力。",
+        "level": "l1_417"
+    },
+    {
+        "english": "How do I express my opinion in a respectful way?",
+        "chinese": "我如何以尊重的方式表达我的观点？",
+        "level": "l1_418"
+    },
+    {
+        "english": "I'm learning English to expand my global network and explore new opportunities.",
+        "chinese": "我正在学习英语以扩展我的全球网络并探索新机会。",
+        "level": "l1_419"
+    },
+    {
+        "english": "Can you recommend a good place to go for a photography expedition?",
+        "chinese": "你能推荐一个适合摄影探险的好地方吗？",
+        "level": "l1_420"
+    },
+    {
+        "english": "I'm going to a workshop to improve my time management skills.",
+        "chinese": "我要去参加一个研讨会，提高我的时间管理能力。",
+        "level": "l1_421"
+    },
+    {
+        "english": "What is your favorite type of cuisine?",
+        "chinese": "你最喜欢的菜系是什么？",
+        "level": "l1_422"
+    },
+    {
+        "english": "Can you help me find a good language exchange partner?",
+        "chinese": "你能帮我找到一个好的语言交流伙伴吗？",
+        "level": "l1_423"
+    },
+    {
+        "english": "I'm studying English to communicate effectively in international business settings.",
+        "chinese": "我正在学习英语以在国际商务环境中有效沟通。",
+        "level": "l1_424"
+    },
+    {
+        "english": "How do I order a coffee at a cafe?",
+        "chinese": "我如何在咖啡馆点咖啡？",
+        "level": "l1_425"
+    },
+    {
+        "english": "Can you recommend a good place to go for a family vacation?",
+        "chinese": "你能推荐一个适合家庭度假的好地方吗？",
+        "level": "l1_426"
+    },
+    {
+        "english": "I'm sorry, I didn't mean to offend you.",
+        "chinese": "对不起，我不是故意冒犯你的。",
+        "level": "l1_427"
+    },
+    {
+        "english": "How do I say \"you're welcome\" in a polite way?",
+        "chinese": "我如何以礼貌的方式说“不客气”？",
+        "level": "l1_428"
+    },
+    {
+        "english": "I'm going to a film festival next week.",
+        "chinese": "下周我要去参加一个电影节。",
+        "level": "l1_429"
+    },
+    {
+        "english": "What is your favorite genre of movies?",
+        "chinese": "你最喜欢的电影类型是什么？",
+        "level": "l1_430"
+    },
+    {
+        "english": "I'm planning to visit a botanical garden to appreciate different plant species.",
+        "chinese": "我计划去参观一个植物园，欣赏不同的植物物种。",
+        "level": "l1_431"
+    },
+    {
+        "english": "How do I ask for assistance when I need help with something?",
+        "chinese": "我需要帮助时如何请求协助？",
+        "level": "l1_432"
+    },
+    {
+        "english": "Can you recommend a good place to learn painting?",
+        "chinese": "你能推荐一个好的学习绘画的地方吗？",
+        "level": "l1_433"
+    },
+    {
+        "english": "I'm sorry, I don't have any small bills.",
+        "chinese": "对不起，我没有零钱。",
+        "level": "l1_434"
+    },
+    {
+        "english": "How do I make changes to a car rental reservation?",
+        "chinese": "我如何修改租车预订？",
+        "level": "l1_435"
+    },
+    {
+        "english": "Can you teach me some common expressions for expressing excitement in English?",
+        "chinese": "你能教我一些英语中常用的表达兴奋的方式吗？",
+        "level": "l1_436"
+    },
+    {
+        "english": "I'm going to a workshop to develop my decision-making skills.",
+        "chinese": "我要去参加一个研讨会，发展我的决策能力。",
+        "level": "l1_437"
+    },
+    {
+        "english": "How do I express my preferences in a respectful way?",
+        "chinese": "我如何以尊重的方式表达我的偏好？",
+        "level": "l1_438"
+    },
+    {
+        "english": "I'm learning English to enhance my understanding of different cultures and perspectives.",
+        "chinese": "我正在学习英语以增进我对不同文化和观点的理解。",
+        "level": "l1_439"
+    },
+    {
+        "english": "Can you recommend a good place to go for a weekend getaway?",
+        "chinese": "你能推荐一个适合周末短途旅行的好地方吗？",
+        "level": "l1_440"
+    },
+    {
+        "english": "I'm going to a workshop to improve my presentation skills.",
+        "chinese": "我要去参加一个研讨会，提高我的演讲技巧。",
+        "level": "l1_441"
+    },
+    {
+        "english": "What is your favorite type of cuisine?",
+        "chinese": "你最喜欢的菜系是什么？",
+        "level": "l1_442"
+    },
+    {
+        "english": "Can you help me find a good English tutor?",
+        "chinese": "你能帮我找到一个好的英语家教吗？",
+        "level": "l1_443"
+    },
+    {
+        "english": "I'm studying English to expand my social network and meet new people.",
+        "chinese": "我正在学习英语以扩大我的社交网络并结识新朋友。",
+        "level": "l1_444"
+    },
+    {
+        "english": "How do I order food at a restaurant with a menu in English?",
+        "chinese": "我如何在一家英文菜单的餐厅点餐？",
+        "level": "l1_445"
+    },
+    {
+        "english": "Can you recommend a good place to go for a hiking trip?",
+        "chinese": "你能推荐一个适合徒步旅行的好地方吗？",
+        "level": "l1_446"
+    },
+    {
+        "english": "I'm sorry, I didn't mean to bother you.",
+        "chinese": "对不起，我不是故意打扰你的。",
+        "level": "l1_447"
+    },
+    {
+        "english": "How do I say \"I love you\" to someone special?",
+        "chinese": "我如何对特别的人说“我爱你”？",
+        "level": "l1_448"
+    },
+    {
+        "english": "I'm going to a music festival this summer.",
+        "chinese": "这个夏天我要去参加一个音乐节。",
+        "level": "l1_449"
+    },
+    {
+        "english": "What is your favorite type of sports?",
+        "chinese": "你最喜欢的运动类型是什么？",
+        "level": "l1_450"
+    },
+    {
+        "english": "I'm planning to visit a science museum to learn about scientific discoveries.",
+        "chinese": "我计划去参观一个科学博物馆，了解科学发现。",
+        "level": "l1_451"
+    },
+    {
+        "english": "How do I ask for help when I don't understand a concept?",
+        "chinese": "当我不理解一个概念时，我如何寻求帮助？",
+        "level": "l1_452"
+    },
+    {
+        "english": "Can you recommend a good place to learn photography?",
+        "chinese": "你能推荐一个好的学习摄影的地方吗？",
+        "level": "l1_453"
+    },
+    {
+        "english": "I'm sorry, I don't have exact change.",
+        "chinese": "对不起，我没有零钱。",
+        "level": "l1_454"
+    },
+    {
+        "english": "How do I make changes to a hotel reservation?",
+        "chinese": "我如何修改酒店预订？",
+        "level": "l1_455"
+    },
+    {
+        "english": "Can you teach me some common expressions for expressing surprise in English?",
+        "chinese": "你能教我一些英语中常用的表达惊讶的方式吗？",
+        "level": "l1_456"
+    },
+    {
+        "english": "I'm going to a workshop to develop my problem-solving skills.",
+        "chinese": "我要去参加一个研讨会，发展我的解决问题的能力。",
+        "level": "l1_457"
+    },
+    {
+        "english": "How do I express my opinion in a polite way?",
+        "chinese": "我如何以礼貌的方式表达我的观点？",
+        "level": "l1_458"
+    },
+    {
+        "english": "I'm learning English to improve my chances of studying abroad.",
+        "chinese": "我正在学习英语以提高我出国留学的机会。",
+        "level": "l1_459"
+    },
+    {
+        "english": "Can you recommend a good place to go for a beach vacation?",
+        "chinese": "你能推荐一个适合海滩度假的好地方吗？",
+        "level": "l1_460"
+    },
+    {
+        "english": "I'm going to a workshop to enhance my negotiation skills.",
+        "chinese": "我要去参加一个研讨会，提升我的谈判技巧。",
+        "level": "l1_461"
+    },
+    {
+        "english": "What is your favorite type of cuisine?",
+        "chinese": "你最喜欢的菜系是什么？",
+        "level": "l1_462"
+    },
+    {
+        "english": "Can you help me find a good online language exchange platform?",
+        "chinese": "你能帮我找到一个好的在线语言交流平台吗？",
+        "level": "l1_463"
+    },
+    {
+        "english": "I'm studying English to improve my communication skills in the professional field.",
+        "chinese": "我正在学习英语以提高我的职业领域沟通能力。",
+        "level": "l1_464"
+    },
+    {
+        "english": "How do I order a taxi to the airport?",
+        "chinese": "我如何叫出租车去机场？",
+        "level": "l1_465"
+    },
+    {
+        "english": "Can you recommend a good place to go for a cultural tour?",
+        "chinese": "你能推荐一个适合文化之旅的好地方吗？",
+        "level": "l1_466"
+    },
+    {
+        "english": "I'm sorry, I didn't mean to disturb you.",
+        "chinese": "对不起，我不是故意打扰你的。",
+        "level": "l1_467"
+    },
+    {
+        "english": "How do I say \"thank you\" when someone does something kind for me?",
+        "chinese": "当有人对我做了善事时，我如何表达谢意？",
+        "level": "l1_468"
+    },
+    {
+        "english": "I'm going to a fashion show next month.",
+        "chinese": "下个月我要去参加一个时装秀。",
+        "level": "l1_469"
+    },
+    {
+        "english": "What is your favorite type of music instrument?",
+        "chinese": "你最喜欢的音乐乐器是什么？",
+        "level": "l1_470"
+    },
+    {
+        "english": "I'm planning to visit an archaeological site to learn about ancient civilizations.",
+        "chinese": "我计划去参观一个考古遗址，了解古代文明。",
+        "level": "l1_471"
+    },
+    {
+        "english": "How do I ask for directions when I'm lost in a new city?",
+        "chinese": "当我在一个新城市迷路时，我如何问路？",
+        "level": "l1_472"
+    },
+    {
+        "english": "Can you recommend a good place to learn martial arts?",
+        "chinese": "你能推荐一个好的学习武术的地方吗？",
+        "level": "l1_473"
+    },
+    {
+        "english": "I'm sorry, I don't have any change with me.",
+        "chinese": "对不起，我身上没有零钱。",
+        "level": "l1_474"
+    },
+    {
+        "english": "How do I make changes to a flight reservation?",
+        "chinese": "我如何修改机票预订？",
+        "level": "l1_475"
+    },
+    {
+        "english": "Can you teach me some common expressions for expressing sadness in English?",
+        "chinese": "你能教我一些英语中常用的表达悲伤的方式吗？",
+        "level": "l1_476"
+    },
+    {
+        "english": "I'm going to a workshop to develop my critical thinking skills.",
+        "chinese": "我要去参加一个研讨会，发展我的批判性思维能力。",
+        "level": "l1_477"
+    },
+    {
+        "english": "How do I express my preferences without offending others?",
+        "chinese": "我如何表达自己的偏好而不冒犯他人？",
+        "level": "l1_478"
+    },
+    {
+        "english": "I'm learning English to broaden my career opportunities and work internationally.",
+        "chinese": "我正在学习英语以扩大我的职业机会并在国际上工作。",
+        "level": "l1_479"
+    },
+    {
+        "english": "Can you recommend a good place to go for a camping trip?",
+        "chinese": "你能推荐一个适合露营的好地方吗？",
+        "level": "l1_480"
+    },
+    {
+        "english": "I'm going to a workshop to improve my public speaking skills.",
+        "chinese": "我要去参加一个研讨会，提高我的公众演讲技巧。",
+        "level": "l1_481"
+    },
+    {
+        "english": "What is your favorite type of cuisine?",
+        "chinese": "你最喜欢的菜系是什么？",
+        "level": "l1_482"
+    },
+    {
+        "english": "Can you help me find a good language learning app?",
+        "chinese": "你能帮我找到一个好的语言学习应用程序吗？",
+        "level": "l1_483"
+    },
+    {
+        "english": "I'm studying English to excel in my academic studies.",
+        "chinese": "我正在学习英语以在学业上取得优异成绩。",
+        "level": "l1_484"
+    },
+    {
+        "english": "How do I order a drink at a bar?",
+        "chinese": "我如何在酒吧点饮料？",
+        "level": "l1_485"
+    },
+    {
+        "english": "Can you recommend a good place to go for a wildlife safari?",
+        "chinese": "你能推荐一个适合野生动物观察之旅的好地方吗？",
+        "level": "l1_486"
+    },
+    {
+        "english": "I'm sorry, I didn't mean to hurt your feelings.",
+        "chinese": "对不起，我不是故意伤害你的感情。",
+        "level": "l1_487"
+    },
+    {
+        "english": "How do I say \"excuse me\" when I need to get someone's attention?",
+        "chinese": "当我需要引起某人注意时，我如何说“对不起”？",
+        "level": "l1_488"
+    },
+    {
+        "english": "I'm going to a theater performance this weekend.",
+        "chinese": "这个周末我要去参加一个剧场演出。",
+        "level": "l1_489"
+    },
+    {
+        "english": "What is your favorite type of art?",
+        "chinese": "你最喜欢的艺术类型是什么？",
+        "level": "l1_490"
+    },
+    {
+        "english": "I'm planning to visit a natural park to explore the beauty of nature.",
+        "chinese": "我计划去参观一个自然公园，探索大自然的美丽。",
+        "level": "l1_491"
+    },
+    {
+        "english": "How do I ask for help when I have a problem?",
+        "chinese": "当我遇到问题时，我如何寻求帮助？",
+        "level": "l1_492"
+    },
+    {
+        "english": "Can you recommend a good place to learn yoga?",
+        "chinese": "你能推荐一个好的学习瑜伽的地方吗？",
+        "level": "l1_493"
+    },
+    {
+        "english": "I'm sorry, I don't have any change for the vending machine.",
+        "chinese": "对不起，我没有零钱用于自动售货机。",
+        "level": "l1_494"
+    },
+    {
+        "english": "How do I make changes to a train ticket reservation?",
+        "chinese": "我如何修改火车票预订？",
+        "level": "l1_495"
+    },
+    {
+        "english": "Can you teach me some common expressions for expressing gratitude in English?",
+        "chinese": "你能教我一些英语中常用的表达感激的方式吗？",
+        "level": "l1_496"
+    },
+    {
+        "english": "I'm going to a workshop to develop my leadership skills.",
+        "chinese": "我要去参加一个研讨会，发展我的领导能力。",
+        "level": "l1_497"
+    },
+    {
+        "english": "How do I express my opinion while respecting others' views?",
+        "chinese": "我如何在尊重他人观点的同时表达自己的意见？",
+        "level": "l1_498"
+    },
+    {
+        "english": "I'm learning English to have better opportunities for higher education and career advancement.",
+        "chinese": "我正在学习英语以获得更好的高等教育和职业发展机会。",
+        "level": "l1_499"
+    },
+    {
+        "english": "Can you recommend a good place to go for a family vacation?",
+        "chinese": "你能推荐一个适合家庭度假的好地方吗？",
+        "level": "l1_500"
+    },
+    {
+        "english": "I'm going to a workshop to improve my time management skills.",
+        "chinese": "我要去参加一个研讨会，提高我的时间管理技巧。",
+        "level": "l1_501"
+    },
+    {
+        "english": "What is your favorite type of cuisine?",
+        "chinese": "你最喜欢的菜系是什么？",
+        "level": "l1_502"
+    },
+    {
+        "english": "Can you help me find a good online English course?",
+        "chinese": "你能帮我找到一个好的在线英语课程吗？",
+        "level": "l1_503"
+    },
+    {
+        "english": "I'm studying English to enhance my job prospects and career growth.",
+        "chinese": "我正在学习英语以提升我的就业前景和职业发展。",
+        "level": "l1_504"
+    },
+    {
+        "english": "How do I order a meal for delivery?",
+        "chinese": "我如何点外卖？",
+        "level": "l1_505"
+    },
+    {
+        "english": "Can you recommend a good place to go for a sightseeing tour?",
+        "chinese": "你能推荐一个适合观光旅游的好地方吗？",
+        "level": "l1_506"
+    },
+    {
+        "english": "I'm sorry, I didn't mean to interrupt your conversation.",
+        "chinese": "对不起，我不是故意打断你们的谈话。",
+        "level": "l1_507"
+    },
+    {
+        "english": "How do I say \"I'm sorry\" when I make a mistake?",
+        "chinese": "当我犯错时，我如何说“对不起”？",
+        "level": "l1_508"
+    },
+    {
+        "english": "I'm going to a music concert next week.",
+        "chinese": "下周我要去参加一个音乐会。",
+        "level": "l1_509"
+    },
+    {
+        "english": "What is your favorite type of literature?",
+        "chinese": "你最喜欢的文学类型是什么？",
+        "level": "l1_510"
+    },
+    {
+        "english": "I'm planning to visit an art gallery to appreciate different art forms.",
+        "chinese": "我计划去参观一个艺术画廊，欣赏不同的艺术形式。",
+        "level": "l1_511"
+    },
+    {
+        "english": "How do I ask for directions when I'm in a new neighborhood?",
+        "chinese": "当我在一个新的社区时，我如何问路？",
+        "level": "l1_512"
+    },
+    {
+        "english": "Can you recommend a good place to learn dancing?",
+        "chinese": "你能推荐一个好的学习跳舞的地方吗？",
+        "level": "l1_513"
+    },
+    {
+        "english": "I'm sorry, I don't have any small change for the parking meter.",
+        "chinese": "对不起，我没有零钱给停车收费器。",
+        "level": "l1_514"
+    },
+    {
+        "english": "How do I make changes to a rental car reservation?",
+        "chinese": "我如何修改租车预订？",
+        "level": "l1_515"
+    },
+    {
+        "english": "Can you teach me some common expressions for expressing happiness in English?",
+        "chinese": "你能教我一些英语中常用的表达幸福的方式吗？",
+        "level": "l1_516"
+    },
+    {
+        "english": "I'm going to a workshop to develop my teamwork skills.",
+        "chinese": "我要去参加一个研讨会，发展我的团队合作能力。",
+        "level": "l1_517"
+    },
+    {
+        "english": "How do I express my agreement or disagreement politely?",
+        "chinese": "我如何礼貌地表达我的同意或不同意？",
+        "level": "l1_518"
+    },
+    {
+        "english": "I'm learning English to broaden my horizons and explore different cultures.",
+        "chinese": "我正在学习英语以开阔我的眼界，探索不同的文化。",
+        "level": "l1_519"
+    },
+    {
+        "english": "Can you recommend a good place to go for a hiking adventure?",
+        "chinese": "你能推荐一个适合徒步探险的好地方吗？",
+        "level": "l1_520"
+    },
+    {
+        "english": "I'm going to a workshop to improve my problem-solving skills.",
+        "chinese": "我要去参加一个研讨会，提高我的解决问题的能力。",
+        "level": "l1_521"
+    },
+    {
+        "english": "What is your favorite type of cuisine?",
+        "chinese": "你最喜欢的菜系是什么？",
+        "level": "l1_522"
+    },
+    {
+        "english": "Can you help me find a good online English tutor?",
+        "chinese": "你能帮我找到一个好的在线英语导师吗？",
+        "level": "l1_523"
+    },
+    {
+        "english": "I'm studying English to communicate effectively with people from different cultures.",
+        "chinese": "我正在学习英语以与来自不同文化的人有效沟通。",
+        "level": "l1_524"
+    },
+    {
+        "english": "How do I order food at a restaurant?",
+        "chinese": "我如何在餐厅点餐？",
+        "level": "l1_525"
+    },
+    {
+        "english": "Can you recommend a good place to go for a historical tour?",
+        "chinese": "你能推荐一个适合历史之旅的好地方吗？",
+        "level": "l1_526"
+    },
+    {
+        "english": "I'm sorry, I didn't mean to ignore your message.",
+        "chinese": "对不起，我不是故意忽视你的信息。",
+        "level": "l1_527"
+    },
+    {
+        "english": "How do I say \"I love you\" to someone special?",
+        "chinese": "当我对某个特别的人说“我爱你”时，我该怎么说？",
+        "level": "l1_528"
+    },
+    {
+        "english": "I'm going to a film festival next month.",
+        "chinese": "下个月我要去参加一个电影节。",
+        "level": "l1_529"
+    },
+    {
+        "english": "What is your favorite type of dance?",
+        "chinese": "你最喜欢的舞蹈类型是什么？",
+        "level": "l1_530"
+    },
+    {
+        "english": "I'm planning to visit a science museum to learn about scientific discoveries.",
+        "chinese": "我计划去参观一个科学博物馆，了解科学发现。",
+        "level": "l1_531"
+    },
+    {
+        "english": "How do I ask for help when I don't understand something?",
+        "chinese": "当我不明白时，我如何寻求帮助？",
+        "level": "l1_532"
+    },
+    {
+        "english": "Can you recommend a good place to learn photography?",
+        "chinese": "你能推荐一个好的学习摄影的地方吗？",
+        "level": "l1_533"
+    },
+    {
+        "english": "I'm sorry, I don't have any cash with me.",
+        "chinese": "对不起，我身上没有现金。",
+        "level": "l1_534"
+    },
+    {
+        "english": "How do I make changes to a hotel reservation?",
+        "chinese": "我如何修改酒店预订？",
+        "level": "l1_535"
+    },
+    {
+        "english": "Can you teach me some common expressions for expressing surprise in English?",
+        "chinese": "你能教我一些英语中常用的表达惊讶的方式吗？",
+        "level": "l1_536"
+    },
+    {
+        "english": "I'm going to a workshop to develop my creativity.",
+        "chinese": "我要去参加一个研讨会，发展我的创造力。",
+        "level": "l1_537"
+    },
+    {
+        "english": "How do I express my opinion without offending others?",
+        "chinese": "我如何表达自己的观点而不冒犯他人？",
+        "level": "l1_538"
+    },
+    {
+        "english": "I'm learning English to broaden my social connections and make new friends.",
+        "chinese": "我正在学习英语以扩大我的社交圈子并结交新朋友。",
+        "level": "l1_539"
+    },
+    {
+        "english": "Can you recommend a good place to go for a beach vacation?",
+        "chinese": "你能推荐一个适合海滩度假的好地方吗？",
+        "level": "l1_540"
+    },
+    {
+        "english": "I'm going to a workshop to improve my negotiation skills.",
+        "chinese": "我要去参加一个研讨会，提高我的谈判技巧。",
+        "level": "l1_541"
+    },
+    {
+        "english": "What is your favorite type of cuisine?",
+        "chinese": "你最喜欢的菜系是什么？",
+        "level": "l1_542"
+    },
+    {
+        "english": "Can you help me find a good English language exchange partner?",
+        "chinese": "你能帮我找到一个好的英语语言交流伙伴吗？",
+        "level": "l1_543"
+    },
+    {
+        "english": "I'm studying English to pursue international opportunities in my career.",
+        "chinese": "我正在学习英语以追求职业上的国际机会。",
+        "level": "l1_544"
+    },
+    {
+        "english": "How do I order a taxi or a ride-sharing service?",
+        "chinese": "我如何叫出租车或使用打车服务？",
+        "level": "l1_545"
+    },
+    {
+        "english": "Can you recommend a good place to go for a cultural immersion experience?",
+        "chinese": "你能推荐一个适合文化融入体验的好地方吗？",
+        "level": "l1_546"
+    },
+    {
+        "english": "I'm sorry, I didn't mean to criticize your work.",
+        "chinese": "对不起，我不是故意批评你的工作。",
+        "level": "l1_547"
+    },
+    {
+        "english": "How do I say \"thank you\" in a polite way?",
+        "chinese": "我如何以礼貌的方式说“谢谢”？",
+        "level": "l1_548"
+    },
+    {
+        "english": "I'm going to a music festival this summer.",
+        "chinese": "今年夏天我要去参加一个音乐节。",
+        "level": "l1_549"
+    },
+    {
+        "english": "What is your favorite type of music?",
+        "chinese": "你最喜欢的音乐类型是什么？",
+        "level": "l1_550"
+    },
+    {
+        "english": "I'm planning to visit a famous landmark to capture its beauty.",
+        "chinese": "我计划去参观一个著名的地标，捕捉它的美丽。",
+        "level": "l1_551"
+    },
+    {
+        "english": "How do I ask for directions when I'm lost?",
+        "chinese": "当我迷路时，我如何问路？",
+        "level": "l1_552"
+    },
+    {
+        "english": "Can you recommend a good place to learn painting?",
+        "chinese": "你能推荐一个好的学习绘画的地方吗？",
+        "level": "l1_553"
+    },
+    {
+        "english": "I'm sorry, I don't have exact change for the bus fare.",
+        "chinese": "对不起，我没有准确的零钱来付公交车费。",
+        "level": "l1_554"
+    },
+    {
+        "english": "How do I make changes to a flight reservation?",
+        "chinese": "我如何修改航班预订？",
+        "level": "l1_555"
+    },
+    {
+        "english": "Can you teach me some common expressions for expressing sadness in English?",
+        "chinese": "你能教我一些英语中常用的表达悲伤的方式吗？",
+        "level": "l1_556"
+    },
+    {
+        "english": "I'm going to a workshop to develop my problem-solving skills.",
+        "chinese": "我要去参加一个研讨会，发展我的问题解决能力。",
+        "level": "l1_557"
+    },
+    {
+        "english": "How do I express my preferences politely?",
+        "chinese": "我如何礼貌地表达我的偏好？",
+        "level": "l1_558"
+    },
+    {
+        "english": "I'm learning English to enhance my understanding of global issues and cultures.",
+        "chinese": "我正在学习英语以加深我对全球问题和文化的理解。",
+        "level": "l1_559"
+    },
+    {
+        "english": "Can you recommend a good place to go for a shopping spree?",
+        "chinese": "你能推荐一个适合购物的好地方吗？",
+        "level": "l1_560"
+    },
+    {
+        "english": "I'm going to a workshop to improve my presentation skills.",
+        "chinese": "我要去参加一个研讨会，提高我的演讲技巧。",
+        "level": "l1_561"
+    },
+    {
+        "english": "What is your favorite type of cuisine?",
+        "chinese": "你最喜欢的菜系是什么？",
+        "level": "l1_562"
+    },
+    {
+        "english": "Can you help me find a good English language learning app?",
+        "chinese": "你能帮我找到一个好的英语学习应用吗？",
+        "level": "l1_563"
+    },
+    {
+        "english": "I'm studying English to pursue higher education opportunities abroad.",
+        "chinese": "我正在学习英语以追求国外的高等教育机会。",
+        "level": "l1_564"
+    },
+    {
+        "english": "How do I order a coffee at a cafe?",
+        "chinese": "我如何在咖啡馆点咖啡？",
+        "level": "l1_565"
+    },
+    {
+        "english": "Can you recommend a good place to go for a wildlife safari?",
+        "chinese": "你能推荐一个适合野生动物观光的好地方吗？",
+        "level": "l1_566"
+    },
+    {
+        "english": "I'm sorry, I didn't mean to hurt your feelings.",
+        "chinese": "对不起，我不是故意伤害你的感情。",
+        "level": "l1_567"
+    },
+    {
+        "english": "How do I say \"excuse me\" when I need to get someone's attention?",
+        "chinese": "当我需要引起某人注意时，我该如何说“打扰一下”？",
+        "level": "l1_568"
+    },
+    {
+        "english": "I'm going to a theater performance next weekend.",
+        "chinese": "下个周末我要去看一场戏剧表演。",
+        "level": "l1_569"
+    },
+    {
+        "english": "What is your favorite genre of movies?",
+        "chinese": "你最喜欢的电影类型是什么？",
+        "level": "l1_570"
+    },
+    {
+        "english": "I'm planning to visit a botanical garden to admire different plant species.",
+        "chinese": "我计划去参观一个植物园，欣赏不同的植物物种。",
+        "level": "l1_571"
+    },
+    {
+        "english": "How do I ask for help in an emergency situation?",
+        "chinese": "当我遇到紧急情况时，我如何寻求帮助？",
+        "level": "l1_572"
+    },
+    {
+        "english": "Can you recommend a good place to learn yoga?",
+        "chinese": "你能推荐一个好的学习瑜伽的地方吗？",
+        "level": "l1_573"
+    },
+    {
+        "english": "I'm sorry, I don't have any change for the vending machine.",
+        "chinese": "对不起，我没有零钱给自动贩卖机。",
+        "level": "l1_574"
+    },
+    {
+        "english": "How do I make changes to a train ticket reservation?",
+        "chinese": "我如何修改火车票的预订？",
+        "level": "l1_575"
+    },
+    {
+        "english": "Can you teach me some common expressions for expressing excitement in English?",
+        "chinese": "你能教我一些英语中常用的表达兴奋的方式吗？",
+        "level": "l1_576"
+    },
+    {
+        "english": "I'm going to a workshop to develop my leadership skills.",
+        "chinese": "我要去参加一个研讨会，发展我的领导能力。",
+        "level": "l1_577"
+    },
+    {
+        "english": "How do I express my opinion in a respectful way?",
+        "chinese": "我如何以尊重的方式表达自己的观点？",
+        "level": "l1_578"
+    },
+    {
+        "english": "I'm learning English to expand my career opportunities and professional network.",
+        "chinese": "我正在学习英语以拓宽我的职业机会和专业人脉。",
+        "level": "l1_579"
+    },
+    {
+        "english": "Can you recommend a good place to go for a family vacation?",
+        "chinese": "你能推荐一个适合家庭度假的好地方吗？",
+        "level": "l1_580"
+    },
+    {
+        "english": "I'm going to a workshop to improve my time management skills.",
+        "chinese": "我要去参加一个研讨会，提高我的时间管理技巧。",
+        "level": "l1_581"
+    },
+    {
+        "english": "What is your favorite type of cuisine?",
+        "chinese": "你最喜欢的菜系是什么？",
+        "level": "l1_582"
+    },
+    {
+        "english": "Can you help me find a good English language school?",
+        "chinese": "你能帮我找到一个好的英语语言学校吗？",
+        "level": "l1_583"
+    },
+    {
+        "english": "I'm studying English to excel in my academic studies.",
+        "chinese": "我正在学习英语以在我的学业中取得优异成绩。",
+        "level": "l1_584"
+    },
+    {
+        "english": "How do I order a meal at a fast-food restaurant?",
+        "chinese": "我如何在快餐店点餐？",
+        "level": "l1_585"
+    },
+    {
+        "english": "Can you recommend a good place to go for an outdoor adventure?",
+        "chinese": "你能推荐一个适合户外探险的好地方吗？",
+        "level": "l1_586"
+    },
+    {
+        "english": "I'm sorry, I didn't mean to interrupt your conversation.",
+        "chinese": "对不起，我不是故意打断你们的对话。",
+        "level": "l1_587"
+    },
+    {
+        "english": "How do I say \"I'm sorry\" when I make a mistake?",
+        "chinese": "当我犯错误时，我该如何说“对不起”？",
+        "level": "l1_588"
+    },
+    {
+        "english": "I'm going to a music concert next month.",
+        "chinese": "下个月我要去参加一个音乐音乐会。",
+        "level": "l1_589"
+    },
+    {
+        "english": "What is your favorite type of literature?",
+        "chinese": "你最喜欢的文学类型是什么？",
+        "level": "l1_590"
+    },
+    {
+        "english": "I'm planning to visit an art gallery to appreciate different forms of artwork.",
+        "chinese": "我计划去参观一个艺术画廊，欣赏不同形式的艺术品。",
+        "level": "l1_591"
+    },
+    {
+        "english": "How do I ask for directions to a tourist attraction?",
+        "chinese": "当我需要问路去一个旅游景点时，我该如何问？",
+        "level": "l1_592"
+    },
+    {
+        "english": "Can you recommend a good place to learn martial arts?",
+        "chinese": "你能推荐一个好的学习武术的地方吗？",
+        "level": "l1_593"
+    },
+    {
+        "english": "I'm sorry, I don't have enough change for the parking meter.",
+        "chinese": "对不起，我没有足够的零钱给停车计时器。",
+        "level": "l1_594"
+    },
+    {
+        "english": "How do I make changes to a rental car reservation?",
+        "chinese": "我如何修改租车预订？",
+        "level": "l1_595"
+    },
+    {
+        "english": "Can you teach me some common expressions for expressing gratitude in English?",
+        "chinese": "你能教我一些英语中常用的表达感激的方式吗？",
+        "level": "l1_596"
+    },
+    {
+        "english": "I'm going to a workshop to develop my teamwork skills.",
+        "chinese": "我要去参加一个研讨会，发展我的团队合作能力。",
+        "level": "l1_597"
+    },
+    {
+        "english": "How do I express my agreement or disagreement politely?",
+        "chinese": "我如何礼貌地表达我同意或不同意？",
+        "level": "l1_598"
+    },
+    {
+        "english": "I'm learning English to broaden my horizons and gain a global perspective.",
+        "chinese": "我正在学习英语以开阔我的视野并获得全球视角。",
+        "level": "l1_599"
+    },
+    {
+        "english": "Can you recommend a good place to go for a hiking trip?",
+        "chinese": "你能推荐一个适合徒步旅行的好地方吗？",
+        "level": "l1_600"
+    },
+    {
+        "english": "I'm going to a workshop to improve my public speaking skills.",
+        "chinese": "我要去参加一个研讨会，提高我的公众演讲技巧。",
+        "level": "l1_601"
+    },
+    {
+        "english": "What is your favorite type of cuisine?",
+        "chinese": "你最喜欢的菜系是什么？",
+        "level": "l1_602"
+    },
+    {
+        "english": "Can you help me find a good English language tutor?",
+        "chinese": "你能帮我找到一个好的英语语言导师吗？",
+        "level": "l1_603"
+    },
+    {
+        "english": "I'm studying English to communicate effectively in professional settings.",
+        "chinese": "我正在学习英语以在职场中有效沟通。",
+        "level": "l1_604"
+    },
+    {
+        "english": "How do I order food at a restaurant?",
+        "chinese": "我如何在餐厅点餐？",
+        "level": "l1_605"
+    },
+    {
+        "english": "Can you recommend a good place to go for a photography expedition?",
+        "chinese": "你能推荐一个适合摄影探险的好地方吗？",
+        "level": "l1_606"
+    },
+    {
+        "english": "I'm sorry, I didn't mean to offend you with my comment.",
+        "chinese": "对不起，我不是故意冒犯你的言论。",
+        "level": "l1_607"
+    },
+    {
+        "english": "How do I ask for permission to do something?",
+        "chinese": "我如何请求做某事的许可？",
+        "level": "l1_608"
+    },
+    {
+        "english": "I'm going to a sports event this weekend.",
+        "chinese": "这个周末我要去参加一个体育赛事。",
+        "level": "l1_609"
+    },
+    {
+        "english": "What is your favorite type of sports?",
+        "chinese": "你最喜欢的运动类型是什么？",
+        "level": "l1_610"
+    },
+    {
+        "english": "I'm planning to visit a historical site to learn about the past.",
+        "chinese": "我计划去参观一个历史遗址，了解过去。",
+        "level": "l1_611"
+    },
+    {
+        "english": "How do I ask for help when I don't understand something?",
+        "chinese": "当我不理解时，我如何寻求帮助？",
+        "level": "l1_612"
+    },
+    {
+        "english": "Can you recommend a good place to learn dancing?",
+        "chinese": "你能推荐一个好的学习舞蹈的地方吗？",
+        "level": "l1_613"
+    },
+    {
+        "english": "I'm sorry, I don't have the exact fare for the taxi.",
+        "chinese": "对不起，我没有准确的出租车费。",
+        "level": "l1_614"
+    },
+    {
+        "english": "How do I make changes to a hotel reservation?",
+        "chinese": "我如何修改酒店预订？",
+        "level": "l1_615"
+    },
+    {
+        "english": "Can you teach me some common expressions for expressing surprise in English?",
+        "chinese": "你能教我一些英语中常用的表达惊讶的方式吗？",
+        "level": "l1_616"
+    },
+    {
+        "english": "I'm going to a workshop to develop my problem-solving skills.",
+        "chinese": "我要去参加一个研讨会，发展我的问题解决能力。",
+        "level": "l1_617"
+    },
+    {
+        "english": "How do I express my preferences in a polite manner?",
+        "chinese": "我如何以礼貌的方式表达我的偏好？",
+        "level": "l1_618"
+    },
+    {
+        "english": "I'm learning English to enhance my communication skills and connect with people from different cultures.",
+        "chinese": "我正在学习英语以提高我的沟通能力，并与来自不同文化的人建立联系。",
+        "level": "l1_619"
+    },
+    {
+        "english": "Can you recommend a good place to go for a beach vacation?",
+        "chinese": "你能推荐一个适合海滩度假的好地方吗？",
+        "level": "l1_620"
+    },
+    {
+        "english": "I'm going to a workshop to improve my negotiation skills.",
+        "chinese": "我要去参加一个研讨会，提高我的谈判技巧。",
+        "level": "l1_621"
+    },
+    {
+        "english": "What is your favorite type of music?",
+        "chinese": "你最喜欢的音乐类型是什么？",
+        "level": "l1_622"
+    },
+    {
+        "english": "Can you help me find a good English language conversation partner?",
+        "chinese": "你能帮我找到一个好的英语会话伙伴吗？",
+        "level": "l1_623"
+    },
+    {
+        "english": "I'm studying English to communicate with people from different countries.",
+        "chinese": "我正在学习英语以与来自不同国家的人交流。",
+        "level": "l1_624"
+    },
+    {
+        "english": "How do I order a meal at a fine dining restaurant?",
+        "chinese": "我如何在高级餐厅点餐？",
+        "level": "l1_625"
+    },
+    {
+        "english": "Can you recommend a good place to go for a cultural tour?",
+        "chinese": "你能推荐一个适合文化之旅的好地方吗？",
+        "level": "l1_626"
+    },
+    {
+        "english": "I'm sorry, I didn't mean to ignore your message.",
+        "chinese": "对不起，我不是故意忽视你的信息。",
+        "level": "l1_627"
+    },
+    {
+        "english": "How do I ask for directions to a specific place?",
+        "chinese": "当我需要问路去一个特定的地方时，我该如何问？",
+        "level": "l1_628"
+    },
+    {
+        "english": "I'm going to an art exhibition next week.",
+        "chinese": "下周我要去参观一个艺术展览。",
+        "level": "l1_629"
+    },
+    {
+        "english": "What is your favorite type of food?",
+        "chinese": "你最喜欢的食物类型是什么？",
+        "level": "l1_630"
+    },
+    {
+        "english": "I'm planning to visit a science museum to learn about scientific discoveries.",
+        "chinese": "我计划去参观一个科学博物馆，了解科学发现。",
+        "level": "l1_631"
+    },
+    {
+        "english": "How do I ask for help with my homework?",
+        "chinese": "当我需要在作业上寻求帮助时，我该如何问？",
+        "level": "l1_632"
+    },
+    {
+        "english": "Can you recommend a good place to learn cooking?",
+        "chinese": "你能推荐一个好的学习烹饪的地方吗？",
+        "level": "l1_633"
+    },
+    {
+        "english": "I'm sorry, I don't have enough cash for the bus fare.",
+        "chinese": "对不起，我没有足够的现金支付公交车费用。",
+        "level": "l1_634"
+    },
+    {
+        "english": "How do I make changes to a flight reservation?",
+        "chinese": "我如何修改航班预订？",
+        "level": "l1_635"
+    },
+    {
+        "english": "Can you teach me some common expressions for expressing happiness in English?",
+        "chinese": "你能教我一些英语中常用的表达幸福的方式吗？",
+        "level": "l1_636"
+    },
+    {
+        "english": "I'm going to a workshop to develop my problem-solving skills.",
+        "chinese": "我要去参加一个研讨会，发展我的问题解决能力。",
+        "level": "l1_637"
+    },
+    {
+        "english": "How do I express my needs and preferences in a group setting?",
+        "chinese": "我如何在团体环境中表达我的需求和偏好？",
+        "level": "l1_638"
+    },
+    {
+        "english": "I'm learning English to open up new opportunities and connect with people around the world.",
+        "chinese": "我正在学习英语以开拓新的机会，并与世界各地的人们建立联系。",
+        "level": "l1_639"
+    },
+    {
+        "english": "Can you recommend a good place to go for a shopping spree?",
+        "chinese": "你能推荐一个适合购物的好地方吗？",
+        "level": "l1_640"
+    },
+    {
+        "english": "I'm going to a workshop to enhance my leadership skills.",
+        "chinese": "我要去参加一个研讨会，提升我的领导能力。",
+        "level": "l1_641"
+    },
+    {
+        "english": "What is your favorite type of movie?",
+        "chinese": "你最喜欢的电影类型是什么？",
+        "level": "l1_642"
+    },
+    {
+        "english": "Can you help me find a good English language learning app?",
+        "chinese": "你能帮我找到一个好的英语学习应用程序吗？",
+        "level": "l1_643"
+    },
+    {
+        "english": "I'm studying English to pursue higher education abroad.",
+        "chinese": "我正在学习英语以追求海外高等教育。",
+        "level": "l1_644"
+    },
+    {
+        "english": "How do I order a drink at a bar?",
+        "chinese": "我如何在酒吧点饮料？",
+        "level": "l1_645"
+    },
+    {
+        "english": "Can you recommend a good place to go for wildlife observation?",
+        "chinese": "你能推荐一个适合观察野生动物的好地方吗？",
+        "level": "l1_646"
+    },
+    {
+        "english": "I'm sorry, I didn't mean to hurt your feelings.",
+        "chinese": "对不起，我不是故意伤害你的感情。",
+        "level": "l1_647"
+    },
+    {
+        "english": "How do I ask for someone's opinion politely?",
+        "chinese": "我如何礼貌地征求别人的意见？",
+        "level": "l1_648"
+    },
+    {
+        "english": "I'm going to a theater performance tonight.",
+        "chinese": "今晚我要去看一场戏剧表演。",
+        "level": "l1_649"
+    },
+    {
+        "english": "What is your favorite type of book?",
+        "chinese": "你最喜欢的书籍类型是什么？",
+        "level": "l1_650"
+    },
+    {
+        "english": "I'm planning to visit a botanical garden to explore different plant species.",
+        "chinese": "我计划去参观一个植物园，探索不同的植物物种。",
+        "level": "l1_651"
+    },
+    {
+        "english": "How do I ask for clarification when I don't understand something?",
+        "chinese": "当我不理解时，我如何要求澄清？",
+        "level": "l1_652"
+    },
+    {
+        "english": "Can you recommend a good place to learn yoga?",
+        "chinese": "你能推荐一个好的学习瑜伽的地方吗？",
+        "level": "l1_653"
+    },
+    {
+        "english": "I'm sorry, I don't have the exact change for the ticket.",
+        "chinese": "对不起，我没有准确的票价找零。",
+        "level": "l1_654"
+    },
+    {
+        "english": "How do I make changes to a hotel reservation?",
+        "chinese": "我如何修改酒店预订？",
+        "level": "l1_655"
+    },
+    {
+        "english": "Can you teach me some common expressions for expressing sadness in English?",
+        "chinese": "你能教我一些英语中常用的表达悲伤的方式吗？",
+        "level": "l1_656"
+    },
+    {
+        "english": "I'm going to a workshop to develop my creativity.",
+        "chinese": "我要去参加一个研讨会，发展我的创造力。",
+        "level": "l1_657"
+    },
+    {
+        "english": "How do I express my opinions in a respectful way?",
+        "chinese": "我如何以尊重的方式表达我的观点？",
+        "level": "l1_658"
+    },
+    {
+        "english": "I'm learning English to expand my career opportunities and communicate with people from diverse backgrounds.",
+        "chinese": "我正在学习英语以扩展我的职业机会，并与来自不同背景的人交流。",
+        "level": "l1_659"
+    },
+    {
+        "english": "Can you recommend a good place to go for a weekend getaway?",
+        "chinese": "你能推荐一个适合周末短途旅行的好地方吗？",
+        "level": "l1_660"
+    },
+    {
+        "english": "I'm going to a workshop to improve my time management skills.",
+        "chinese": "我要去参加一个研讨会，提高我的时间管理能力。",
+        "level": "l1_661"
+    },
+    {
+        "english": "What is your favorite type of sport?",
+        "chinese": "你最喜欢的运动类型是什么？",
+        "level": "l1_662"
+    },
+    {
+        "english": "Can you help me find a good English language learning website?",
+        "chinese": "你能帮我找到一个好的英语学习网站吗？",
+        "level": "l1_663"
+    },
+    {
+        "english": "I'm studying English to be able to communicate with people from different cultures while traveling.",
+        "chinese": "我正在学习英语以在旅行中能够与来自不同文化的人交流。",
+        "level": "l1_664"
+    },
+    {
+        "english": "How do I ask for the bill at a restaurant?",
+        "chinese": "我如何在餐厅结账？",
+        "level": "l1_665"
+    },
+    {
+        "english": "Can you recommend a good place to go for birdwatching?",
+        "chinese": "你能推荐一个适合观鸟的好地方吗？",
+        "level": "l1_666"
+    },
+    {
+        "english": "I'm sorry, I didn't mean to interrupt you while you were speaking.",
+        "chinese": "对不起，我不是故意在你讲话时打断你。",
+        "level": "l1_667"
+    },
+    {
+        "english": "How do I ask for permission to borrow something?",
+        "chinese": "我如何请求借用某物的许可？",
+        "level": "l1_668"
+    },
+    {
+        "english": "I'm going to a music concert this weekend.",
+        "chinese": "这个周末我要去参加一个音乐演唱会。",
+        "level": "l1_669"
+    },
+    {
+        "english": "What is your favorite type of dessert?",
+        "chinese": "你最喜欢的甜点类型是什么？",
+        "level": "l1_670"
+    },
+    {
+        "english": "I'm planning to visit an art gallery to appreciate different forms of artwork.",
+        "chinese": "我计划去参观一个艺术画廊，欣赏不同形式的艺术品。",
+        "level": "l1_671"
+    },
+    {
+        "english": "How do I ask for assistance when I need help?",
+        "chinese": "当我需要帮助时，我如何请求协助？",
+        "level": "l1_672"
+    },
+    {
+        "english": "Can you recommend a good place to learn martial arts?",
+        "chinese": "你能推荐一个好的学习武术的地方吗？",
+        "level": "l1_673"
+    },
+    {
+        "english": "I'm sorry, I don't have enough change for the parking meter.",
+        "chinese": "对不起，我没有足够的零钱支付停车费。",
+        "level": "l1_674"
+    },
+    {
+        "english": "How do I cancel a flight reservation?",
+        "chinese": "我如何取消航班预订？",
+        "level": "l1_675"
+    },
+    {
+        "english": "Can you teach me some common expressions for expressing anger in English?",
+        "chinese": "你能教我一些英语中常用的表达愤怒的方式吗？",
+        "level": "l1_676"
+    },
+    {
+        "english": "I'm going to a workshop to develop my teamwork skills.",
+        "chinese": "我要去参加一个研讨会，发展我的团队合作能力。",
+        "level": "l1_677"
+    },
+    {
+        "english": "How do I express gratitude in a polite manner?",
+        "chinese": "我如何以礼貌的方式表达感激之情？",
+        "level": "l1_678"
+    },
+    {
+        "english": "I'm learning English to broaden my horizons and connect with people from all over the world.",
+        "chinese": "我正在学习英语以拓宽我的视野，并与来自世界各地的人们建立联系。",
+        "level": "l1_679"
+    },
+    {
+        "english": "Can you recommend a good place to go for hiking?",
+        "chinese": "你能推荐一个适合徒步旅行的好地方吗？",
+        "level": "l1_680"
+    },
+    {
+        "english": "I'm going to a workshop to improve my public speaking skills.",
+        "chinese": "我要去参加一个研讨会，提高我的公众演讲能力。",
+        "level": "l1_681"
+    },
+    {
+        "english": "What is your favorite type of animal?",
+        "chinese": "你最喜欢的动物类型是什么？",
+        "level": "l1_682"
+    },
+    {
+        "english": "Can you help me find a good English language tutor?",
+        "chinese": "你能帮我找到一个好的英语辅导老师吗？",
+        "level": "l1_683"
+    },
+    {
+        "english": "I'm studying English to enhance my career prospects and job opportunities.",
+        "chinese": "我正在学习英语以提升我的职业前景和工作机会。",
+        "level": "l1_684"
+    },
+    {
+        "english": "How do I ask for the WiFi password at a cafe?",
+        "chinese": "我如何在咖啡馆询问WiFi密码？",
+        "level": "l1_685"
+    },
+    {
+        "english": "Can you recommend a good place to go for photography?",
+        "chinese": "你能推荐一个适合摄影的好地方吗？",
+        "level": "l1_686"
+    },
+    {
+        "english": "I'm sorry, I didn't mean to offend you with my comment.",
+        "chinese": "对不起，我不是故意冒犯你的。",
+        "level": "l1_687"
+    },
+    {
+        "english": "How do I ask for someone's permission to use their computer?",
+        "chinese": "我如何请求某人的许可来使用他们的电脑？",
+        "level": "l1_688"
+    },
+    {
+        "english": "I'm going to a dance performance next week.",
+        "chinese": "下周我要去观看一场舞蹈表演。",
+        "level": "l1_689"
+    },
+    {
+        "english": "What is your favorite type of cuisine?",
+        "chinese": "你最喜欢的菜系是什么？",
+        "level": "l1_690"
+    },
+    {
+        "english": "I'm planning to visit a historical site to learn about the past.",
+        "chinese": "我计划去参观一个历史遗址，了解过去的事情。",
+        "level": "l1_691"
+    },
+    {
+        "english": "How do I ask for directions to the nearest hospital?",
+        "chinese": "当我需要问路去最近的医院时，我该如何问？",
+        "level": "l1_692"
+    },
+    {
+        "english": "Can you recommend a good place to learn painting?",
+        "chinese": "你能推荐一个好的学习绘画的地方吗？",
+        "level": "l1_693"
+    },
+    {
+        "english": "I'm sorry, I don't have any change for the vending machine.",
+        "chinese": "对不起，我没有任何零钱给自动售货机。",
+        "level": "l1_694"
+    },
+    {
+        "english": "How do I reschedule a hotel reservation?",
+        "chinese": "我如何重新安排酒店预订？",
+        "level": "l1_695"
+    },
+    {
+        "english": "Can you teach me some common expressions for expressing surprise in English?",
+        "chinese": "你能教我一些英语中常用的表达惊讶的方式吗？",
+        "level": "l1_696"
+    },
+    {
+        "english": "I'm going to a workshop to develop my presentation skills.",
+        "chinese": "我要去参加一个研讨会，发展我的演讲技巧。",
+        "level": "l1_697"
+    },
+    {
+        "english": "How do I express agreement or disagreement politely?",
+        "chinese": "我如何礼貌地表达赞同或不同意？",
+        "level": "l1_698"
+    },
+    {
+        "english": "I'm learning English to become a confident and effective communicator in both personal and professional settings.",
+        "chinese": "我正在学习英语，以在个人和职业环境中成为自信、有效的沟通者。",
+        "level": "l1_699"
+    },
+    {
+        "english": "Can you recommend a good place to go for a picnic?",
+        "chinese": "你能推荐一个适合野餐的好地方吗？",
+        "level": "l1_700"
+    },
+    {
+        "english": "I'm going to a workshop to improve my problem-solving skills.",
+        "chinese": "我要去参加一个研讨会，提升我的问题解决能力。",
+        "level": "l1_701"
+    },
+    {
+        "english": "What is your favorite type of music?",
+        "chinese": "你最喜欢的音乐类型是什么？",
+        "level": "l1_702"
+    },
+    {
+        "english": "Can you help me find a good English language exchange partner?",
+        "chinese": "你能帮我找到一个好的英语语言交流伙伴吗？",
+        "level": "l1_703"
+    },
+    {
+        "english": "I'm studying English to broaden my cultural understanding and connect with people from different backgrounds.",
+        "chinese": "我正在学习英语以拓宽我的文化理解，与来自不同背景的人建立联系。",
+        "level": "l1_704"
+    },
+    {
+        "english": "How do I ask for the menu at a restaurant?",
+        "chinese": "我如何在餐厅要求菜单？",
+        "level": "l1_705"
+    },
+    {
+        "english": "Can you recommend a good place to go for swimming?",
+        "chinese": "你能推荐一个适合游泳的好地方吗？",
+        "level": "l1_706"
+    },
+    {
+        "english": "I'm sorry, I didn't mean to ignore your message.",
+        "chinese": "对不起，我不是故意忽略你的消息。",
+        "level": "l1_707"
+    },
+    {
+        "english": "How do I ask for directions when I'm lost?",
+        "chinese": "当我迷路时，我如何寻求指路？",
+        "level": "l1_708"
+    },
+    {
+        "english": "I'm going to a comedy show this weekend.",
+        "chinese": "这个周末我要去看一场喜剧表演。",
+        "level": "l1_709"
+    },
+    {
+        "english": "What is your favorite type of food?",
+        "chinese": "你最喜欢的食物类型是什么？",
+        "level": "l1_710"
+    },
+    {
+        "english": "I'm planning to visit a science museum to learn about scientific discoveries.",
+        "chinese": "我计划去参观一个科学博物馆，了解科学发现。",
+        "level": "l1_711"
+    },
+    {
+        "english": "How do I ask for help when I don't understand something?",
+        "chinese": "当我不理解时，我如何寻求帮助？",
+        "level": "l1_712"
+    },
+    {
+        "english": "Can you recommend a good place to learn photography?",
+        "chinese": "你能推荐一个好的学习摄影的地方吗？",
+        "level": "l1_713"
+    },
+    {
+        "english": "I'm sorry, I don't have the exact amount for the bus fare.",
+        "chinese": "对不起，我没有准确的公交车费用金额。",
+        "level": "l1_714"
+    },
+    {
+        "english": "How do I extend my stay at a hotel?",
+        "chinese": "我如何延长在酒店的停留时间？",
+        "level": "l1_715"
+    },
+    {
+        "english": "Can you teach me some common expressions for expressing happiness in English?",
+        "chinese": "你能教我一些英语中常用的表达幸福的方式吗？",
+        "level": "l1_716"
+    },
+    {
+        "english": "I'm going to a workshop to develop my negotiation skills.",
+        "chinese": "我要去参加一个研讨会，发展我的谈判技巧。",
+        "level": "l1_717"
+    },
+    {
+        "english": "How do I express disagreement or contradiction politely?",
+        "chinese": "我如何礼貌地表达不同意或矛盾？",
+        "level": "l1_718"
+    },
+    {
+        "english": "I'm learning English to open up new opportunities and communicate effectively in a globalized world.",
+        "chinese": "我正在学习英语，以在全球化的世界中开拓新机会并进行有效沟通。",
+        "level": "l1_719"
+    },
+    {
+        "english": "Can you recommend a good place to go for shopping?",
+        "chinese": "你能推荐一个适合购物的好地方吗？",
+        "level": "l1_720"
+    },
+    {
+        "english": "I'm going to a workshop to improve my leadership skills.",
+        "chinese": "我要去参加一个研讨会，提高我的领导能力。",
+        "level": "l1_721"
+    },
+    {
+        "english": "What is your favorite type of movie?",
+        "chinese": "你最喜欢的电影类型是什么？",
+        "level": "l1_722"
+    },
+    {
+        "english": "Can you help me find a good English language course?",
+        "chinese": "你能帮我找到一个好的英语课程吗？",
+        "level": "l1_723"
+    },
+    {
+        "english": "I'm studying English to pursue higher education opportunities abroad.",
+        "chinese": "我正在学习英语以追求海外的高等教育机会。",
+        "level": "l1_724"
+    },
+    {
+        "english": "How do I ask for the price of an item in a store?",
+        "chinese": "我如何在商店询问商品的价格？",
+        "level": "l1_725"
+    },
+    {
+        "english": "Can you recommend a good place to go for camping?",
+        "chinese": "你能推荐一个适合露营的好地方吗？",
+        "level": "l1_726"
+    },
+    {
+        "english": "I'm sorry, I didn't mean to be late for our appointment.",
+        "chinese": "对不起，我不是故意迟到我们的约定。",
+        "level": "l1_727"
+    },
+    {
+        "english": "How do I ask for someone's contact information?",
+        "chinese": "我如何请求某人的联系方式？",
+        "level": "l1_728"
+    },
+    {
+        "english": "I'm going to a theater performance tonight.",
+        "chinese": "今晚我要去看一场戏剧表演。",
+        "level": "l1_729"
+    },
+    {
+        "english": "What is your favorite type of book?",
+        "chinese": "你最喜欢的书籍类型是什么？",
+        "level": "l1_730"
+    },
+    {
+        "english": "I'm planning to visit a botanical garden to admire different plant species.",
+        "chinese": "我计划去参观一个植物园，欣赏不同的植物种类。",
+        "level": "l1_731"
+    },
+    {
+        "english": "How do I ask for directions to a tourist attraction?",
+        "chinese": "当我需要问路去旅游景点时，我该如何问？",
+        "level": "l1_732"
+    },
+    {
+        "english": "Can you recommend a good place to learn yoga?",
+        "chinese": "你能推荐一个好的学习瑜伽的地方吗？",
+        "level": "l1_733"
+    },
+    {
+        "english": "I'm sorry, I don't have the exact change for the parking ticket.",
+        "chinese": "对不起，我没有准确的零钱支付停车票。",
+        "level": "l1_734"
+    },
+    {
+        "english": "How do I request a refund for a product or service?",
+        "chinese": "我如何请求退款购买的产品或服务？",
+        "level": "l1_735"
+    },
+    {
+        "english": "Can you teach me some common expressions for expressing sadness in English?",
+        "chinese": "你能教我一些英语中常用的表达悲伤的方式吗？",
+        "level": "l1_736"
+    },
+    {
+        "english": "I'm going to a workshop to develop my creative thinking skills.",
+        "chinese": "我要去参加一个研讨会，发展我的创造思维能力。",
+        "level": "l1_737"
+    },
+    {
+        "english": "How do I express uncertainty or doubt politely?",
+        "chinese": "我如何礼貌地表达不确定或怀疑？",
+        "level": "l1_738"
+    },
+    {
+        "english": "I'm learning English to communicate effectively in professional settings and advance my career.",
+        "chinese": "我正在学习英语，以在职场中进行有效的沟通并提升我的职业发展。",
+        "level": "l1_739"
+    },
+    {
+        "english": "Can you recommend a good place to go for a weekend getaway?",
+        "chinese": "你能推荐一个适合周末短途出行的好地方吗？",
+        "level": "l1_740"
+    },
+    {
+        "english": "I'm going to a workshop to improve my time management skills.",
+        "chinese": "我要去参加一个研讨会，提高我的时间管理能力。",
+        "level": "l1_741"
+    },
+    {
+        "english": "What is your favorite type of sport?",
+        "chinese": "你最喜欢的运动类型是什么？",
+        "level": "l1_742"
+    },
+    {
+        "english": "Can you help me find a good English language app?",
+        "chinese": "你能帮我找到一个好的英语学习应用程序吗？",
+        "level": "l1_743"
+    },
+    {
+        "english": "I'm studying English to communicate with people from different cultures and backgrounds.",
+        "chinese": "我正在学习英语，与来自不同文化和背景的人交流。",
+        "level": "l1_744"
+    },
+    {
+        "english": "How do I ask for assistance at a hotel reception?",
+        "chinese": "我如何在酒店前台寻求帮助？",
+        "level": "l1_745"
+    },
+    {
+        "english": "Can you recommend a good place to go for birdwatching?",
+        "chinese": "你能推荐一个适合观鸟的好地方吗？",
+        "level": "l1_746"
+    },
+    {
+        "english": "I'm sorry, I didn't mean to interrupt you during the conversation.",
+        "chinese": "对不起，我不是故意在对话中打断你。",
+        "level": "l1_747"
+    },
+    {
+        "english": "How do I ask for recommendations at a restaurant?",
+        "chinese": "我如何在餐厅询问推荐菜品？",
+        "level": "l1_748"
+    },
+    {
+        "english": "I'm going to a music concert next month.",
+        "chinese": "下个月我要去参加一场音乐会。",
+        "level": "l1_749"
+    },
+    {
+        "english": "What is your favorite type of art?",
+        "chinese": "你最喜欢的艺术类型是什么？",
+        "level": "l1_750"
+    },
+    {
+        "english": "I'm planning to visit a national park to enjoy nature and go hiking.",
+        "chinese": "我计划去参观一个国家公园，享受大自然和徒步旅行。",
+        "level": "l1_751"
+    },
+    {
+        "english": "How do I ask for directions to a specific address?",
+        "chinese": "当我需要问路去特定地址时，我该如何问？",
+        "level": "l1_752"
+    },
+    {
+        "english": "Can you recommend a good place to learn martial arts?",
+        "chinese": "你能推荐一个好的学习武术的地方吗？",
+        "level": "l1_753"
+    },
+    {
+        "english": "I'm sorry, I don't have the exact change for the taxi fare.",
+        "chinese": "对不起，我没有准确的零钱支付出租车费用。",
+        "level": "l1_754"
+    },
+    {
+        "english": "How do I make a reservation at a restaurant?",
+        "chinese": "我如何在餐厅预订座位？",
+        "level": "l1_755"
+    },
+    {
+        "english": "Can you teach me some common expressions for expressing gratitude in English?",
+        "chinese": "你能教我一些英语中常用的表达感激的方式吗？",
+        "level": "l1_756"
+    },
+    {
+        "english": "I'm going to a workshop to develop my teamwork skills.",
+        "chinese": "我要去参加一个研讨会，发展我的团队合作能力。",
+        "level": "l1_757"
+    },
+    {
+        "english": "How do I express likes and dislikes in a polite manner?",
+        "chinese": "我如何礼貌地表达喜欢和不喜欢？",
+        "level": "l1_758"
+    },
+    {
+        "english": "I'm learning English to expand my social network and make international friends.",
+        "chinese": "我正在学习英语，扩大我的社交网络并结交国际朋友。",
+        "level": "l1_759"
+    },
+    {
+        "english": "Can you recommend a good place to go for hiking?",
+        "chinese": "你能推荐一个适合徒步的好地方吗？",
+        "level": "l1_760"
+    },
+    {
+        "english": "I'm going to a workshop to improve my public speaking skills.",
+        "chinese": "我要去参加一个研讨会，提高我的演讲能力。",
+        "level": "l1_761"
+    },
+    {
+        "english": "What is your favorite type of cuisine?",
+        "chinese": "你最喜欢的菜系是什么？",
+        "level": "l1_762"
+    },
+    {
+        "english": "Can you help me find a good English language tutor?",
+        "chinese": "你能帮我找到一个好的英语家教吗？",
+        "level": "l1_763"
+    },
+    {
+        "english": "I'm studying English to enhance my job prospects and career opportunities.",
+        "chinese": "我正在学习英语，以提升我的就业前景和职业机会。",
+        "level": "l1_764"
+    },
+    {
+        "english": "How do I ask for assistance at a tourist information center?",
+        "chinese": "我如何在旅游信息中心寻求帮助？",
+        "level": "l1_765"
+    },
+    {
+        "english": "Can you recommend a good place to go for skiing?",
+        "chinese": "你能推荐一个适合滑雪的好地方吗？",
+        "level": "l1_766"
+    },
+    {
+        "english": "I'm sorry, I didn't mean to offend you with my comments.",
+        "chinese": "对不起，我的评论并非有意冒犯你。",
+        "level": "l1_767"
+    },
+    {
+        "english": "How do I ask for the bill at a restaurant?",
+        "chinese": "我如何在餐厅要求结账单？",
+        "level": "l1_768"
+    },
+    {
+        "english": "I'm going to a dance performance next week.",
+        "chinese": "下周我要去参加一场舞蹈表演。",
+        "level": "l1_769"
+    },
+    {
+        "english": "What is your favorite type of animal?",
+        "chinese": "你最喜欢的动物类型是什么？",
+        "level": "l1_770"
+    },
+    {
+        "english": "I'm planning to visit an art gallery to appreciate different artworks.",
+        "chinese": "我计划去参观一个艺术画廊，欣赏不同的艺术品。",
+        "level": "l1_771"
+    },
+    {
+        "english": "How do I ask for recommendations for local attractions?",
+        "chinese": "我如何寻求当地景点的推荐？",
+        "level": "l1_772"
+    },
+    {
+        "english": "Can you recommend a good place to learn cooking?",
+        "chinese": "你能推荐一个好的学习烹饪的地方吗？",
+        "level": "l1_773"
+    },
+    {
+        "english": "I'm sorry, I don't have the exact change for the parking meter.",
+        "chinese": "对不起，我没有准确的零钱支付停车计时器。",
+        "level": "l1_774"
+    },
+    {
+        "english": "How do I request an extra pillow or blanket at a hotel?",
+        "chinese": "我如何在酒店请求额外的枕头或毯子？",
+        "level": "l1_775"
+    },
+    {
+        "english": "Can you teach me some common expressions for expressing surprise in English?",
+        "chinese": "你能教我一些英语中常用的表达惊讶的方式吗？",
+        "level": "l1_776"
+    },
+    {
+        "english": "I'm going to a workshop to develop my problem-solving skills.",
+        "chinese": "我要去参加一个研讨会，发展我的问题解决能力。",
+        "level": "l1_777"
+    },
+    {
+        "english": "How do I express agreement or approval in a conversation?",
+        "chinese": "我如何在对话中表达同意或赞同？",
+        "level": "l1_778"
+    },
+    {
+        "english": "I'm learning English to explore different cultures and broaden my horizons.",
+        "chinese": "我正在学习英语，探索不同的文化，开阔我的视野。",
+        "level": "l1_779"
+    },
+    {
+        "english": "Can you recommend a good place to go for sightseeing?",
+        "chinese": "你能推荐一个适合观光的好地方吗？",
+        "level": "l1_780"
+    },
+    {
+        "english": "I'm going to a workshop to improve my negotiation skills.",
+        "chinese": "我要去参加一个研讨会，提高我的谈判技巧。",
+        "level": "l1_781"
+    },
+    {
+        "english": "What is your favorite type of music?",
+        "chinese": "你最喜欢的音乐类型是什么？",
+        "level": "l1_782"
+    },
+    {
+        "english": "Can you help me find a good English language book to read?",
+        "chinese": "你能帮我找到一本好的英语书籍阅读吗？",
+        "level": "l1_783"
+    },
+    {
+        "english": "I'm studying English to communicate effectively in daily life situations.",
+        "chinese": "我正在学习英语，以在日常生活中进行有效的沟通。",
+        "level": "l1_784"
+    },
+    {
+        "english": "How do I ask for help when I'm lost in a city?",
+        "chinese": "当我在城市迷路时，我如何寻求帮助？",
+        "level": "l1_785"
+    },
+    {
+        "english": "Can you recommend a good place to go for swimming?",
+        "chinese": "你能推荐一个适合游泳的好地方吗？",
+        "level": "l1_786"
+    },
+    {
+        "english": "I'm sorry, I didn't mean to ignore your message.",
+        "chinese": "对不起，我不是故意忽略你的消息。",
+        "level": "l1_787"
+    },
+    {
+        "english": "How do I ask for recommendations for local markets or shopping areas?",
+        "chinese": "我如何寻求当地市场或购物区的推荐？",
+        "level": "l1_788"
+    },
+    {
+        "english": "I'm going to a music festival next month.",
+        "chinese": "下个月我要去参加一个音乐节。",
+        "level": "l1_789"
+    },
+    {
+        "english": "What is your favorite type of food?",
+        "chinese": "你最喜欢的食物类型是什么？",
+        "level": "l1_790"
+    },
+    {
+        "english": "I'm planning to visit a historical site to learn about the local culture.",
+        "chinese": "我计划去参观一个历史遗址，了解当地的文化。",
+        "level": "l1_791"
+    },
+    {
+        "english": "How do I ask for transportation options to a specific destination?",
+        "chinese": "当我需要询问去特定目的地的交通选择时，我该如何问？",
+        "level": "l1_792"
+    },
+    {
+        "english": "Can you recommend a good place to learn photography?",
+        "chinese": "你能推荐一个好的学习摄影的地方吗？",
+        "level": "l1_793"
+    },
+    {
+        "english": "I'm sorry, I don't have the exact change for the bus fare.",
+        "chinese": "对不起，我没有准确的零钱支付公交车费用。",
+        "level": "l1_794"
+    },
+    {
+        "english": "How do I request a vegetarian or vegan meal at a restaurant?",
+        "chinese": "我如何在餐厅请求素食或纯素食餐？",
+        "level": "l1_795"
+    },
+    {
+        "english": "Can you teach me some common expressions for expressing excitement in English?",
+        "chinese": "你能教我一些英语中常用的表达兴奋的方式吗？",
+        "level": "l1_796"
+    },
+    {
+        "english": "I'm going to a workshop to develop my problem-solving skills.",
+        "chinese": "我要去参加一个研讨会，发展我的问题解决能力。",
+        "level": "l1_797"
+    },
+    {
+        "english": "How do I express disagreement or disapproval politely?",
+        "chinese": "我如何礼貌地表达不同意或不赞同？",
+        "level": "l1_798"
+    },
+    {
+        "english": "I'm learning English to improve my overall communication skills and build confidence.",
+        "chinese": "我正在学习英语，以提高我的整体沟通能力和自信心。",
+        "level": "l1_799"
+    },
+    {
+        "english": "Can you recommend a good place to go for a picnic?",
+        "chinese": "你能推荐一个适合野餐的好地方吗？",
+        "level": "l1_800"
+    },
+    {
+        "english": "I'm going to a workshop to improve my leadership skills.",
+        "chinese": "我要去参加一个研讨会，提高我的领导能力。",
+        "level": "l1_801"
+    },
+    {
+        "english": "What is your favorite type of movie?",
+        "chinese": "你最喜欢的电影类型是什么？",
+        "level": "l1_802"
+    },
+    {
+        "english": "Can you help me find a good English language podcast to listen to?",
+        "chinese": "你能帮我找到一个好的英语播客来听吗？",
+        "level": "l1_803"
+    },
+    {
+        "english": "I'm studying English to pursue higher education opportunities abroad.",
+        "chinese": "我正在学习英语，以追求海外的高等教育机会。",
+        "level": "l1_804"
+    },
+    {
+        "english": "How do I ask for directions to the nearest restroom?",
+        "chinese": "当我需要问路去最近的洗手间时，我该如何问？",
+        "level": "l1_805"
+    },
+    {
+        "english": "Can you recommend a good place to go for camping?",
+        "chinese": "你能推荐一个适合露营的好地方吗？",
+        "level": "l1_806"
+    },
+    {
+        "english": "I'm sorry, I didn't mean to hurt your feelings with my words.",
+        "chinese": "对不起，我的话并非有意伤害你的感情。",
+        "level": "l1_807"
+    },
+    {
+        "english": "How do I ask for recommendations for local museums or art galleries?",
+        "chinese": "我如何寻求当地博物馆或艺术画廊的推荐？",
+        "level": "l1_808"
+    },
+    {
+        "english": "I'm going to a theater performance this weekend.",
+        "chinese": "这个周末我要去参加一场剧院演出。",
+        "level": "l1_809"
+    },
+    {
+        "english": "What is your favorite type of book?",
+        "chinese": "你最喜欢的书籍类型是什么？",
+        "level": "l1_810"
+    },
+    {
+        "english": "I'm planning to visit a famous landmark to take photographs.",
+        "chinese": "我计划去参观一个著名的地标，拍照留念。",
+        "level": "l1_811"
+    },
+    {
+        "english": "How do I ask for help when I need to find a specific store or shop?",
+        "chinese": "当我需要找到特定的商店时，我如何寻求帮助？",
+        "level": "l1_812"
+    },
+    {
+        "english": "Can you recommend a good place to learn yoga?",
+        "chinese": "你能推荐一个好的学习瑜伽的地方吗？",
+        "level": "l1_813"
+    },
+    {
+        "english": "I'm sorry, I don't have the exact change for the entrance fee.",
+        "chinese": "对不起，我没有准确的零钱支付入场费。",
+        "level": "l1_814"
+    },
+    {
+        "english": "How do I request a non-smoking room at a hotel?",
+        "chinese": "我如何在酒店要求无烟房间？",
+        "level": "l1_815"
+    },
+    {
+        "english": "Can you teach me some common expressions for expressing sadness in English?",
+        "chinese": "你能教我一些英语中常用的表达悲伤的方式吗？",
+        "level": "l1_816"
+    },
+    {
+        "english": "I'm going to a workshop to develop my creativity and innovation skills.",
+        "chinese": "我要去参加一个研讨会，发展我的创造力和创新能力。",
+        "level": "l1_817"
+    },
+    {
+        "english": "How do I express doubt or uncertainty in a conversation?",
+        "chinese": "我如何在对话中表达怀疑或不确定？",
+        "level": "l1_818"
+    },
+    {
+        "english": "I'm learning English to pursue my passion for writing and storytelling.",
+        "chinese": "我正在学习英语，追求我对写作和讲故事的热情。",
+        "level": "l1_819"
+    },
+    {
+        "english": "Can you recommend a good place to go for cycling?",
+        "chinese": "你能推荐一个适合骑自行车的好地方吗？",
+        "level": "l1_820"
+    },
+    {
+        "english": "I'm going to a workshop to improve my time management skills.",
+        "chinese": "我要去参加一个研讨会，提高我的时间管理能力。",
+        "level": "l1_821"
+    },
+    {
+        "english": "What is your favorite type of sport?",
+        "chinese": "你最喜欢的运动类型是什么？",
+        "level": "l1_822"
+    },
+    {
+        "english": "Can you help me find a good English language app to practice speaking?",
+        "chinese": "你能帮我找到一个好的英语语言应用来练习口语吗？",
+        "level": "l1_823"
+    },
+    {
+        "english": "I'm studying English to be able to communicate with people from different countries.",
+        "chinese": "我正在学习英语，以便能够与来自不同国家的人进行交流。",
+        "level": "l1_824"
+    },
+    {
+        "english": "How do I ask for recommendations for local festivals or events?",
+        "chinese": "我如何寻求当地节日或活动的推荐？",
+        "level": "l1_825"
+    },
+    {
+        "english": "Can you recommend a good place to go for bird-watching?",
+        "chinese": "你能推荐一个适合观鸟的好地方吗？",
+        "level": "l1_826"
+    },
+    {
+        "english": "I'm sorry, I didn't mean to interrupt you during the conversation.",
+        "chinese": "对不起，在对话中我不是有意打断你。",
+        "level": "l1_827"
+    },
+    {
+        "english": "How do I ask for recommendations for local traditional markets?",
+        "chinese": "我如何寻求当地传统市场的推荐？",
+        "level": "l1_828"
+    },
+    {
+        "english": "I'm going to a live music concert tonight.",
+        "chinese": "今晚我要去参加一场现场音乐会。",
+        "level": "l1_829"
+    },
+    {
+        "english": "What is your favorite type of hobby?",
+        "chinese": "你最喜欢的爱好类型是什么？",
+        "level": "l1_830"
+    },
+    {
+        "english": "I'm planning to visit a botanical garden to admire different types of plants.",
+        "chinese": "我计划去参观一个植物园，欣赏不同种类的植物。",
+        "level": "l1_831"
+    },
+    {
+        "english": "How do I ask for recommendations for local theaters or cinemas?",
+        "chinese": "我如何寻求当地剧院或电影院的推荐？",
+        "level": "l1_832"
+    },
+    {
+        "english": "Can you recommend a good place to learn martial arts?",
+        "chinese": "你能推荐一个好的学习武术的地方吗？",
+        "level": "l1_833"
+    },
+    {
+        "english": "I'm sorry, I don't have the exact change for the taxi fare.",
+        "chinese": "对不起，我没有准确的零钱支付出租车费用。",
+        "level": "l1_834"
+    },
+    {
+        "english": "How do I request a high floor room with a view at a hotel?",
+        "chinese": "我如何在酒店要求高楼层的带景观的房间？",
+        "level": "l1_835"
+    },
+    {
+        "english": "Can you teach me some common expressions for expressing gratitude in English?",
+        "chinese": "你能教我一些英语中常用的表达感激的方式吗？",
+        "level": "l1_836"
+    },
+    {
+        "english": "I'm going to a workshop to develop my critical thinking skills.",
+        "chinese": "我要去参加一个研讨会，发展我的批判性思维能力。",
+        "level": "l1_837"
+    },
+    {
+        "english": "How do I express surprise or disbelief in a conversation?",
+        "chinese": "我如何在对话中表达惊讶或不信？",
+        "level": "l1_838"
+    },
+    {
+        "english": "I'm learning English to pursue a career in international business.",
+        "chinese": "我正在学习英语，以追求国际商务职业。",
+        "level": "l1_839"
+    },
+    {
+        "english": "Can you recommend a good place to go for hiking?",
+        "chinese": "你能推荐一个适合徒步旅行的好地方吗？",
+        "level": "l1_840"
+    },
+    {
+        "english": "I'm going to a workshop to improve my public speaking skills.",
+        "chinese": "我要去参加一个研讨会，提高我的公众演讲能力。",
+        "level": "l1_841"
+    },
+    {
+        "english": "What is your favorite type of cuisine?",
+        "chinese": "你最喜欢的菜系是什么？",
+        "level": "l1_842"
+    },
+    {
+        "english": "Can you help me find a good English language website to practice grammar?",
+        "chinese": "你能帮我找到一个好的英语语法练习网站吗？",
+        "level": "l1_843"
+    },
+    {
+        "english": "I'm studying English to broaden my career opportunities.",
+        "chinese": "我正在学习英语，以扩展我的职业机会。",
+        "level": "l1_844"
+    },
+    {
+        "english": "How do I ask for recommendations for local parks or gardens?",
+        "chinese": "我如何寻求当地公园或花园的推荐？",
+        "level": "l1_845"
+    },
+    {
+        "english": "Can you recommend a good place to go for fishing?",
+        "chinese": "你能推荐一个适合钓鱼的好地方吗？",
+        "level": "l1_846"
+    },
+    {
+        "english": "I'm sorry, I didn't mean to offend you with my comments.",
+        "chinese": "对不起，我的评论并非有意冒犯你。",
+        "level": "l1_847"
+    },
+    {
+        "english": "How do I ask for recommendations for local historical sites or landmarks?",
+        "chinese": "我如何寻求当地历史遗址或地标的推荐？",
+        "level": "l1_848"
+    },
+    {
+        "english": "I'm going to a comedy show tomorrow night.",
+        "chinese": "明晚我要去参加一场喜剧演出。",
+        "level": "l1_849"
+    },
+    {
+        "english": "What is your favorite type of art?",
+        "chinese": "你最喜欢的艺术类型是什么？",
+        "level": "l1_850"
+    },
+    {
+        "english": "I'm planning to visit a zoo to see different kinds of animals.",
+        "chinese": "我计划去参观一家动物园，看看不同种类的动物。",
+        "level": "l1_851"
+    },
+    {
+        "english": "How do I ask for recommendations for local beaches or coastal areas?",
+        "chinese": "我如何寻求当地海滩或沿海地区的推荐？",
+        "level": "l1_852"
+    },
+    {
+        "english": "Can you recommend a good place to learn dance?",
+        "chinese": "你能推荐一个好的学习舞蹈的地方吗？",
+        "level": "l1_853"
+    },
+    {
+        "english": "I'm sorry, I don't have the exact change for the parking fee.",
+        "chinese": "对不起，我没有准确的零钱支付停车费。",
+        "level": "l1_854"
+    },
+    {
+        "english": "How do I request a quiet room at a hotel?",
+        "chinese": "我如何在酒店要求一个安静的房间？",
+        "level": "l1_855"
+    },
+    {
+        "english": "Can you teach me some common expressions for expressing surprise in English?",
+        "chinese": "你能教我一些英语中常用的表达惊讶的方式吗？",
+        "level": "l1_856"
+    },
+    {
+        "english": "I'm going to a workshop to develop my teamwork skills.",
+        "chinese": "我要去参加一个研讨会，发展我的团队合作能力。",
+        "level": "l1_857"
+    },
+    {
+        "english": "How do I express agreement or approval in a conversation?",
+        "chinese": "我如何在对话中表达同意或赞同？",
+        "level": "l1_858"
+    },
+    {
+        "english": "I'm learning English to enhance my personal growth and self-improvement.",
+        "chinese": "我正在学习英语，以提升我的个人成长和自我发展。",
+        "level": "l1_859"
+    },
+    {
+        "english": "Can you recommend a good place to go for sightseeing?",
+        "chinese": "你能推荐一个适合观光的好地方吗？",
+        "level": "l1_860"
+    },
+    {
+        "english": "I'm going to a workshop to improve my presentation skills.",
+        "chinese": "我要去参加一个研讨会，提高我的演讲技巧。",
+        "level": "l1_861"
+    },
+    {
+        "english": "What is your favorite type of music?",
+        "chinese": "你最喜欢的音乐类型是什么？",
+        "level": "l1_862"
+    },
+    {
+        "english": "Can you help me find a good English language book to read?",
+        "chinese": "你能帮我找到一本好的英语书籍来阅读吗？",
+        "level": "l1_863"
+    },
+    {
+        "english": "I'm studying English to connect with people from different cultures.",
+        "chinese": "我正在学习英语，以便与来自不同文化背景的人建立联系。",
+        "level": "l1_864"
+    },
+    {
+        "english": "How do I ask for recommendations for local coffee shops or cafes?",
+        "chinese": "我如何寻求当地咖啡店或咖啡馆的推荐？",
+        "level": "l1_865"
+    },
+    {
+        "english": "Can you recommend a good place to go for skiing?",
+        "chinese": "你能推荐一个适合滑雪的好地方吗？",
+        "level": "l1_866"
+    },
+    {
+        "english": "I'm sorry, I didn't mean to ignore your message.",
+        "chinese": "对不起，我并非有意忽略你的消息。",
+        "level": "l1_867"
+    },
+    {
+        "english": "How do I ask for recommendations for local hiking trails or nature parks?",
+        "chinese": "我如何寻求当地徒步径或自然公园的推荐？",
+        "level": "l1_868"
+    },
+    {
+        "english": "I'm going to a musical concert next week.",
+        "chinese": "下周我要去参加一场音乐会。",
+        "level": "l1_869"
+    },
+    {
+        "english": "What is your favorite type of food?",
+        "chinese": "你最喜欢的食物类型是什么？",
+        "level": "l1_870"
+    },
+    {
+        "english": "I'm planning to visit an art museum to admire famous paintings.",
+        "chinese": "我计划去参观一家艺术博物馆，欣赏名画。",
+        "level": "l1_871"
+    },
+    {
+        "english": "How do I ask for recommendations for local shopping malls or markets?",
+        "chinese": "我如何寻求当地购物中心或市场的推荐？",
+        "level": "l1_872"
+    },
+    {
+        "english": "Can you recommend a good place to learn photography?",
+        "chinese": "你能推荐一个好的学习摄影的地方吗？",
+        "level": "l1_873"
+    },
+    {
+        "english": "I'm sorry, I don't have the exact change for the bus fare.",
+        "chinese": "对不起，我没有准确的零钱支付公交车费用。",
+        "level": "l1_874"
+    },
+    {
+        "english": "How do I request an extra blanket at a hotel?",
+        "chinese": "我如何在酒店要求额外的毯子？",
+        "level": "l1_875"
+    },
+    {
+        "english": "Can you teach me some common expressions for expressing excitement in English?",
+        "chinese": "你能教我一些英语中常用的表达兴奋的方式吗？",
+        "level": "l1_876"
+    },
+    {
+        "english": "I'm going to a workshop to develop my problem-solving skills.",
+        "chinese": "我要去参加一个研讨会，发展我的解决问题的能力。",
+        "level": "l1_877"
+    },
+    {
+        "english": "How do I express disagreement or disagreement in a conversation?",
+        "chinese": "我如何在对话中表达不同意或反对？",
+        "level": "l1_878"
+    },
+    {
+        "english": "I'm learning English to broaden my cultural understanding and appreciation.",
+        "chinese": "我正在学习英语，以拓宽我的文化理解和欣赏能力。",
+        "level": "l1_879"
+    },
+    {
+        "english": "Can you recommend a good place to go for a picnic?",
+        "chinese": "你能推荐一个适合野餐的好地方吗？",
+        "level": "l1_880"
+    },
+    {
+        "english": "I'm going to a workshop to improve my leadership skills.",
+        "chinese": "我要去参加一个研讨会，提高我的领导能力。",
+        "level": "l1_881"
+    },
+    {
+        "english": "What is your favorite type of movie?",
+        "chinese": "你最喜欢的电影类型是什么？",
+        "level": "l1_882"
+    },
+    {
+        "english": "Can you help me find a good English language podcast to listen to?",
+        "chinese": "你能帮我找到一个好的英语播客来听吗？",
+        "level": "l1_883"
+    },
+    {
+        "english": "I'm studying English to pursue higher education opportunities abroad.",
+        "chinese": "我正在学习英语，以追求海外的高等教育机会。",
+        "level": "l1_884"
+    },
+    {
+        "english": "How do I ask for recommendations for local museums or historical sites?",
+        "chinese": "我如何寻求当地博物馆或历史遗迹的推荐？",
+        "level": "l1_885"
+    },
+    {
+        "english": "Can you recommend a good place to go for horseback riding?",
+        "chinese": "你能推荐一个适合骑马的好地方吗？",
+        "level": "l1_886"
+    },
+    {
+        "english": "I'm sorry, I didn't mean to make you feel uncomfortable.",
+        "chinese": "对不起，我不是有意让你感到不舒服。",
+        "level": "l1_887"
+    },
+    {
+        "english": "How do I ask for recommendations for local restaurants or eateries?",
+        "chinese": "我如何寻求当地餐馆或小吃店的推荐？",
+        "level": "l1_888"
+    },
+    {
+        "english": "I'm going to a dance performance this weekend.",
+        "chinese": "这个周末我要去看一场舞蹈表演。",
+        "level": "l1_889"
+    },
+    {
+        "english": "What is your favorite type of book?",
+        "chinese": "你最喜欢的书籍类型是什么？",
+        "level": "l1_890"
+    },
+    {
+        "english": "I'm planning to visit a science museum to explore interactive exhibits.",
+        "chinese": "我计划去参观一家科学博物馆，探索互动展品。",
+        "level": "l1_891"
+    },
+    {
+        "english": "How do I ask for recommendations for local hiking trails or nature reserves?",
+        "chinese": "我如何寻求当地徒步径或自然保护区的推荐？",
+        "level": "l1_892"
+    },
+    {
+        "english": "Can you recommend a good place to learn yoga?",
+        "chinese": "你能推荐一个好的学习瑜伽的地方吗？",
+        "level": "l1_893"
+    },
+    {
+        "english": "I'm sorry, I don't have the exact change for the entrance fee.",
+        "chinese": "对不起，我没有准确的零钱支付入场费。",
+        "level": "l1_894"
+    },
+    {
+        "english": "How do I request a wake-up call at a hotel?",
+        "chinese": "我如何在酒店要求叫醒服务？",
+        "level": "l1_895"
+    },
+    {
+        "english": "Can you teach me some common expressions for expressing frustration in English?",
+        "chinese": "你能教我一些英语中常用的表达沮丧的方式吗？",
+        "level": "l1_896"
+    },
+    {
+        "english": "I'm going to a workshop to develop my creativity and innovation skills.",
+        "chinese": "我要去参加一个研讨会，发展我的创造力和创新能力。",
+        "level": "l1_897"
+    },
+    {
+        "english": "How do I express uncertainty or doubt in a conversation?",
+        "chinese": "我如何在对话中表达不确定或怀疑？",
+        "level": "l1_898"
+    },
+    {
+        "english": "I'm learning English to enhance my travel experiences and communicate with people from around the world.",
+        "chinese": "我正在学习英语，以提升我的旅行体验并与世界各地的人交流。",
+        "level": "l1_899"
+    },
+    {
+        "english": "Can you recommend a good place to go for shopping?",
+        "chinese": "你能推荐一个适合购物的好地方吗？",
+        "level": "l1_900"
+    },
+    {
+        "english": "I'm going to a workshop to improve my time management skills.",
+        "chinese": "我要去参加一个研讨会，提高我的时间管理能力。",
+        "level": "l1_901"
+    },
+    {
+        "english": "What is your favorite type of sport?",
+        "chinese": "你最喜欢的运动类型是什么？",
+        "level": "l1_902"
+    },
+    {
+        "english": "Can you help me find a good English language app to practice vocabulary?",
+        "chinese": "你能帮我找到一个好的英语词汇练习应用程序吗？",
+        "level": "l1_903"
+    },
+    {
+        "english": "I'm studying English to communicate effectively in international business settings.",
+        "chinese": "我正在学习英语，以在国际商务环境中进行有效沟通。",
+        "level": "l1_904"
+    },
+    {
+        "english": "How do I ask for recommendations for local music venues or concerts?",
+        "chinese": "我如何寻求当地音乐场所或音乐会的推荐？",
+        "level": "l1_905"
+    },
+    {
+        "english": "Can you recommend a good place to go for camping?",
+        "chinese": "你能推荐一个适合露营的好地方吗？",
+        "level": "l1_906"
+    },
+    {
+        "english": "I'm sorry, I didn't mean to interrupt you.",
+        "chinese": "对不起，我不是有意打断你。",
+        "level": "l1_907"
+    },
+    {
+        "english": "How do I ask for recommendations for local art galleries or exhibitions?",
+        "chinese": "我如何寻求当地艺术画廊或展览的推荐？",
+        "level": "l1_908"
+    },
+    {
+        "english": "I'm going to a theater performance next month.",
+        "chinese": "下个月我要去看一场戏剧表演。",
+        "level": "l1_909"
+    },
+    {
+        "english": "What is your favorite type of cuisine?",
+        "chinese": "你最喜欢的菜系是什么？",
+        "level": "l1_910"
+    },
+    {
+        "english": "I'm planning to visit a botanical garden to admire beautiful flowers.",
+        "chinese": "我计划去参观一个植物园，欣赏美丽的花朵。",
+        "level": "l1_911"
+    },
+    {
+        "english": "How do I ask for recommendations for local shopping districts or markets?",
+        "chinese": "我如何寻求当地购物区或市场的推荐？",
+        "level": "l1_912"
+    },
+    {
+        "english": "Can you recommend a good place to learn martial arts?",
+        "chinese": "你能推荐一个好的学习武术的地方吗？",
+        "level": "l1_913"
+    },
+    {
+        "english": "I'm sorry, I don't have the exact change for the taxi fare.",
+        "chinese": "对不起，我没有准确的零钱支付出租车费用。",
+        "level": "l1_914"
+    },
+    {
+        "english": "How do I request a room with a view at a hotel?",
+        "chinese": "我如何在酒店要求一个带景观的房间？",
+        "level": "l1_915"
+    },
+    {
+        "english": "Can you teach me some common expressions for expressing happiness in English?",
+        "chinese": "你能教我一些英语中常用的表达幸福的方式吗？",
+        "level": "l1_916"
+    },
+    {
+        "english": "I'm going to a workshop to develop my problem-solving skills.",
+        "chinese": "我要去参加一个研讨会，发展我的解决问题的能力。",
+        "level": "l1_917"
+    },
+    {
+        "english": "How do I express sympathy or condolences in a conversation?",
+        "chinese": "我如何在对话中表达同情或慰问？",
+        "level": "l1_918"
+    },
+    {
+        "english": "I'm learning English to expand my career opportunities and work in an international environment.",
+        "chinese": "我正在学习英语，以扩大我的职业机会并在国际环境中工作。",
+        "level": "l1_919"
+    },
+    {
+        "english": "Can you recommend a good place to go for hiking?",
+        "chinese": "你能推荐一个适合徒步的好地方吗？",
+        "level": "l1_920"
+    },
+    {
+        "english": "I'm going to a workshop to improve my negotiation skills.",
+        "chinese": "我要去参加一个研讨会，提高我的谈判技巧。",
+        "level": "l1_921"
+    },
+    {
+        "english": "What is your favorite type of animal?",
+        "chinese": "你最喜欢的动物类型是什么？",
+        "level": "l1_922"
+    },
+    {
+        "english": "Can you help me find a good English language website to practice grammar?",
+        "chinese": "你能帮我找到一个好的英语语法练习网站吗？",
+        "level": "l1_923"
+    },
+    {
+        "english": "I'm studying English to pursue my academic goals and study abroad.",
+        "chinese": "我正在学习英语，以追求我的学术目标并出国留学。",
+        "level": "l1_924"
+    },
+    {
+        "english": "How do I ask for recommendations for local theaters or live performances?",
+        "chinese": "我如何寻求当地剧院或现场表演的推荐？",
+        "level": "l1_925"
+    },
+    {
+        "english": "Can you recommend a good place to go for fishing?",
+        "chinese": "你能推荐一个适合钓鱼的好地方吗？",
+        "level": "l1_926"
+    },
+    {
+        "english": "I'm sorry, I didn't mean to offend you.",
+        "chinese": "对不起，我并非有意冒犯你。",
+        "level": "l1_927"
+    },
+    {
+        "english": "How do I ask for recommendations for local parks or gardens?",
+        "chinese": "我如何寻求当地公园或花园的推荐？",
+        "level": "l1_928"
+    },
+    {
+        "english": "I'm going to a ballet performance next week.",
+        "chinese": "下周我要去看一场芭蕾舞表演。",
+        "level": "l1_929"
+    },
+    {
+        "english": "What is your favorite type of dessert?",
+        "chinese": "你最喜欢的甜点类型是什么？",
+        "level": "l1_930"
+    },
+    {
+        "english": "I'm planning to visit a historical landmark to learn about the local history.",
+        "chinese": "我计划去参观一个历史地标，了解当地的历史。",
+        "level": "l1_931"
+    },
+    {
+        "english": "How do I ask for recommendations for local street food or food stalls?",
+        "chinese": "我如何寻求当地街边小吃或食品摊位的推荐？",
+        "level": "l1_932"
+    },
+    {
+        "english": "Can you recommend a good place to learn painting?",
+        "chinese": "你能推荐一个好的学习绘画的地方吗？",
+        "level": "l1_933"
+    },
+    {
+        "english": "I'm sorry, I don't have the exact change for the parking fee.",
+        "chinese": "对不起，我没有准确的零钱支付停车费用。",
+        "level": "l1_934"
+    },
+    {
+        "english": "How do I request a non-smoking room at a hotel?",
+        "chinese": "我如何在酒店要求一个无烟房间？",
+        "level": "l1_935"
+    },
+    {
+        "english": "Can you teach me some common expressions for expressing surprise in English?",
+        "chinese": "你能教我一些英语中常用的表达惊讶的方式吗？",
+        "level": "l1_936"
+    },
+    {
+        "english": "I'm going to a workshop to develop my public speaking skills.",
+        "chinese": "我要去参加一个研讨会，发展我的公众演讲技巧。",
+        "level": "l1_937"
+    },
+    {
+        "english": "How do I express agreement or approval in a conversation?",
+        "chinese": "我如何在对话中表达同意或赞同？",
+        "level": "l1_938"
+    },
+    {
+        "english": "I'm learning English to communicate effectively in social settings and make new friends.",
+        "chinese": "我正在学习英语，以在社交环境中进行有效沟通并结交新朋友。",
+        "level": "l1_939"
+    },
+    {
+        "english": "Can you recommend a good place to go for a beach vacation?",
+        "chinese": "你能推荐一个适合海滩度假的好地方吗？",
+        "level": "l1_940"
+    },
+    {
+        "english": "I'm going to a workshop to improve my teamwork skills.",
+        "chinese": "我要去参加一个研讨会，提高我的团队合作能力。",
+        "level": "l1_941"
+    },
+    {
+        "english": "What is your favorite type of music instrument?",
+        "chinese": "你最喜欢的乐器类型是什么？",
+        "level": "l1_942"
+    },
+    {
+        "english": "Can you help me find a good English language podcast to improve my listening skills?",
+        "chinese": "你能帮我找到一个好的英语播客来提高我的听力技巧吗？",
+        "level": "l1_943"
+    },
+    {
+        "english": "I'm studying English to pursue my passion for literature and writing.",
+        "chinese": "我正在学习英语，追求我对文学和写作的热爱。",
+        "level": "l1_944"
+    },
+    {
+        "english": "How do I ask for recommendations for local cultural festivals or events?",
+        "chinese": "我如何寻求当地文化节日或活动的推荐？",
+        "level": "l1_945"
+    },
+    {
+        "english": "Can you recommend a good place to go for bird watching?",
+        "chinese": "你能推荐一个适合观鸟的好地方吗？",
+        "level": "l1_946"
+    },
+    {
+        "english": "I'm sorry, I didn't mean to come across as rude.",
+        "chinese": "对不起，我不是有意表现出粗鲁的样子。",
+        "level": "l1_947"
+    },
+    {
+        "english": "How do I ask for recommendations for local landmarks or tourist attractions?",
+        "chinese": "我如何寻求当地地标或旅游景点的推荐？",
+        "level": "l1_948"
+    },
+    {
+        "english": "I'm going to a comedy show this weekend.",
+        "chinese": "这个周末我要去看一场喜剧表演。",
+        "level": "l1_949"
+    },
+    {
+        "english": "What is your favorite type of cuisine?",
+        "chinese": "你最喜欢的菜系是什么？",
+        "level": "l1_950"
+    },
+    {
+        "english": "I'm planning to visit a photography exhibition to admire stunning photographs.",
+        "chinese": "我计划去参观一场摄影展览，欣赏令人惊叹的照片。",
+        "level": "l1_951"
+    },
+    {
+        "english": "How do I ask for recommendations for local street markets or bazaars?",
+        "chinese": "我如何寻求当地街市或集市的推荐？",
+        "level": "l1_952"
+    },
+    {
+        "english": "Can you recommend a good place to learn cooking?",
+        "chinese": "你能推荐一个好的学习烹饪的地方吗？",
+        "level": "l1_953"
+    },
+    {
+        "english": "I'm sorry, I don't have the exact change for the entrance fee.",
+        "chinese": "对不起，我没有准确的零钱支付入场费。",
+        "level": "l1_954"
+    },
+    {
+        "english": "How do I request a wake-up call at a hotel?",
+        "chinese": "我如何在酒店要求叫醒服务？",
+        "level": "l1_955"
+    },
+    {
+        "english": "Can you teach me some common expressions for expressing excitement in English?",
+        "chinese": "你能教我一些英语中常用的表达兴奋的方式吗？",
+        "level": "l1_956"
+    },
+    {
+        "english": "I'm going to a workshop to develop my critical thinking skills.",
+        "chinese": "我要去参加一个研讨会，发展我的批判性思维能力。",
+        "level": "l1_957"
+    },
+    {
+        "english": "How do I express disagreement or disagreement in a conversation?",
+        "chinese": "我如何在对话中表达不同意或反对？",
+        "level": "l1_958"
+    },
+    {
+        "english": "I'm learning English to enhance my travel experiences and communicate with people from around the world.",
+        "chinese": "我正在学习英语，以提升我的旅行体验并与世界各地的人交流。",
+        "level": "l1_959"
+    },
+    {
+        "english": "Can you recommend a good place to go for a scenic hike?",
+        "chinese": "你能推荐一个适合风景徒步的好地方吗？",
+        "level": "l1_960"
+    },
+    {
+        "english": "I'm going to a workshop to improve my presentation skills.",
+        "chinese": "我要去参加一个研讨会，提高我的演讲技巧。",
+        "level": "l1_961"
+    },
+    {
+        "english": "What is your favorite type of outdoor activity?",
+        "chinese": "你最喜欢的户外活动类型是什么？",
+        "level": "l1_962"
+    },
+    {
+        "english": "Can you help me find a good English language website to practice speaking?",
+        "chinese": "你能帮我找到一个好的英语口语练习网站吗？",
+        "level": "l1_963"
+    },
+    {
+        "english": "I'm studying English to broaden my cultural understanding and connect with people from different backgrounds.",
+        "chinese": "我正在学习英语，以拓宽我的文化理解并与不同背景的人交流。",
+        "level": "l1_964"
+    },
+    {
+        "english": "How do I ask for recommendations for local wineries or vineyards?",
+        "chinese": "我如何寻求当地酒庄或葡萄园的推荐？",
+        "level": "l1_965"
+    },
+    {
+        "english": "Can you recommend a good place to go for rock climbing?",
+        "chinese": "你能推荐一个适合攀岩的好地方吗？",
+        "level": "l1_966"
+    },
+    {
+        "english": "I'm sorry, I didn't mean to cause any misunderstanding.",
+        "chinese": "对不起，我不是有意引起任何误解。",
+        "level": "l1_967"
+    },
+    {
+        "english": "How do I ask for recommendations for local music concerts or live performances?",
+        "chinese": "我如何寻求当地音乐会或现场表演的推荐？",
+        "level": "l1_968"
+    },
+    {
+        "english": "I'm going to a film festival next month.",
+        "chinese": "下个月我要去参加一个电影节。",
+        "level": "l1_969"
+    },
+    {
+        "english": "What is your favorite genre of movies?",
+        "chinese": "你最喜欢的电影类型是什么？",
+        "level": "l1_970"
+    },
+    {
+        "english": "I'm planning to visit an astronomy observatory to stargaze and learn about the universe.",
+        "chinese": "我计划去参观一个天文台，观赏星空并了解宇宙。",
+        "level": "l1_971"
+    },
+    {
+        "english": "How do I ask for recommendations for local coffee shops or cafes?",
+        "chinese": "我如何寻求当地咖啡店或咖啡馆的推荐？",
+        "level": "l1_972"
+    },
+    {
+        "english": "Can you recommend a good place to learn pottery?",
+        "chinese": "你能推荐一个好的学习陶艺的地方吗？",
+        "level": "l1_973"
+    },
+    {
+        "english": "I'm sorry, I don't have the exact change for the bus fare.",
+        "chinese": "对不起，我没有准确的零钱支付公交车费用。",
+        "level": "l1_974"
+    },
+    {
+        "english": "How do I request a late check-out at a hotel?",
+        "chinese": "我如何在酒店要求延迟退房？",
+        "level": "l1_975"
+    },
+    {
+        "english": "Can you teach me some common expressions for expressing gratitude in English?",
+        "chinese": "你能教我一些英语中常用的表达感激的方式吗？",
+        "level": "l1_976"
+    },
+    {
+        "english": "I'm going to a workshop to develop my problem-solving skills.",
+        "chinese": "我要去参加一个研讨会，发展我的解决问题的能力。",
+        "level": "l1_977"
+    },
+    {
+        "english": "How do I express confusion or uncertainty in a conversation?",
+        "chinese": "我如何在对话中表达困惑或不确定？",
+        "level": "l1_978"
+    },
+    {
+        "english": "I'm learning English to enhance my career prospects and open up new job opportunities.",
+        "chinese": "我正在学习英语，以提升我的职业前景并开拓新的工作机会。",
+        "level": "l1_979"
+    },
+    {
+        "english": "Can you recommend a good place to go for wildlife safari?",
+        "chinese": "你能推荐一个适合观赏野生动物的好地方吗？",
+        "level": "l1_980"
+    },
+    {
+        "english": "I'm going to a workshop to improve my leadership skills.",
+        "chinese": "我要去参加一个研讨会，提高我的领导力技能。",
+        "level": "l1_981"
+    },
+    {
+        "english": "What is your favorite type of dance?",
+        "chinese": "你最喜欢的舞蹈类型是什么？",
+        "level": "l1_982"
+    },
+    {
+        "english": "Can you help me find a good English language book to improve my reading skills?",
+        "chinese": "你能帮我找到一本好的英语读物来提高我的阅读能力吗？",
+        "level": "l1_983"
+    },
+    {
+        "english": "I'm studying English to prepare for an international exam.",
+        "chinese": "我正在学习英语，为国际考试做准备。",
+        "level": "l1_984"
+    },
+    {
+        "english": "How do I ask for recommendations for local hiking trails or nature walks?",
+        "chinese": "我如何寻求当地徒步小径或自然散步的推荐？",
+        "level": "l1_985"
+    },
+    {
+        "english": "Can you recommend a good place to go for horseback riding?",
+        "chinese": "你能推荐一个适合骑马的好地方吗？",
+        "level": "l1_986"
+    },
+    {
+        "english": "I'm sorry, I didn't mean to hurt your feelings.",
+        "chinese": "对不起，我不是有意伤害你的感情。",
+        "level": "l1_987"
+    },
+    {
+        "english": "How do I ask for recommendations for local historical sites or monuments?",
+        "chinese": "我如何寻求当地历史遗址或纪念碑的推荐？",
+        "level": "l1_988"
+    },
+    {
+        "english": "I'm going to a music festival next week.",
+        "chinese": "下周我要去参加一个音乐节。",
+        "level": "l1_989"
+    },
+    {
+        "english": "What is your favorite type of cuisine?",
+        "chinese": "你最喜欢的菜系是什么？",
+        "level": "l1_990"
+    },
+    {
+        "english": "I'm planning to visit an art museum to appreciate famous artworks.",
+        "chinese": "我计划去参观一座艺术博物馆，欣赏著名的艺术作品。",
+        "level": "l1_991"
+    },
+    {
+        "english": "How do I ask for recommendations for local food markets or farmers' markets?",
+        "chinese": "我如何寻求当地食品市场或农贸市场的推荐？",
+        "level": "l1_992"
+    },
+    {
+        "english": "Can you recommend a good place to learn yoga?",
+        "chinese": "你能推荐一个好的学习瑜伽的地方吗？",
+        "level": "l1_993"
+    },
+    {
+        "english": "I'm sorry, I don't have the exact change for the museum admission fee.",
+        "chinese": "对不起，我没有准确的零钱支付博物馆门票费用。",
+        "level": "l1_994"
+    },
+    {
+        "english": "How do I request an extra blanket or pillow at a hotel?",
+        "chinese": "我如何在酒店要求额外的毯子或枕头？",
+        "level": "l1_995"
+    },
+    {
+        "english": "Can you teach me some common expressions for expressing surprise in English?",
+        "chinese": "你能教我一些英语中常用的表达惊讶的方式吗？",
+        "level": "l1_996"
+    },
+    {
+        "english": "I'm going to a workshop to develop my creativity skills.",
+        "chinese": "我要去参加一个研讨会，发展我的创造力技能。",
+        "level": "l1_997"
+    },
+    {
+        "english": "How do I express agreement or approval in a conversation?",
+        "chinese": "我如何在对话中表达同意或赞同？",
+        "level": "l1_998"
+    },
+    {
+        "english": "I'm learning English to broaden my horizons and connect with people from different cultures.",
+        "chinese": "我正在学习英语，以拓宽我的视野并与来自不同文化的人交流。",
+        "level": "l1_999"
     }
 ]
